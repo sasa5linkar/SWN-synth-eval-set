@@ -1,6 +1,8 @@
 import os
 from langchain.prompts import PromptTemplate
 from langchain_community.llms.huggingface_pipeline import HuggingFacePipeline
+import sprwn_util
+from sprwn_util import get_def_by_words, srpwn
 
 
 def load_prompt_from_file(file):
@@ -67,9 +69,16 @@ test_prompt_sr = """
 """
 
 def main():
-    text_list = ["Ovo je jako dobar dan.", "Ovo je jako los dan.", "Ovo je dan."]
+    word_list = ["sreća", "bol", "radost", "tuga", "ljubav", "mržnja", "sloboda", "zatvor", "život", "smrt"]
+
+    text_list = get_def_by_words(word_list)
+    #remove empty strings
+    text_list = list(filter(None, text_list))
+
     sa = SentimentAnaliser("mistralai/Mistral-7B-Instruct-v0.2", PromptTemplate.from_template(test_prompt_sr))
     for text in text_list:
+        print(text)
+        print("++++++++++++++++++++++++++++++++++")
         sa.analise(text)
         print(sa.asnwer)
         print("----------------------------------")
