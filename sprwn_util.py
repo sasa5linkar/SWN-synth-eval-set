@@ -12,6 +12,10 @@ file_name = os.getenv('srpwn_file')
 # Create a new instance of the srpskiwordnet class
 # This is a global variable and can be imported in other scripts
 srpwn = srpskiwordnet.SrbWordNetReader(file_root, file_name)
+lexicon = os.getenv('srpwn_lexicon')
+srpwn.load_lexicon(lexicon)
+
+
 
 def get_def_by_word(word):
     """
