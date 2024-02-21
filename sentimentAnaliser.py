@@ -53,10 +53,10 @@ class SentimentAnaliser:
         Answer from the model.    
 
     """
-
+    
     task="text-generation"
     pipeline_kwargs={"max_new_tokens": 5}
-    def __init__(self, model_name, prompt):
+    def __init__(self, model_name, prompt, max_new_tokens=5):
         """Initializes SentimentAnaliser with model name and prompt.
 
         Args:
@@ -66,6 +66,9 @@ class SentimentAnaliser:
             Prompt for the model.
 
         """
+        if max_new_tokens!=5:
+            self.pipeline_kwargs["max_new_tokens"] = max_new_tokens
+        
         self.prompt = prompt
         self.lmm = HuggingFacePipeline.from_model_id(model_id= model_name, task = SentimentAnaliser.task, 
                                                      pipeline_kwargs=SentimentAnaliser.pipeline_kwargs, 
@@ -82,7 +85,16 @@ class SentimentAnaliser:
             dict: The result of the analysis.
 
         """
-        return self.chain.invoke({"text": text})
+        return self.clean_answer(self.chain.invoke({"text": text}))
+    def clean_answer(self, text):
+        """Cleans the answer. Removes dots and colons.
+        Sometimes we get the answer from LLM with dots and colons at the end. This function removes them.
+
+        """
+        text = text.replace(".", "")
+        text = text.replace(":", "")
+        text = text.replace("-", "")
+        return text.strip()
 
 def analyse_list (list_text, sentimentAnaliser: SentimentAnaliser):
     """Analises the list of texts and return list of tuples (text, answer).
@@ -136,15 +148,34 @@ test_prompt_sr = """
     Sentiment: 
 """
 
-def main():
+test_prompt_positive_sr = """
+    Kao ekspert za analizu sentimenta, analizirajte sledeći tekst na srpskom jeziku i odredite da ima pozitivan sentiment.
+    Sentiment treba da bude striktno klasifikovan kao "nije pozitivan", "slabo pozitivan", "umereno pozitivan", "veoma pozitivan", ili "ekstremno pozitivan". Nijedan drugi odgovor neće biti prihvaćen. 
+    Nijedan drugi odgovor neće biti prihvaćen.  
+    Tekst: {text}
+    Pozitivan sentiment:
+"""
+
+test_prompt_positive_sr2 = """
+    Kao stručnjak za analizu sentimenta, vaš zadatak je da pažljivo procenite dati tekst na srpskom jeziku. 
+    Na osnovu vaše analize, klasifikujte sentiment teksta koristeći striktno definisane kategorije. 
+    Ove kategorije uključuju: 'nije pozitivan', 'slabo pozitivan', 'umereno pozitivan', 'veoma pozitivan', i 'ekstremno pozitivan'. 
+    Važno je naglasiti da su ovo jedine prihvatljive kategorije za klasifikaciju. 
+    Molimo vas da se držite ovih smernica kako biste osigurali tačnost i konsistentnost u analizi sentimenta. 
+    Tekst za analizu: {text}. 
+    Očekujemo da vaša analiza rezultira određivanjem jedne od navedenih kategorija sentimenta.
+    Kakav je sentiment teksta?
+    Kategorija sentimenta:
+    """
+
+def test_old():
     word_list = ["sreća", "bol", "radost", "tuga", "ljubav", "mržnja", "sloboda", "zatvor", "život", "smrt"]
 
     text_list = get_def_by_words(word_list)
     #remove empty strings
     text_list = list(filter(None, text_list))
 
-    sa = SentimentAnaliser("mistralai/Mistral-7B-Instruct-v0.2", PromptTemplate.from_template(test_prompt_sr))
-    save_sentment_list_as_cvs(text_list, sa, "sentiment.csv")
+
     print("Analised texts saved as sentiment.csv")
     list_synsets = load_converted_synsets_from_file("converted_synsets")
     #get random sample of 500 synsets from list
@@ -158,5 +189,14 @@ def main():
     dataset = pd.DataFrame(sample_synsets)
     dataset.to_csv("sample_synsets2.csv", sep="¦", index=False)
 
+def test():
+    word_list = ["sreća", "bol", "radost", "tuga", "ljubav", "mržnja", "sloboda", "zatvor", "život", "smrt"]
+    text_list = get_def_by_words(word_list)
+    #remove empty strings
+    text_list = list(filter(None, text_list))
+    sa = SentimentAnaliser("mistralai/Mistral-7B-Instruct-v0.2", PromptTemplate.from_template(test_prompt_positive_sr), max_new_tokens=10)
+    save_sentment_list_as_cvs(text_list, sa, "sentiment_positive.csv")
+    sa = SentimentAnaliser("mistralai/Mistral-7B-Instruct-v0.2", PromptTemplate.from_template(test_prompt_positive_sr2), max_new_tokens=10)
+    save_sentment_list_as_cvs(text_list, sa, "sentiment_positive2.csv")
 if __name__ == "__main__":
-    main()
+    test()
