@@ -4,7 +4,7 @@ import random
 from langchain.prompts import PromptTemplate
 from langchain_community.llms.huggingface_pipeline import HuggingFacePipeline
 import sprwn_util
-from sprwn_util import get_def_by_words, srpwn, load_converted_synsets_from_file
+from sprwn_util import get_def_by_words, load_converted_synsets_from_file
 import joblib
 from tqdm import tqdm
 from langchain.prompts import PromptTemplate
@@ -13,6 +13,7 @@ from tqdm import tqdm
 import logging
 import warnings
 import pandas as pd
+import torch
 
 # Ignore warnings
 # Configure logging to write warnings to a log file
@@ -94,6 +95,13 @@ class SentimentAnaliser:
         text = text.replace(".", "")
         text = text.replace(":", "")
         text = text.replace("-", "")
+        text = text.replace(";", "")
+        text = text.replace("!", "")
+        text = text.replace("?", "")
+        text = text.replace("\n", "")
+        text = text.replace("\r", "")
+        text = text.replace("\t", "")
+
         return text.strip()
 
 def analyse_list (list_text, sentimentAnaliser: SentimentAnaliser):
@@ -165,8 +173,26 @@ test_prompt_positive_sr2 = """
     Tekst za analizu: {text}. 
     Očekujemo da vaša analiza rezultira određivanjem jedne od navedenih kategorija sentimenta.
     Kakav je sentiment teksta?
-    Kategorija sentimenta:
     """
+test_prompt_negative_sr = """
+    Kao ekspert za analizu sentimenta, analizirajte sledeći tekst na srpskom jeziku i odredite da ima negativan sentiment.
+    Sentiment treba da bude striktno klasifikovan kao "nije negativan", "slabo negativan", "umereno negativan", "veoma negativan", ili "ekstremno negativan". Nijedan drugi odgovor neće biti prihvaćen. 
+    Nijedan drugi odgovor neće biti prihvaćen.  
+    Tekst: {text}
+    Negativan sentiment:
+"""
+
+test_prompt_negative_sr2 = """
+    Kao stručnjak za analizu sentimenta, vaš zadatak je da pažljivo procenite dati tekst na srpskom jeziku.
+    Na osnovu vaše analize, klasifikujte sentiment teksta koristeći striktno definisane kategorije.
+    Ove kategorije uključuju: 'nije negativan', 'slabo negativan', 'umereno negativan', 'veoma negativan', i 'ekstremno negativan'.
+    Važno je naglasiti da su ovo jedine prihvatljive kategorije za klasifikaciju.
+    Molimo vas da se držite ovih smernica kako biste osigurali tačnost i konsistentnost u analizi sentimenta.
+    Tekst za analizu: {text}.
+    Očekujemo da vaša analiza rezultira određivanjem jedne od navedenih kategorija sentimenta.
+    Kakav je sentiment teksta?
+    """
+
 
 def test_old():
     word_list = ["sreća", "bol", "radost", "tuga", "ljubav", "mržnja", "sloboda", "zatvor", "život", "smrt"]
@@ -194,9 +220,54 @@ def test():
     text_list = get_def_by_words(word_list)
     #remove empty strings
     text_list = list(filter(None, text_list))
-    sa = SentimentAnaliser("mistralai/Mistral-7B-Instruct-v0.2", PromptTemplate.from_template(test_prompt_positive_sr), max_new_tokens=10)
+    sa = SentimentAnaliser("mistralai/Mistral-7B-Instruct-v0.2", PromptTemplate.from_template(test_prompt_positive_sr), max_new_tokens=9)
     save_sentment_list_as_cvs(text_list, sa, "sentiment_positive.csv")
-    sa = SentimentAnaliser("mistralai/Mistral-7B-Instruct-v0.2", PromptTemplate.from_template(test_prompt_positive_sr2), max_new_tokens=10)
+    del sa
+    torch.cuda.empty_cache()
+    sa = SentimentAnaliser("mistralai/Mistral-7B-Instruct-v0.2", PromptTemplate.from_template(test_prompt_positive_sr2), max_new_tokens=9)
     save_sentment_list_as_cvs(text_list, sa, "sentiment_positive2.csv")
+    del sa
+    torch.cuda.empty_cache()
+    sa = SentimentAnaliser("mistralai/Mistral-7B-Instruct-v0.2", PromptTemplate.from_template(test_prompt_negative_sr), max_new_tokens=9)
+    save_sentment_list_as_cvs(text_list, sa, "sentiment_negative.csv")
+    del sa
+    torch.cuda.empty_cache()
+    sa = SentimentAnaliser("mistralai/Mistral-7B-Instruct-v0.2", PromptTemplate.from_template(test_prompt_negative_sr2), max_new_tokens=9)
+    save_sentment_list_as_cvs(text_list, sa, "sentiment_negative2.csv")
+    del sa
+    torch.cuda.empty_cache()
+    sa = SentimentAnaliser("cognitivecomputations/WizardLM-1.0-Uncensored-Llama2-13b", PromptTemplate.from_template(test_prompt_positive_sr), max_new_tokens=9)
+    save_sentment_list_as_cvs(text_list, sa, "sentiment_positive_llama.csv")
+    del sa
+    torch.cuda.empty_cache()
+    sa = SentimentAnaliser("cognitivecomputations/WizardLM-1.0-Uncensored-Llama2-13b", PromptTemplate.from_template(test_prompt_positive_sr2), max_new_tokens=9)
+    save_sentment_list_as_cvs(text_list, sa, "sentiment_positive_llama2.csv")
+    del sa
+    torch.cuda.empty_cache()
+    sa = SentimentAnaliser("cognitivecomputations/WizardLM-1.0-Uncensored-Llama2-13b", PromptTemplate.from_template(test_prompt_negative_sr), max_new_tokens=9)
+    save_sentment_list_as_cvs(text_list, sa, "sentiment_negative_llama.csv")
+    del sa
+    torch.cuda.empty_cache()
+    sa = SentimentAnaliser("cognitivecomputations/WizardLM-1.0-Uncensored-Llama2-13b", PromptTemplate.from_template(test_prompt_negative_sr2), max_new_tokens=9)
+    save_sentment_list_as_cvs(text_list, sa, "sentiment_negative_llama2.csv")
+    del sa    
+    torch.cuda.empty_cache()
+    sa = SentimentAnaliser("meta-llama/Llama-2-7b", PromptTemplate.from_template(test_prompt_positive_sr), max_new_tokens=9)
+    save_sentment_list_as_cvs(text_list, sa, "sentiment_positive_meta.csv")
+    del sa
+    torch.cuda.empty_cache()
+    sa = SentimentAnaliser("meta-llama/Llama-2-7b", PromptTemplate.from_template(test_prompt_positive_sr2), max_new_tokens=9)
+    save_sentment_list_as_cvs(text_list, sa, "sentiment_positive_meta2.csv")
+    del sa
+    torch.cuda.empty_cache()
+    sa = SentimentAnaliser("meta-llama/Llama-2-7b", PromptTemplate.from_template(test_prompt_negative_sr), max_new_tokens=9)
+    save_sentment_list_as_cvs(text_list, sa, "sentiment_negative_meta.csv")
+    del sa
+    torch.cuda.empty_cache()
+    sa = SentimentAnaliser("meta-llama/Llama-2-7b", PromptTemplate.from_template(test_prompt_negative_sr2), max_new_tokens=9)
+    save_sentment_list_as_cvs(text_list, sa, "sentiment_negative_meta2.csv")
+    del sa
+    torch.cuda.empty_cache()
+
 if __name__ == "__main__":
     test()
