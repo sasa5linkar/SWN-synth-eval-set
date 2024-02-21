@@ -1,0 +1,2334 @@
+[
+    {
+        "ILI": "ENG30-00602805-v",
+        "definition": "pro\u0107i trening ili obuku radi pripreme za odre\u0111enu ulogu, funkciju ili profesiju",
+        "lemma_names": [
+            "dresirati",
+            "obrazovati",
+            "obu\u010davati",
+            "obu\u010diti",
+            "osposobiti",
+            "osposobljavati",
+            "podu\u010davati",
+            "pripremiti",
+            "razviti",
+            "\u0161kolovati",
+            "trenirati"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-06213688-n",
+        "definition": "princip prema kome kakva vlada u\u017eiva potpunu i neograni\u010denu mo\u0107 ",
+        "lemma_names": [
+            "apsolutizam",
+            "despotizam",
+            "diktatura",
+            "monokratija",
+            "tiranija",
+            "totalitarizam"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Neutralan"
+    },
+    {
+        "ILI": "ENG30-02560164-v",
+        "definition": "obezbediti po\u0161tovanje zakona i pravila",
+        "lemma_names": [
+            "implementirati",
+            "izvr\u0161avati",
+            "izvr\u0161iti",
+            "nametati",
+            "nametnuti",
+            "primeniti",
+            "primenjivati",
+            "sprovesti",
+            "sprovesti silom",
+            "sprovoditi",
+            "sprovoditi silom"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-10448983-n",
+        "definition": "Pripadnik policijskih snaga.",
+        "lemma_names": [
+            "policajac"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-03931044-n",
+        "definition": "Vizuelna reprezentacija objekta, scene, osobe ili apstrakcije, proizvedena na nekoj povr\u0161ini.",
+        "lemma_names": [
+            "slika"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-03354903-n",
+        "definition": "Amblem koji se obi\u010dno sastoji od pravouganog par\u010deta materijala prepoznatljivog dizajna.",
+        "lemma_names": [
+            "zastava"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-01787955-v",
+        "definition": "Naljutiti, posebno neva\u017enim uzrocima.",
+        "lemma_names": [
+            "dosaditi",
+            "dosa\u0111ivati",
+            "nervirati",
+            "\u017eivcirati",
+            "gnjaviti",
+            "iritirati"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Negativan."
+    },
+    {
+        "ILI": "ENG30-00631391-a",
+        "definition": "bez gre\u0161ke; u skladu sa \u010dinjenicama ili istinom; \"Ta\u010dan odgovor\"; \"Ispravna verzija\"; \"Pravi odgovor\"; \"Pravi put\"; \"Ispravna odluka\"",
+        "lemma_names": [
+            "ispravan",
+            "pravi"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Pozitivan."
+    },
+    {
+        "ILI": "ENG30-00004475-n",
+        "definition": "\u017diva stvar koja ima, ili koja mo\u017ee da razvije, sposobnost da nastupa ili funkcioni\u0161e nezavisno.",
+        "lemma_names": [
+            "bi\u0107e",
+            "stvor",
+            "stvorenje",
+            "organizam"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-01037819-n",
+        "definition": "Hri\u0161\u0107anska sveta tajna koja zna\u010di ponovno duhovno ro\u0111enje.",
+        "lemma_names": [
+            "kr\u0161tenje"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Pozitivan."
+    },
+    {
+        "ILI": "ENG30-02796623-n",
+        "definition": "Struktura ili objekat koji spre\u010dava slobodno kretanje.",
+        "lemma_names": [
+            "barijera",
+            "pregrada"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-00550341-n",
+        "definition": "neo\u010dekivana aktivnost glumca radi postizanja dramskog efekta",
+        "lemma_names": [
+            "dosetka",
+            "\u0161tos"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-08113443-n",
+        "definition": "Skup rukopolo\u017eenih \u010dinodejstvenika.",
+        "lemma_names": [
+            "sve\u0161teni\u010dki stale\u017e",
+            "sve\u0161tenstvo"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-04826999-n",
+        "definition": "pobo\u017enost zbog posve\u0107enosti",
+        "lemma_names": [
+            "bogoboja\u017eljivost",
+            "pobo\u017enost",
+            "religioznost"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Pozitivan."
+    },
+    {
+        "ILI": "ENG30-10150556-n",
+        "definition": "\u010dlan paravojne oru\u017eane snage koja se bori sa ja\u010dom silom putem sabota\u017ee i uznemiravanja",
+        "lemma_names": [
+            "gerilac",
+            "pobunjenik"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Negativan\n"
+    },
+    {
+        "ILI": "ENG30-07497797-n",
+        "definition": "naklonjenost prema ne\u010demu",
+        "lemma_names": [
+            "dopadanje",
+            "pristrasnost"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Pozitivan."
+    },
+    {
+        "ILI": "ENG30-00770543-n",
+        "definition": "\u010din koji zanemaruje kakav raniji dogovor ili \u010dije pravo",
+        "lemma_names": [
+            "kr\u0161enje",
+            "napad",
+            "nepo\u0161tovanje",
+            "povreda",
+            "prekr\u0161aj",
+            "prestup"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Negativan\n"
+    },
+    {
+        "ILI": "ENG30-00306017-v",
+        "definition": "Prasnuti, obi\u010dno uz buku.",
+        "lemma_names": [
+            "puknuti",
+            "eksplodirati"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Negativan."
+    },
+    {
+        "ILI": "ENG30-00800930-v",
+        "definition": "Odbiti kao neva\u017eno.",
+        "lemma_names": [
+            "ignorisati",
+            "odbaciti",
+            "zanemariti"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Negativan."
+    },
+    {
+        "ILI": "ENG30-01064148-n",
+        "definition": "sloboda od bilo kakve aktivnosti (rada ili napora ili odgovornosti)",
+        "lemma_names": [
+            "mir",
+            "mirovanje",
+            "odmor",
+            "opu\u0161tanje",
+            "relaksacija",
+            "spokoj",
+            "spokojnost"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Neutralan"
+    },
+    {
+        "ILI": "ENG30-00421002-a",
+        "definition": "zamrljan prljav\u0161tinom i \u010da\u0111i",
+        "lemma_names": [
+            "\u010da\u0111av",
+            "crn",
+            "pra\u0161njav",
+            "prljav",
+            "upra\u0161njavljen",
+            "uprljan",
+            "zaprljan"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Negativan\n"
+    },
+    {
+        "ILI": "ENG30-06325145-n",
+        "definition": "funkcionalna re\u010d koja se kombinuje sa imenicom, zamenicom ili imeni\u010dkom sintagmom daju\u0107i tako predlo\u0161ko-pade\u017enu konstrukciju koja mo\u017ee imati pridevsku ili prilo\u0161ku funkciju",
+        "lemma_names": [
+            "predlog"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-06624161-n",
+        "definition": "Pisana poruka koja je adresirana na osobu ili organizaciju.",
+        "lemma_names": [
+            "pismo"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "\nObjektivan."
+    },
+    {
+        "ILI": "ENG30-00221056-n",
+        "definition": "Ubistvo javne li\u010dnosti iznenadnim napadom.",
+        "lemma_names": [
+            "atentat"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Negativan."
+    },
+    {
+        "ILI": "ENG30-09230041-n",
+        "definition": "rupa u zemlji koju je napravila \u017eivotinja za skloni\u0161te",
+        "lemma_names": [
+            "jazbina"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-04850589-n",
+        "definition": "kvalitet neuskla\u0111enosti sa standardima prava ili dobrog pona\u0161anja",
+        "lemma_names": [
+            "nemoral",
+            "nemoralnost",
+            "nepravednost",
+            "nepravi\u010dnost",
+            "zlo"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Negativan."
+    },
+    {
+        "ILI": "ENG30-06026276-n",
+        "definition": "u statistici: skup elemenata iz koga se mogu uzimati uzorci",
+        "lemma_names": [
+            "populacija"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-06351613-n",
+        "definition": "svaki sistem pisanih znakova",
+        "lemma_names": [
+            "pismo"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-14024882-n",
+        "definition": "prirodno i periodi\u0107no stanje odmora tokom koga se gubi svest o svetu",
+        "lemma_names": [
+            "san",
+            "po\u010dinak"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Neutralan"
+    },
+    {
+        "ILI": "ENG30-01619014-v",
+        "definition": "\u0161ta praviti ili dizajnirati, \u010desto na odre\u0111eni na\u010din",
+        "lemma_names": [
+            "\u010diniti",
+            "formirati",
+            "graditi",
+            "na\u010diniti",
+            "napraviti",
+            "praviti",
+            "proizvesti",
+            "proizvoditi",
+            "sagraditi",
+            "stvoriti",
+            "tvoriti",
+            "u\u010diniti"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Neutralan"
+    },
+    {
+        "ILI": "ENG30-05730930-n",
+        "definition": "mre\u017ena topologija \u010dije su komponenet povezane na glavni ra\u010dunar",
+        "lemma_names": [
+            "topologija zvezde",
+            "zvezda"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-03040587-n",
+        "definition": "preparat koji se koristi za \u010di\u0161\u0107enje ne\u010dega",
+        "lemma_names": [
+            "sredstvo za \u010di\u0161\u0107enje",
+            "\u010dista\u010d"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-05627785-n",
+        "definition": "stan Boga i an\u0111ela",
+        "lemma_names": [
+            "nebesa",
+            "nebo",
+            "nirvana",
+            "raj"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "\n    Odgovor"
+    },
+    {
+        "ILI": "ENG30-03135152-n",
+        "definition": "krst kao znamenje hri\u0161\u0107anstva",
+        "lemma_names": [
+            "krst"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Pozitivan."
+    },
+    {
+        "ILI": "ENG30-00492706-v",
+        "definition": "U\u010diniti ne\u010distim.",
+        "lemma_names": [
+            "zaraziti",
+            "zagaditi"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Negativan."
+    },
+    {
+        "ILI": "ENG30-00916464-n",
+        "definition": "Praksa obrade zemlje ili gajenja stoke.",
+        "lemma_names": [
+            "poljoprivreda"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-02552449-v",
+        "definition": "Povratiti u izvorno stanje.",
+        "lemma_names": [
+            "rekonstruisati",
+            "obnoviti"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Neutralan"
+    },
+    {
+        "ILI": "ENG30-01540844-v",
+        "definition": "Prihvatati.",
+        "lemma_names": [
+            "primiti",
+            "upiti"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-02116118-v",
+        "definition": "\u010dija ose\u0107anja uzrujati",
+        "lemma_names": [
+            "izazivati",
+            "izazvati",
+            "lo\u017eiti",
+            "nadahnuti",
+            "nagnati",
+            "nagoniti",
+            "nagovarati",
+            "nagovoriti",
+            "nalo\u017eiti",
+            "napaliti",
+            "navesti",
+            "navoditi",
+            "paliti",
+            "podsta\u0107i",
+            "podstaknuti",
+            "podsticati",
+            "pokrenuti",
+            "pokretati",
+            "potaknuti",
+            "provocirati",
+            "stimulirati",
+            "stimulisati",
+            "uzbuditi",
+            "uzbu\u0111ivati",
+            "zagrejati"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    (Objektivan"
+    },
+    {
+        "ILI": "ENG30-14001213-n",
+        "definition": "politi\u010dka nezavisnost",
+        "lemma_names": [
+            "autonomija",
+            "nezavisnost",
+            "samouprava",
+            "suverenitet"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-14956325-n",
+        "definition": "vodom natopljeno tlo; mekana vla\u017ena zemlja",
+        "lemma_names": [
+            "blato",
+            "glina"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-08310949-n",
+        "definition": "Telo koje slu\u017ei u administrativnom svojstvu.",
+        "lemma_names": [
+            "ve\u0107e",
+            "savet"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-02519991-v",
+        "definition": "za \u0161ta reparacije ili popravke praviti",
+        "lemma_names": [
+            "dati naknadu za",
+            "davati naknadu za",
+            "ispraviti",
+            "ispravljati",
+            "kompenzirati",
+            "kompenzovati",
+            "korigovati",
+            "nadoknaditi",
+            "nadokna\u0111ivati",
+            "od\u0161tetiti",
+            "pode\u0161avati",
+            "podesiti",
+            "popraviti",
+            "popravljati"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Neutralan"
+    },
+    {
+        "ILI": "ENG30-00420650-a",
+        "definition": "gusto pokriven nakupljenom prljav\u0161tinom ili \u010da\u0111i",
+        "lemma_names": [
+            "\u010da\u0111av",
+            "pra\u0161njav",
+            "prljav",
+            "upra\u0161njavljen",
+            "uprljan",
+            "zaprljan",
+            "zapu\u0161ten"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Negativan\n"
+    },
+    {
+        "ILI": "ENG30-01244846-a",
+        "definition": "osobina neprijatelja ili onoga ko je spreman za borbu",
+        "lemma_names": [
+            "agresivan",
+            "ratoboran"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Negativan."
+    },
+    {
+        "ILI": "ENG30-00767477-n",
+        "definition": "zao \u010din koji nije nu\u017eno zakonski ka\u017enjiv",
+        "lemma_names": [
+            "zlo\u010din",
+            "zlo\u010dinstvo"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Negativan\n"
+    },
+    {
+        "ILI": "ENG30-01419149-a",
+        "definition": "(upotrebljeno u zna\u010denju re\u010di ili teksta) koji nije doslvan; koji koristi metafore",
+        "lemma_names": [
+            "slikovit",
+            "simboli\u010dan",
+            "figurativan",
+            "nedoslovan"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-14475661-n",
+        "definition": "stanje nesre\u0107e ili nevolje",
+        "lemma_names": [
+            "neda\u0107a",
+            "nesre\u0107a",
+            "nevolja",
+            "tegoba",
+            "te\u0161ko\u0107a"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Negativan\n"
+    },
+    {
+        "ILI": "ENG30-00957378-v",
+        "definition": "proizvesti definiciju za zna\u010denje koje re\u010di",
+        "lemma_names": [
+            "definirati",
+            "definisati",
+            "objasniti"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-08510666-n",
+        "definition": "Povr\u0161ina koja predstavlja deo spolja\u0161njosti nekog objekta.",
+        "lemma_names": [
+            "lice",
+            "strana"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-02955065-n",
+        "definition": "Ne\u0161to \u0161to slu\u017ei kao prekriva\u010d ili za\u0161titnik.",
+        "lemma_names": [
+            "kapak",
+            "pokrov"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-02178866-v",
+        "definition": "O automobilskim motorima, kada upale prerano.",
+        "lemma_names": [
+            "presko\u010diti"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Neutralan"
+    },
+    {
+        "ILI": "ENG30-08075388-n",
+        "definition": "Ljudi zaokupljeni naro\u010ditim zanimanjem.",
+        "lemma_names": [
+            "bratstvo",
+            "fela"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-00362348-v",
+        "definition": "Spre\u010diti zavr\u0161avanje ne\u010dega.",
+        "lemma_names": [
+            "zaustaviti",
+            "prekinuti",
+            "obustaviti"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Neutralan"
+    },
+    {
+        "ILI": "ENG30-01249315-n",
+        "definition": "formalni \u010din osloba\u0111anja nekoga",
+        "lemma_names": [
+            "amnestija",
+            "pomilovanje"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-00733483-n",
+        "definition": "ulazak na tu\u0111i posed bez prava ili dozvole",
+        "lemma_names": [
+            "invazija",
+            "upad",
+            "upadanje",
+            "uzurpacija"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Negativan."
+    },
+    {
+        "ILI": "ENG30-01075117-n",
+        "definition": "akcija oru\u017eanih snaga kojom se opkoljava utvr\u0111eno mesto dok se borbe nastavljaju",
+        "lemma_names": [
+            "opsada"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Negativan."
+    },
+    {
+        "ILI": "ENG30-05839024-n",
+        "definition": "Kategorija stvari koje se izdvajaju nekim zajedni\u010dkim karakteristikama ili kvalitetom.",
+        "lemma_names": [
+            "vrsta",
+            "oblik",
+            "forma"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-00034574-n",
+        "definition": "\u010cin kojim se \u010dini neko dobro delo.",
+        "lemma_names": [
+            "dobrota",
+            "dobro delo"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Pozitivan."
+    },
+    {
+        "ILI": "ENG30-02443849-v",
+        "definition": "upravljati ili kontrolisati (projekte, kompanije itd)",
+        "lemma_names": [
+            "kontrolisati",
+            "nadzirati",
+            "rukovoditi",
+            "upravljati",
+            "voditi"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-00470701-v",
+        "definition": "Usmrtiti u velikom broju.",
+        "lemma_names": [
+            "uni\u0161titi",
+            "pokositi",
+            "desetkovati",
+            "iskoreniti",
+            "zatrti"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Negativan."
+    },
+    {
+        "ILI": "ENG30-09759311-n",
+        "definition": "nau\u010dnik koji je stru\u010dnjak za akademske rasprave",
+        "lemma_names": [
+            "u\u010denjak"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-00748307-n",
+        "definition": "raspojasano zadovoljavanje \u010dulnih prohteva",
+        "lemma_names": [
+            "blud",
+            "ekstravagancija",
+            "pro\u017edrljivost",
+            "raspojasanost",
+            "razuzdanost",
+            "razvrat"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Pozitivan."
+    },
+    {
+        "ILI": "ENG30-14437552-n",
+        "definition": "stanje kada je neko izuzetno uva\u017een (cenjen, po\u0161tovan ili na dobrom glasu)",
+        "lemma_names": [
+            "divljenje",
+            "dobar glas",
+            "po\u0161tovanje",
+            "reputacija",
+            "respekt",
+            "uva\u017eavanje"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Pozitivan."
+    },
+    {
+        "ILI": "ENG30-09426788-n",
+        "definition": "Deo okeana ili velikog prostranstva slane vode koji je delimi\u010dno zatvoren kopnom",
+        "lemma_names": [
+            "more"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-13939892-n",
+        "definition": "Specifi\u010dna pozicija koja se mo\u017ee identifikovati u kontinuumu, nizu i posebno procesu.",
+        "lemma_names": [
+            "stadij",
+            "stadijum",
+            "stepen",
+            "stupanj",
+            "nivo"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-02227487-v",
+        "definition": "okrenuti se od; odustati",
+        "lemma_names": [
+            "manuti se",
+            "napu\u0161tati",
+            "napustiti",
+            "odre\u0107i se",
+            "odricati se",
+            "odustajati",
+            "odustati",
+            "ostaviti",
+            "ostavljati",
+            "predati",
+            "predavati",
+            "prepu\u0161tati",
+            "prepustiti",
+            "pu\u0161tati",
+            "pustiti",
+            "ustupati",
+            "ustupiti"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Negativan\n"
+    },
+    {
+        "ILI": "ENG30-12392549-n",
+        "definition": "Vi\u0161egodi\u0161nja evropska kopriva koja ima \u0161iroko grubo nazubljeno li\u0161\u0107e sa bockavim dla\u0107icama.",
+        "lemma_names": [
+            "kopriva",
+            "Urtica dioica"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-03649459-n",
+        "definition": "Organ koji vodi sudske poslove.",
+        "lemma_names": [
+            "sud",
+            "tribunal"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-02713715-a",
+        "definition": "Koji se odnosi ili je karakteristi\u010dan za diplomatiju",
+        "lemma_names": [
+            "diplomatski"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-13386614-n",
+        "definition": "Novac u obliku banknota ili kovanica.",
+        "lemma_names": [
+            "ke\u0161",
+            "gotovina"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-00207761-n",
+        "definition": "\u010din kojim se neka osoba proteruje iz domovine",
+        "lemma_names": [
+            "progonstvo",
+            "izgnanstvo"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Negativan."
+    },
+    {
+        "ILI": "ENG30-10236304-n",
+        "definition": "Osoba u srodstvu sa drugima.",
+        "lemma_names": [
+            "rod"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-07193184-n",
+        "definition": "tra\u017eenje informacija",
+        "lemma_names": [
+            "ispitivanje"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-11454591-n",
+        "definition": "izdizanje vodene mase i njeno prelivanje na zemlji\u0161te koje je obi\u010dno suvo",
+        "lemma_names": [
+            "aluvij",
+            "aluvijon",
+            "izlivanje",
+            "poplava",
+            "potapanje",
+            "potop",
+            "prelivanje"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Pozitivan -"
+    },
+    {
+        "ILI": "ENG30-03014705-n",
+        "definition": "kutija sa poklopcem, kori\u0161\u0107ena za skladi\u0161tenje, obi\u010dno velika i \u010dvrsta",
+        "lemma_names": [
+            "kov\u010deg",
+            "sanduk",
+            "\u0161krinja"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-02180898-v",
+        "definition": "Proizvoditi zvonak zvuk.",
+        "lemma_names": [
+            "zvoniti"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-02550296-v",
+        "definition": "Obezbediti negu.",
+        "lemma_names": [
+            "paziti",
+            "negovati",
+            "brinuti"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Obja\u0161n"
+    },
+    {
+        "ILI": "ENG30-07148573-n",
+        "definition": "pregovaranje izme\u0111u razli\u010ditih naroda",
+        "lemma_names": [
+            "diplomatija"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-00478830-v",
+        "definition": "ozna\u010diti za brisanje, obrisati ili izbrisati",
+        "lemma_names": [
+            "brisati",
+            "izbrisati",
+            "obrisati"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "\n    Negativan"
+    },
+    {
+        "ILI": "ENG30-05702275-n",
+        "definition": "proces u kome se osoba koncentri\u0161e na neke karakteristike okoline pri (relativnom) ignorisanju drugih",
+        "lemma_names": [
+            "pa\u017enja"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-04360501-n",
+        "definition": "Nose\u0107a struktura koja obezbe\u0111uje osnov.",
+        "lemma_names": [
+            "nosa\u010d"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-00794079-v",
+        "definition": "pru\u017eiti potreban podstrek za \u0161ta",
+        "lemma_names": [
+            "izazivati",
+            "izazvati",
+            "nadahnjavati",
+            "nadahnjivati",
+            "nadahnuti",
+            "podsta\u0107i",
+            "podstaknuti",
+            "podsticati",
+            "pokrenuti",
+            "pokretati",
+            "potaknuti",
+            "provocirati",
+            "stimulirati",
+            "stimulisati"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-00177714-v",
+        "definition": "Ukloniti ne\u017eeljene tvari iz ne\u010dega, kao perje i ko\u0161tice iz pili\u0107a ili vo\u0107a.",
+        "lemma_names": [
+            "o\u010distiti",
+            "isprati"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-10560352-n",
+        "definition": "Predava\u010d u \u0161koli ispod nivoa koled\u017ea.",
+        "lemma_names": [
+            "nastavnik",
+            "profesor"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Negativan."
+    },
+    {
+        "ILI": "ENG30-06720371-n",
+        "definition": "napad koji se sastoji od la\u017ene i zlonamerne publikacije koja je od\u0161tampana da bi se \u017eiva osoba oklevetala",
+        "lemma_names": [
+            "kleveta"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Negativan."
+    },
+    {
+        "ILI": "ENG30-14435445-n",
+        "definition": "status velike uva\u017eenosti zbog istaknute superiornosti",
+        "lemma_names": [
+            "eminencija",
+            "istaknutost",
+            "odlika",
+            "prominentnost",
+            "reputacija",
+            "ugled",
+            "uva\u017eenost"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Pozitivan."
+    },
+    {
+        "ILI": "ENG30-00309310-v",
+        "definition": "Rasprsnuti se iznenada.",
+        "lemma_names": [
+            "prsnuti",
+            "puknuti"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Neutralan"
+    },
+    {
+        "ILI": "ENG30-04270891-n",
+        "definition": "duga\u010dak nao\u0161tren \u0161tap koji se koristi kao oru\u017eje",
+        "lemma_names": [
+            "koplje",
+            "lanceta"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Negativan."
+    },
+    {
+        "ILI": "ENG30-00177861-v",
+        "definition": "Ukloniti iz ne\u010dega ljuske ili lupine.",
+        "lemma_names": [
+            "otrebiti",
+            "o\u010distiti"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-07661583-n",
+        "definition": "gove\u0111i odrezak sa ramenog dela \u017eivotinje",
+        "lemma_names": [
+            "rame"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "\n    Objectivan."
+    },
+    {
+        "ILI": "ENG30-00923307-v",
+        "definition": "davati dokaze o \u010demu (kao prema kakvoj evidenciji)",
+        "lemma_names": [
+            "demonstrirati",
+            "dokazati",
+            "dokazivati",
+            "pokazati",
+            "pokazivati",
+            "prikazati",
+            "prikazivati"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-07747951-n",
+        "definition": "u pojedinim delovima ravno, crvenkasto-narand\u017east kineski citrus koji se lako lju\u0161ti",
+        "lemma_names": [
+            "mandarina"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-02339413-v",
+        "definition": "Opskrbiti nekoga opremom za posebnu namenu.",
+        "lemma_names": [
+            "opremiti"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Neutralan"
+    },
+    {
+        "ILI": "ENG30-02436963-v",
+        "definition": "uzrokovati da \u0161ta radi ili funkcioni\u0161e",
+        "lemma_names": [
+            "koristiti",
+            "raditi",
+            "uklju\u010diti",
+            "upravljati"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-14361664-n",
+        "definition": "iznenadno gr\u010denje mi\u0161i\u0107a odnosno mi\u0161i\u0107nih vlakana.",
+        "lemma_names": [
+            "gr\u010devito trzanje",
+            "trzaj"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-01244846-a",
+        "definition": "osobina neprijatelja ili onoga ko je spreman za borbu",
+        "lemma_names": [
+            "agresivan",
+            "ratoboran"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Negativan."
+    },
+    {
+        "ILI": "ENG30-14997012-n",
+        "definition": "\u010cvrsta supstanca u obliku malih slobodnih \u010destica; \u010dvrsta materija koja je pretvorena u prah.",
+        "lemma_names": [
+            "prah",
+            "pra\u0161ak"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-09260218-n",
+        "definition": "Tvrd spolja\u0161nji omota\u010d oko ne\u010dega.",
+        "lemma_names": [
+            "kora"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-01984669-a",
+        "definition": "sumnjivog ukusa ili morala",
+        "lemma_names": [
+            "diskutabilan",
+            "sumnjiv"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Negativan\n"
+    },
+    {
+        "ILI": "ENG30-07294019-n",
+        "definition": "Ishod doga\u0111aja, posebno u odnosu na neku osobu.",
+        "lemma_names": [
+            "zna\u010daj"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-02644234-v",
+        "definition": "biti ve\u0107i po broju, koli\u010dini, mo\u0107i, statusu ili zna\u010daju",
+        "lemma_names": [
+            "dominirati",
+            "nadja\u010dati",
+            "nadja\u010davati",
+            "preovladati",
+            "preovladavati",
+            "preovla\u0111ivati",
+            "prevladati"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-05980412-n",
+        "definition": "Verovanje koje se suprotstavlja dogmama zvani\u010dne crkve.",
+        "lemma_names": [
+            "jeres"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Negativan."
+    },
+    {
+        "ILI": "ENG30-08152787-n",
+        "definition": "Sve\u0161tenici posmatrani kao celina, nasuprot laicima.",
+        "lemma_names": [
+            "sve\u0107enstvo",
+            "sve\u0161tenstvo",
+            "kler",
+            "duhovnici"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Neutralan"
+    },
+    {
+        "ILI": "ENG30-02858304-n",
+        "definition": "Mali plovni objekat za prevoz po vodi.",
+        "lemma_names": [
+            "barka",
+            "\u010damac",
+            "\u010dun"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-02553697-v",
+        "definition": "koga prema uputstvima i praksi trenirati, naro\u010dito da bi ga samokontroli podu\u010dili",
+        "lemma_names": [
+            "civilizovati",
+            "disciplinovati",
+            "dovesti u red",
+            "dovoditi u red",
+            "dresirati",
+            "izdresirati",
+            "kultivisati",
+            "obrazovati",
+            "obu\u010davati",
+            "obu\u010diti",
+            "osposobiti",
+            "osposobljavati",
+            "podu\u010davati",
+            "podu\u010diti",
+            "\u0161kolovati",
+            "trenirati"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-00831903-a",
+        "definition": "kome nedostaje znanje koje se sti\u010de u\u010denjem, \u010desto u odre\u0111enom polju",
+        "lemma_names": [
+            "nenau\u010den",
+            "neobu\u010den"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-07574602-n",
+        "definition": "prvi obrok u toku dana (uglavnom jutarnji)",
+        "lemma_names": [
+            "doru\u010dak"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektan."
+    },
+    {
+        "ILI": "ENG30-07026352-n",
+        "definition": "drama koju prati muzika; peva\u010di pevaju i glume uz pratnju orkestra; po\u010dinje uvertirom a radnju nekad prekidaju muzi\u010dka intermeca",
+        "lemma_names": [
+            "opera"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-05870365-n",
+        "definition": "Koncepcijska celina sa\u010dinjena od komplikovanih i povezanih delova.",
+        "lemma_names": [
+            "kompleks"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-02222318-v",
+        "definition": "Baciti ili odbaciti.",
+        "lemma_names": [
+            "odbaciti",
+            "odstraniti",
+            "zanemariti",
+            "re\u0161iti se"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Negativan."
+    },
+    {
+        "ILI": "ENG30-01140658-n",
+        "definition": "mandat koji se daje vladi i njenoj politici putem izborne pobede",
+        "lemma_names": [
+            "mandat",
+            "ovla\u0161\u0107enje",
+            "punomo\u0107"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Pozitivan."
+    },
+    {
+        "ILI": "ENG30-06582403-n",
+        "definition": "zadati niz koraka, deo ve\u0107eg ra\u010dunarskog programa",
+        "lemma_names": [
+            "funkcija",
+            "procedura",
+            "rutina",
+            "podprogram",
+            "podrutina"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-05667613-n",
+        "definition": "ne\u0161to \u0161to se smatra normativnim primerom",
+        "lemma_names": [
+            "dogovor",
+            "forma",
+            "formula",
+            "konvencija",
+            "norma",
+            "pravilo",
+            "princip",
+            "propis",
+            "regulativa"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-01201021-n",
+        "definition": "Dru\u0161tveni \u010din odvajanja.",
+        "lemma_names": [
+            "razdvajanje",
+            "razdru\u017eivanje"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "\n    Negativan"
+    },
+    {
+        "ILI": "ENG30-03219135-n",
+        "definition": "mala replika osobe; koristi se kao igra\u010dka",
+        "lemma_names": [
+            "lutka"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-01375831-a",
+        "definition": "op\u0161te prihva\u0107en i uva\u017een",
+        "lemma_names": [
+            "slavan",
+            "poznat",
+            "\u010duven",
+            "zna\u010dajan",
+            "renomiran",
+            "priznat",
+            "proslavljen"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Pozitivan."
+    },
+    {
+        "ILI": "ENG30-00815320-n",
+        "definition": "\u010cin postavljanja i dr\u017eanja kursa.",
+        "lemma_names": [
+            "vo\u0111enje",
+            "navo\u0111enje"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-15221596-n",
+        "definition": "Dan kada se slavi neki svetac.",
+        "lemma_names": [
+            "svetac"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-02298766-a",
+        "definition": "koji nije u skladu sa standardnom upotrebom",
+        "lemma_names": [
+            "neprihvatljiv",
+            "nezadovoljavaju\u0107i"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-05613274-n",
+        "definition": "Nesvesno je pretpostavljeni psihi\u010dki kvalitet nepoznat svesnom Ja. Za Frojda je nesvesno svako mentalno zbivanje koje poznajemo samo na osnovu njegove manifestacije, dok direktno o tom zbivanju ne znamo ni\u0161ta.",
+        "lemma_names": [
+            "nesvestan um",
+            "nesvesno"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-08286163-n",
+        "definition": "fakultet i studenti na univerzitetu",
+        "lemma_names": [
+            "univerzitet"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-04829282-n",
+        "definition": "sklonost da se bude ljubazan i milostiv",
+        "lemma_names": [
+            "milosr\u0111e",
+            "milosrdnost",
+            "milost",
+            "milostivost",
+            "samilost",
+            "velikodu\u0161nost"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Pozitivan."
+    },
+    {
+        "ILI": "ENG30-00291471-a",
+        "definition": "koji je kao brat ili ima osobine koje odgovaraju bratskim osobinama",
+        "lemma_names": [
+            "bratski"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-13994148-n",
+        "definition": "Sloboda od kontrole ili uticaja drugog ili drugih.",
+        "lemma_names": [
+            "nezavisnost",
+            "samosvojnost"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-00961736-v",
+        "definition": "izraziti istu poruku druga\u010dijim re\u010dima",
+        "lemma_names": [
+            "preformulisati",
+            "preina\u010diti",
+            "parafrazirati"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-07522536-n",
+        "definition": "predose\u0107anje o ne\u010demu \u0161to \u0107e se dogoditi",
+        "lemma_names": [
+            "predznak"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-02642814-v",
+        "definition": "Zadr\u017eati za neko kasnije vreme.",
+        "lemma_names": [
+            "odlagati",
+            "odlo\u017eiti",
+            "odgoditi",
+            "odga\u0111ati"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Neutralan"
+    },
+    {
+        "ILI": "ENG30-00020410-a",
+        "definition": "onaj koji je sme\u0161ten na lokaciji kojoj se ne mo\u017ee pristupiti",
+        "lemma_names": [
+            "nepristupa\u010dan",
+            "nedosti\u017ean"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-00402661-v",
+        "definition": "staviti van svog uobi\u010dajenog mesta, pozicije ili veze",
+        "lemma_names": [
+            "dislocirati",
+            "gurati",
+            "i\u0161\u010da\u0161iti",
+            "i\u0161\u010da\u0161ivati",
+            "iskoreniti",
+            "iskorenjivati",
+            "izbaciti",
+            "izbacivati",
+            "izgurati",
+            "maknuti",
+            "micati",
+            "pomaknuti",
+            "pomeriti",
+            "preme\u0161tati",
+            "premestiti",
+            "raseliti",
+            "raseljavati"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Neutralan"
+    },
+    {
+        "ILI": "ENG30-06304576-n",
+        "definition": "re\u010d koja se govori naglas",
+        "lemma_names": [
+            "govor"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "\nObjektivan."
+    },
+    {
+        "ILI": "ENG30-00553823-n",
+        "definition": "bu\u010dni nemir",
+        "lemma_names": [
+            "potres",
+            "uznemirenje",
+            "mete\u017e",
+            "gungula",
+            "gu\u017eva"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Negativan."
+    },
+    {
+        "ILI": "ENG30-02321046-v",
+        "definition": "tra\u017eiti odre\u0111eni iznos kao naknadu",
+        "lemma_names": [
+            "napla\u0107ivati",
+            "naplatiti",
+            "potra\u017eiti",
+            "potra\u017eivati",
+            "zara\u010dunati",
+            "zara\u010dunavati"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Neutralan"
+    },
+    {
+        "ILI": "ENG30-02530167-v",
+        "definition": "U\u010diniti neki napor ili poku\u0161aj.",
+        "lemma_names": [
+            "poku\u0161ati",
+            "probati",
+            "nastojati"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-13991823-n",
+        "definition": "Stanje slobode; mo\u0107 delovanja ili govora ili mi\u0161ljenja bez ograda. nametnutih spolja",
+        "lemma_names": [
+            "sloboda"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-01885845-v",
+        "definition": "Kretati se sporo; u slu\u010daju ljudi ili \u017eivotinja, sa telom blizu zemlje.",
+        "lemma_names": [
+            "puzati"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-00094460-v",
+        "definition": "promeniti se (u pogledu fizi\u010dkih karakteristika i atributa)",
+        "lemma_names": [
+            "dobiti",
+            "do\u0107i u stanje",
+            "evoluirati",
+            "izgraditi",
+            "izgraditi se",
+            "narasti",
+            "postati",
+            "rasti",
+            "razvijati",
+            "razvijati se",
+            "razviti",
+            "razviti se",
+            "ste\u0107i",
+            "usvojiti",
+            "zadobiti",
+            "zaraditi"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Neutralan"
+    },
+    {
+        "ILI": "ENG30-02815950-n",
+        "definition": "dug i debeo komad drveta, metala ili maltera itd, koji se koristi u gra\u0111evinarstvu",
+        "lemma_names": [
+            "greda"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-01375831-a",
+        "definition": "op\u0161te prihva\u0107en i uva\u017een",
+        "lemma_names": [
+            "slavan",
+            "poznat",
+            "\u010duven",
+            "zna\u010dajan",
+            "renomiran",
+            "priznat",
+            "proslavljen"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Pozitivan."
+    },
+    {
+        "ILI": "ENG30-02304507-v",
+        "definition": "biti zarobljen",
+        "lemma_names": [
+            "biti okupiran",
+            "biti zauzet",
+            "biti zauziman",
+            "padati",
+            "pasti"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Negativan."
+    },
+    {
+        "ILI": "ENG30-09770472-n",
+        "definition": "neko ko upravlja vladinom agencijom ili odeljenjem",
+        "lemma_names": [
+            "administrator",
+            "direktor",
+            "rukovodilac",
+            "upravitelj",
+            "upravnik"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Neutralan"
+    },
+    {
+        "ILI": "ENG30-02237782-v",
+        "definition": "Obezbediti.",
+        "lemma_names": [
+            "doprineti",
+            "pokriti"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-02581675-v",
+        "definition": "biti branilac nekoga u sudskom postupku",
+        "lemma_names": [
+            "braniti"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-00097504-n",
+        "definition": "\u010cin obavljanja ne\u010dega uspe\u0161no koriste\u0107i znanje.",
+        "lemma_names": [
+            "izvo\u0111enje",
+            "izvr\u0161enje"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Odgovor:"
+    },
+    {
+        "ILI": "ENG30-00712135-v",
+        "definition": "Proceniti da je ne\u0161to mogu\u0107e.",
+        "lemma_names": [
+            "proceniti",
+            "ra\u010dunati",
+            "ceniti",
+            "pretpostaviti"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-01631072-v",
+        "definition": "Ponovo uspostaviti na novoj, obiyno boljoj, osnovi; u\u010diniti da ne\u0161to bude kao novo.",
+        "lemma_names": [
+            "obnoviti"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Odgovor:"
+    },
+    {
+        "ILI": "ENG30-02784732-n",
+        "definition": "ukras koji se sastoji od trake ili \u0161trafte u druga\u010dijoj boji ili od druga\u010dijeg materijala",
+        "lemma_names": [
+            "lenta",
+            "pruga",
+            "\u0161trafta",
+            "traka",
+            "vrpca"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-00912833-v",
+        "definition": "Izgovoriti veoma jakim glasom.",
+        "lemma_names": [
+            "vriskati",
+            "vri\u0161tati",
+            "derati se"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "    Objektivan."
+    },
+    {
+        "ILI": "ENG30-03905208-n",
+        "definition": "rupa (na vratima ili na pe\u0107nici itd) kroz koju mo\u017ee da se viri",
+        "lemma_names": [
+            "pukotina",
+            "\u0161pijunka"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "negative",
+        "sentiment_sa": "\n    Negativan"
+    },
+    {
+        "ILI": "ENG30-00202508-a",
+        "definition": "koji upu\u0107uje na sebe",
+        "lemma_names": [
+            "povratan",
+            "refleksivan"
+        ],
+        "sentiment_SWN": [
+            0.0,
+            0.0
+        ],
+        "sentiment_lexicon": "positive",
+        "sentiment_sa": "\n    Odgovor"
+    }
+]
