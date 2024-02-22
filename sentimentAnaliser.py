@@ -157,7 +157,7 @@ test_prompt_sr = """
 """
 
 test_prompt_positive_sr = """
-    Kao ekspert za analizu sentimenta, analizirajte sledeći tekst na srpskom jeziku i odredite da ima pozitivan sentiment.
+    Kao ekspert za analizu sentimenta, analizirajte sledeći tekst na srpskom jeziku i odredite da li ima pozitivan sentiment.
     Sentiment treba da bude striktno klasifikovan kao "nije pozitivan", "slabo pozitivan", "umereno pozitivan", "veoma pozitivan", ili "ekstremno pozitivan". Nijedan drugi odgovor neće biti prihvaćen. 
     Nijedan drugi odgovor neće biti prihvaćen.  
     Tekst: {text}
@@ -175,7 +175,7 @@ test_prompt_positive_sr2 = """
     Kakav je sentiment teksta?
     """
 test_prompt_negative_sr = """
-    Kao ekspert za analizu sentimenta, analizirajte sledeći tekst na srpskom jeziku i odredite da ima negativan sentiment.
+    Kao ekspert za analizu sentimenta, analizirajte sledeći tekst na srpskom jeziku i odredite da li ima negativan sentiment.
     Sentiment treba da bude striktno klasifikovan kao "nije negativan", "slabo negativan", "umereno negativan", "veoma negativan", ili "ekstremno negativan". Nijedan drugi odgovor neće biti prihvaćen. 
     Nijedan drugi odgovor neće biti prihvaćen.  
     Tekst: {text}
@@ -207,6 +207,8 @@ def test_old():
     #get random sample of 500 synsets from list
     sample_synsets = random.sample(list_synsets, 500)
     
+    sa = SentimentAnaliser("mistralai/Mistral-7B-Instruct-v0.2", PromptTemplate.from_template(test_prompt_sr))
+    save_sentment_list_as_cvs(text_list, sa, "sentiment.csv")
 
     for synset in tqdm(sample_synsets, desc="Processing synsets"):
         synset["sentiment_sa"] = sa.analyze(synset["definition"])
@@ -252,22 +254,65 @@ def test():
     save_sentment_list_as_cvs(text_list, sa, "sentiment_negative_llama2.csv")
     del sa    
     torch.cuda.empty_cache()
-    sa = SentimentAnaliser("meta-llama/Llama-2-7b", PromptTemplate.from_template(test_prompt_positive_sr), max_new_tokens=9)
-    save_sentment_list_as_cvs(text_list, sa, "sentiment_positive_meta.csv")
-    del sa
-    torch.cuda.empty_cache()
-    sa = SentimentAnaliser("meta-llama/Llama-2-7b", PromptTemplate.from_template(test_prompt_positive_sr2), max_new_tokens=9)
-    save_sentment_list_as_cvs(text_list, sa, "sentiment_positive_meta2.csv")
-    del sa
-    torch.cuda.empty_cache()
-    sa = SentimentAnaliser("meta-llama/Llama-2-7b", PromptTemplate.from_template(test_prompt_negative_sr), max_new_tokens=9)
-    save_sentment_list_as_cvs(text_list, sa, "sentiment_negative_meta.csv")
-    del sa
-    torch.cuda.empty_cache()
-    sa = SentimentAnaliser("meta-llama/Llama-2-7b", PromptTemplate.from_template(test_prompt_negative_sr2), max_new_tokens=9)
-    save_sentment_list_as_cvs(text_list, sa, "sentiment_negative_meta2.csv")
-    del sa
-    torch.cuda.empty_cache()
+    try:
+        sa = SentimentAnaliser("meta-llama/Llama-2-7b", PromptTemplate.from_template(test_prompt_positive_sr), max_new_tokens=9)
+        save_sentment_list_as_cvs(text_list, sa, "sentiment_positive_meta.csv")
+        del sa
+        torch.cuda.empty_cache()
+        sa = SentimentAnaliser("meta-llama/Llama-2-7b", PromptTemplate.from_template(test_prompt_positive_sr2), max_new_tokens=9)
+        save_sentment_list_as_cvs(text_list, sa, "sentiment_positive_meta2.csv")
+        del sa
+        torch.cuda.empty_cache()
+        sa = SentimentAnaliser("meta-llama/Llama-2-7b", PromptTemplate.from_template(test_prompt_negative_sr), max_new_tokens=9)
+        save_sentment_list_as_cvs(text_list, sa, "sentiment_negative_meta.csv")
+        del sa
+        torch.cuda.empty_cache()
+        sa = SentimentAnaliser("meta-llama/Llama-2-7b", PromptTemplate.from_template(test_prompt_negative_sr2), max_new_tokens=9)
+        save_sentment_list_as_cvs(text_list, sa, "sentiment_negative_meta2.csv")
+        del sa
+        torch.cuda.empty_cache()
+    except:
+        print("Llama-2-7b not available")
+    
+    try:
+        sa = SentimentAnaliser("datatab/alpaca-serbian-7b-base", PromptTemplate.from_template(test_prompt_positive_sr), max_new_tokens=9)
+        save_sentment_list_as_cvs(text_list, sa, "sentiment_positive_alpaca.csv")
+        del sa
+        torch.cuda.empty_cache()
+        sa = SentimentAnaliser("datatab/alpaca-serbian-7b-base", PromptTemplate.from_template(test_prompt_positive_sr2), max_new_tokens=9)
+        save_sentment_list_as_cvs(text_list, sa, "sentiment_positive_alpaca2.csv")
+        del sa
+        torch.cuda.empty_cache()
+        sa = SentimentAnaliser("datatab/alpaca-serbian-7b-base", PromptTemplate.from_template(test_prompt_negative_sr), max_new_tokens=9)
+        save_sentment_list_as_cvs(text_list, sa, "sentiment_negative_alpaca.csv")
+        del sa
+        torch.cuda.empty_cache()
+        sa = SentimentAnaliser("datatab/alpaca-serbian-7b-base", PromptTemplate.from_template(test_prompt_negative_sr2), max_new_tokens=9)
+        save_sentment_list_as_cvs(text_list, sa, "sentiment_negative_alpaca2.csv")
+        del sa
+        torch.cuda.empty_cache()
+    except:
+        print("Alpaca not available")
+    try:
+        sa = SentimentAnaliser("jerteh/gpt2-orao", PromptTemplate.from_template(test_prompt_positive_sr), max_new_tokens=9)
+        save_sentment_list_as_cvs(text_list, sa, "sentiment_positive_orao.csv")
+        del sa
+        torch.cuda.empty_cache()
+        sa = SentimentAnaliser("jerteh/gpt2-orao", PromptTemplate.from_template(test_prompt_positive_sr2), max_new_tokens=9)
+        save_sentment_list_as_cvs(text_list, sa, "sentiment_positive_orao2.csv")
+        del sa
+        torch.cuda.empty_cache()
+        sa = SentimentAnaliser("jerteh/gpt2-orao", PromptTemplate.from_template(test_prompt_negative_sr), max_new_tokens=9)
+        save_sentment_list_as_cvs(text_list, sa, "sentiment_negative_orao.csv")
+        del sa
+        torch.cuda.empty_cache()
+        sa = SentimentAnaliser("jerteh/gpt2-orao", PromptTemplate.from_template(test_prompt_negative_sr2), max_new_tokens=9)
+        save_sentment_list_as_cvs(text_list, sa, "sentiment_negative_orao2.csv")
+        del sa
+        torch.cuda.empty_cache()
+    except:
+        print("Orao not available")
+        
 
 if __name__ == "__main__":
     test()
