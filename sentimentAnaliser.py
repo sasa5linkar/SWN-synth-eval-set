@@ -134,9 +134,45 @@ def save_sentment_list_as_cvs(list_text, sentimentAnaliser: SentimentAnaliser, f
     """
     list_result = analyse_list(list_text, sentimentAnaliser)
     with open(file, 'w',encoding="utf-8") as f:
-        f.write("Text;Sentiment\n")
+        f.write("Text,Sentiment\n")
         for text, result in list_result:
-            f.write(f"{text}¦{result}\n")
+            f.write(f"\"{text}\",\"{result}\"\n")
+def apply_sentiment_analiser_to_dataframe (dataframe, sentimentAnaliser: SentimentAnaliser, input_column, output_column):
+    """Applies sentiment analiser to the dataframe.
+
+    Args:
+    dataframe: pandas.DataFrame
+        Dataframe to be analised.
+    sentimentAnaliser: SentimentAnaliser
+        SentimentAnaliser object used for analisys.
+    input_column: str
+        Name of the input column.
+    output_column: str
+        Name of the output column.
+
+    """
+    dataframe[output_column] = dataframe[input_column].apply(sentimentAnaliser.analyze)
+
+def get_balanced_sample(dataframe, column, n, values = ["Pozitivan", "Negativan", "Objektivan"],random_state=42):
+    """Gets balanced sample from dataframe.
+
+    Args:
+    dataframe: pandas.DataFrame
+        Dataframe to be sampled.
+    column: str
+        Name of the column.
+    n: int
+        Number of samples.
+    values: list
+        List of values to be sampled.
+    random_state: int
+        Random state.
+
+    Returns:
+    pandas.DataFrame: Sampled dataframe.
+
+    """
+    return dataframe[dataframe[column].isin(values)].groupby(column, group_keys=False).apply(lambda x: x.sample(min(len(x), n), random_state=random_state))
     
 
 
@@ -167,7 +203,7 @@ test_prompt_positive_sr = """
 test_prompt_positive_sr2 = """
     Kao stručnjak za analizu sentimenta, vaš zadatak je da pažljivo procenite dati tekst na srpskom jeziku. 
     Na osnovu vaše analize, klasifikujte sentiment teksta koristeći striktno definisane kategorije. 
-    Ove kategorije uključuju: 'nije pozitivan', 'slabo pozitivan', 'umereno pozitivan', 'veoma pozitivan', i 'ekstremno pozitivan'. 
+    Ove kategorije uključuju: 'nije pozitivan', 'slabo pozitivan', 'pozitivan', 'veoma pozitivan', i 'ekstremno pozitivan'. 
     Važno je naglasiti da su ovo jedine prihvatljive kategorije za klasifikaciju. 
     Molimo vas da se držite ovih smernica kako biste osigurali tačnost i konsistentnost u analizi sentimenta. 
     Tekst za analizu: {text}. 
@@ -185,7 +221,7 @@ test_prompt_negative_sr = """
 test_prompt_negative_sr2 = """
     Kao stručnjak za analizu sentimenta, vaš zadatak je da pažljivo procenite dati tekst na srpskom jeziku.
     Na osnovu vaše analize, klasifikujte sentiment teksta koristeći striktno definisane kategorije.
-    Ove kategorije uključuju: 'nije negativan', 'slabo negativan', 'umereno negativan', 'veoma negativan', i 'ekstremno negativan'.
+    Ove kategorije uključuju: 'nije negativan', 'slabo negativan', 'negativan', 'veoma negativan', i 'ekstremno negativan'.
     Važno je naglasiti da su ovo jedine prihvatljive kategorije za klasifikaciju.
     Molimo vas da se držite ovih smernica kako biste osigurali tačnost i konsistentnost u analizi sentimenta.
     Tekst za analizu: {text}.
@@ -217,7 +253,7 @@ def test_old():
     dataset = pd.DataFrame(sample_synsets)
     dataset.to_csv("sample_synsets2.csv", sep="¦", index=False)
 
-def test():
+def test_lmm():
     word_list = ["sreća", "bol", "radost", "tuga", "ljubav", "mržnja", "sloboda", "zatvor", "život", "smrt"]
     text_list = get_def_by_words(word_list)
     #remove empty strings
@@ -312,7 +348,36 @@ def test():
         torch.cuda.empty_cache()
     except:
         print("Orao not available")
-        
+def test_finetune():
+    #finetuing prompts for positive and negative sentiment
+    word_list = ["sreća", "bol", "radost", "tuga", "ljubav", "mržnja", "sloboda", "zatvor", "život", "smrt"]
+    text_list = get_def_by_words(word_list)
+    #remove empty strings
+    text_list = list(filter(None, text_list))
+    sa = SentimentAnaliser("mistralai/Mistral-7B-Instruct-v0.2", PromptTemplate.from_template(test_prompt_positive_sr), max_new_tokens=9)
+    save_sentment_list_as_cvs(text_list, sa, "sentiment_positive.csv")
+    del sa
+    torch.cuda.empty_cache()
+    sa = SentimentAnaliser("mistralai/Mistral-7B-Instruct-v0.2", PromptTemplate.from_template(test_prompt_negative_sr), max_new_tokens=9)
+    save_sentment_list_as_cvs(text_list, sa, "sentiment_negative.csv")
+
+def main():
+    #load dataframe from file
+    df = pd.read_csv("sample_synsets2_fix.csv")
+    #get balanced sample of 30 synsets for each sentiment
+    df_sample = get_balanced_sample(df, "sentiment_sa", 30)
+
+    #create positive sentiment analiser
+    sa = SentimentAnaliser("mistralai/Mistral-7B-Instruct-v0.2", PromptTemplate.from_template(test_prompt_positive_sr), max_new_tokens=9)
+    #apply sentiment analiser to dataframe
+    apply_sentiment_analiser_to_dataframe(df_sample, sa, "definition", "sentiment_sa_positive")
+    #create negative sentiment analiser
+    sa = SentimentAnaliser("mistralai/Mistral-7B-Instruct-v0.2", PromptTemplate.from_template(test_prompt_negative_sr), max_new_tokens=9)
+    #apply sentiment analiser to dataframe
+    apply_sentiment_analiser_to_dataframe(df_sample, sa, "definition", "sentiment_sa_negative")
+    #save dataframe to file
+    df_sample.to_csv("balanced_sample.csv", index=False)
+
 
 if __name__ == "__main__":
-    test()
+    main()
