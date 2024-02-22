@@ -364,6 +364,9 @@ def test_finetune():
 def main():
     #load dataframe from file
     df = pd.read_csv("sample_synsets2_fix.csv")
+    #remove duplicates
+    df = df.drop_duplicates(subset=["ILI"])
+
     #get balanced sample of 30 synsets for each sentiment
     df_sample = get_balanced_sample(df, "sentiment_sa", 30)
 
@@ -376,7 +379,7 @@ def main():
     #apply sentiment analiser to dataframe
     apply_sentiment_analiser_to_dataframe(df_sample, sa, "definition", "sentiment_sa_negative")
     #save dataframe to file
-    df_sample.to_csv("balanced_sample.csv", index=False)
+    df_sample.to_csv("balanced_sample2.csv", index=False)
 
 
 if __name__ == "__main__":
