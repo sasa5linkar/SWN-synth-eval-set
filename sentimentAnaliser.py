@@ -367,8 +367,8 @@ def main():
     #remove duplicates
     df = df.drop_duplicates(subset=["ILI"])
 
-    #get balanced sample of 30 synsets for each sentiment
-    df_sample = get_balanced_sample(df, "sentiment_sa", 30)
+    #get balanced sample of 25 synsets for each sentiment
+    df_sample = get_balanced_sample(df, "sentiment_sa", 25)
 
     #create positive sentiment analiser
     sa = SentimentAnaliser("mistralai/Mistral-7B-Instruct-v0.2", PromptTemplate.from_template(test_prompt_positive_sr), max_new_tokens=9)

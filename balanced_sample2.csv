@@ -24,11 +24,6 @@ ENG30-02574205-v,Napraviti nekog žrtvom prevare.,"['prevariti', 'obmanuti']","(
 BILI-00000941,"Glasno izražavati žalost, zapevati, tužiti.",['naricati'],"(0.0, 0.0)",negative,Negativan,Nije    Ova iz,Nije negativan
 ENG30-14440623-n,nisko stanje sklono padu naniže,"['degradacija', 'dekadencija', 'opadanje', 'poniženje', 'propadanje', 'unižavanje']","(0.0, 0.0)",negative,Negativan,Nijedan    O,nije negativan
 ENG30-00095121-n,čin okajanja greha ili nepravde (naročito putem umirivanja božanstva),['pokajanje'],"(0.0, 0.0)",negative,Negativan,Nije pozitivan,Nije negativan
-ENG30-00742130-n,nepočinstvo koje izvršitelj nije imao pravo da sprovede; neprofesionalno ponašanje,"['malverzacija', 'nesavesnost', 'zloupotreba']","(0.0, 0.0)",negative,Negativan,Nije pozitivan,veoma negativan
-ENG30-00356233-a,depresivnog izgleda ili karaktera,"['sumoran', 'utučen', 'jednoličan']","(0.0, 0.0)",negative,Negativan,Nije pozitivan,umereno negativan
-ENG30-02213690-v,odbiti da se nešto preda ili podeli,['zadržati'],"(0.0, 0.0)",negative,Negativan,Nije pozitivan,nije negativan
-ENG30-14450540-n,stanje stvoreno nedostatkom novca i kredita,"['oskudica', 'oskudnost']","(0.0, 0.0)",negative,Negativan,Nijedan    O,nedostatak novca
-ENG30-02343595-v,čega gubitak podneti,"['darivati', 'darovati', 'dati', 'davati', 'poklanjati', 'pokloniti', 'posvetiti', 'predati', 'predavati', 'prineti kao žrtvu', 'žrtvovati']","(0.0, 0.0)",positive,Negativan,Nije pozitivan,Nije negativan
 ENG30-02226429-n,"Insekt koji živi na zemlji, ima snažne zadnje noge pomoću kojih može daleko da skoči, hrani se biljkama i često je velika štetovyina.",['skakavac'],"(0.0, 0.0)",negative,Objektivan,Nije pozitivan,Nije negativan
 ENG30-09426788-n,Deo okeana ili velikog prostranstva slane vode koji je delimično zatvoren kopnom,['more'],"(0.0, 0.0)",positive,Objektivan,Nije pozitivan,Nije negativan
 ENG30-12345280-n,Žbun ili malo drvo poreklom iz jugozapadne Azije; ima veliki plod sa mnogo semenki.,"['nar', 'šipak', 'granata', 'mogranj', 'Punica granatum']","(0.0, 0.0)",negative,Objektivan,Nije pozitivan,Nije negativan
@@ -54,11 +49,6 @@ ENG30-10557854-n,Učena osoba (posebno u društvenim naukama); neko ko je dugotr
 ENG30-02390258-n,Sterilni potomak muškog konja i ženskog magarca.,['mazga'],"(0.0, 0.0)",negative,Objektivan,Nije pozitivan,Nije negativan
 ENG30-09362316-n,Tačka gde vodeni tok utiče u veću vodenu površinu.,['ušće'],"(0.0, 0.0)",negative,Objektivan,Nije pozitivan,Nije negativan
 ENG30-07164546-n,Nešto što se nudi (kao predlog ili zahtev).,['ponuda'],"(0.0, 0.0)",positive,Objektivan,Nije pozitivan,Nije negativan
-ENG30-01120448-n,Čin isplaćivanja novca.,"['plaćanje', 'isplaćivanje', 'plata']","(0.0, 0.0)",positive,Objektivan,Nije pozitivan,Nije negativan
-ENG30-04682462-n,mali kontrastni deo nečega,"['mrlja', 'pega']","(0.0, 0.0)",negative,Objektivan,Nije pozitivan,nije negativan
-ENG30-04316646-n,Stražnja strana broda.,['krma'],"(0.0, 0.0)",negative,Objektivan,Nije pozitivan,Nije negativan
-ENG30-13943400-n,poseban splet okolnosti,['slučaj'],"(0.0, 0.0)",negative,Objektivan,Nije pozitivan,Nije negativan
-ENG30-02684924-v,"Nastaviti određeno stanje, uslov ili aktivnost.",['nastaviti'],"(0.0, 0.0)",positive,Objektivan,Nijedan    O,Nije negativan
 ENG30-03016953-n,visok elegantan sanduk sa fiokama,"['komoda', 'kredenac', 'orman', 'ormar']","(0.0, 0.0)",positive,Pozitivan,Veoma pozitivan    O,Nije negativan
 ENG30-07592094-n,"komadi piletine ili drugog mesa dinstani sa npr. šargarepom, lukom i služe se sa rezancima ili knedlama",['paprikaš'],"(0.0, 0.0)",negative,Pozitivan,Umjereno pozitivan,Nije negativan
 ENG30-00654885-n,Rad koji uključuje brigu i pažnju o nekome ili neyemu.,"['nega', 'staranje']","(0.0, 0.0)",positive,Pozitivan,Umereno pozitivan,Nije negativan
@@ -84,5 +74,3 @@ ENG30-00429048-n,Zabava koja drži pažnju.,"['zabava', 'razonoda']","(0.0, 0.0)
 ENG30-04831727-n,Osobina nekog ko je voljan da podari novac ili vreme.,"['velikodušnost', 'darežljivost']","(0.0, 0.0)",positive,Pozitivan,Umjereno pozitivan,Nije negativan
 ENG30-07497797-n,naklonjenost prema nečemu,"['dopadanje', 'pristrasnost']","(0.0, 0.0)",negative,Pozitivan,umjereno pozitivan,Nije negativan
 ENG30-00719231-v,pozitivno na šta reagovati; ispravnim i pravilnim smatrati,"['podržati', 'podržavati', 'prihvatati', 'prihvatiti', 'primati', 'primiti']","(0.0, 0.0)",positive,Pozitivan,Veoma pozitivan,Nije negativan
-ENG30-02129709-v,"videti i razumjeti, imati dobro oko","['gledati', 'otkriti', 'pogledati', 'uočavati', 'uočiti', 'videti']","(0.0, 0.0)",positive,Pozitivan,Umereno pozitivan,Nije negativan
-ENG30-00748307-n,raspojasano zadovoljavanje čulnih prohteva,"['blud', 'ekstravagancija', 'proždrljivost', 'raspojasanost', 'razuzdanost', 'razvrat']","(0.0, 0.0)",negative,Pozitivan,Umjereno pozitivan,Nije negativan
