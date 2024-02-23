@@ -230,28 +230,22 @@ test_prompt_negative_sr2 = """
     """
 
 
-def test_old():
-    word_list = ["sreća", "bol", "radost", "tuga", "ljubav", "mržnja", "sloboda", "zatvor", "život", "smrt"]
+def irregular_sinset_senttiment(sample_size, model_name, promp_template, output_file):
 
-    text_list = get_def_by_words(word_list)
-    #remove empty strings
-    text_list = list(filter(None, text_list))
-
-
-    print("Analised texts saved as sentiment.csv")
     list_synsets = load_converted_synsets_from_file("converted_synsets")
-    #get random sample of 500 synsets from list
-    sample_synsets = random.sample(list_synsets, 500)
+    #get random sample from synsets from list
+    sample_synsets = random.sample(list_synsets, sample_size)
     
-    sa = SentimentAnaliser("mistralai/Mistral-7B-Instruct-v0.2", PromptTemplate.from_template(test_prompt_sr))
-    save_sentment_list_as_cvs(text_list, sa, "sentiment.csv")
+    sa = SentimentAnaliser(model_name, PromptTemplate.from_template(promp_template))
 
+    output_file_csv = output_file + ".csv"
+    output_file_json = output_file + ".json"
     for synset in tqdm(sample_synsets, desc="Processing synsets"):
         synset["sentiment_sa"] = sa.analyze(synset["definition"])
-    with open("sample_synsets2.json", 'w',encoding="utf-8") as f:
+    with open(output_file_json, 'w',encoding="utf-8") as f:
         f.write(json.dumps(sample_synsets, indent=4)) 
     dataset = pd.DataFrame(sample_synsets)
-    dataset.to_csv("sample_synsets2.csv", sep="¦", index=False)
+    dataset.to_csv(output_file_csv, index=False)
 
 def test_lmm():
     word_list = ["sreća", "bol", "radost", "tuga", "ljubav", "mržnja", "sloboda", "zatvor", "život", "smrt"]
@@ -361,14 +355,14 @@ def test_finetune():
     sa = SentimentAnaliser("mistralai/Mistral-7B-Instruct-v0.2", PromptTemplate.from_template(test_prompt_negative_sr), max_new_tokens=9)
     save_sentment_list_as_cvs(text_list, sa, "sentiment_negative.csv")
 
-def main():
+def process_samples(input_file, output_file, number_of_samples):
     #load dataframe from file
-    df = pd.read_csv("sample_synsets2_fix.csv")
+    df = pd.read_csv(input_file)
     #remove duplicates
     df = df.drop_duplicates(subset=["ILI"])
 
     #get balanced sample of 25 synsets for each sentiment
-    df_sample = get_balanced_sample(df, "sentiment_sa", 25)
+    df_sample = get_balanced_sample(df, "sentiment_sa", number_of_samples)
 
     #create positive sentiment analiser
     sa = SentimentAnaliser("mistralai/Mistral-7B-Instruct-v0.2", PromptTemplate.from_template(test_prompt_positive_sr), max_new_tokens=9)
@@ -379,8 +373,10 @@ def main():
     #apply sentiment analiser to dataframe
     apply_sentiment_analiser_to_dataframe(df_sample, sa, "definition", "sentiment_sa_negative")
     #save dataframe to file
-    df_sample.to_csv("balanced_sample2.csv", index=False)
+    df_sample.to_csv(output_file, index=False)
 
-
+def main():
+    irregular_sinset_senttiment(1000, "mistralai/Mistral-7B-Instruct-v0.2", test_prompt_sr, "sample_synsets3")
+    process_samples("sample_synsets3.cvs", "sample_synsets3_processed.csv", 50)
 if __name__ == "__main__":
     main()
