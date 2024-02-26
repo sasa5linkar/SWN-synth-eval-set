@@ -376,7 +376,7 @@ def process_samples(input_file, output_file, number_of_samples):
     df_sample.to_csv(output_file, index=False)
 
 def main():
-    irregular_sinset_senttiment(1000, "mistralai/Mistral-7B-Instruct-v0.2", test_prompt_sr, "sample_synsets3")
-    process_samples("sample_synsets3.cvs", "sample_synsets3_processed.csv", 50)
+    #irregular_sinset_senttiment(1500, "mistralai/Mistral-7B-Instruct-v0.2", test_prompt_sr, "sample_synsets3")
+    process_samples("sample_synsets3.csv", "sample_synsets3_processed.csv", 50)
 if __name__ == "__main__":
     main()
