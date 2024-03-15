@@ -1,6 +1,6 @@
 # **Creating a Synthetic Evaluation Dataset for Serbian SentiWordNet Using Large Language Models**
 
-**Abstract.** This study introduces the creation of a synthetic evaluation dataset for Serbian SentiWordNet through the application of Large Language Models (LLMs), with a focus on the Mistral model. Confronting the significant scarcity of sentiment analysis resources for the Serbian language, this research endeavours to bridge this gap by generating a dataset that supports the evaluation and improvement of sentiment analysis tools tailored to Serbian. Employing a rigorous methodology, 500 synsets were initially selected from Serbian WordNet based on their alignment with the _senti-pol-sr_ lexicon. These synsets were subjected to sentiment polarity classification via the Mistral model. A balanced subset of 75 synsets was then randomly extracted and subjected to finer sentiment gradation, followed by a thorough manual review. The study's findings reveal a high degree of model reliability, with approximately 93.3% of the responses fulfilling the established acceptability criteria. This outcome highlights the efficacy of LLMs like Mistral in automating sentiment analysis processes for languages with limited resources, underscoring the significant potential for broader application in under-represented linguistic contexts.
+**Abstract.** This study introduces the creation of a synthetic evaluation dataset for Serbian SentiWordNet through the application of Large Language Models (LLMs), with a focus on the Mistral model. Confronting the significant scarcity of sentiment analysis resources for the Serbian language, this research endeavours to bridge this gap by generating a dataset that supports the evaluation and improvement of sentiment analysis tools tailored to Serbian. Within Serbian WordNet, sentiment polarity values were automatically mapped from the English SentiWordNet using the Inter-Lingual Index (ILI). To refine these values for better alignment with the Serbian language context, an evaluation set was created. Employing a rigorous methodology, 500 synsets were initially selected from Serbian WordNet based on their alignment with the _senti-pol-sr_ lexicon and values mapped from SentiWordNet. These synsets were subjected to sentiment polarity classification via the Mistral model. A balanced subset of 75 synsets was then randomly extracted and subjected to finer sentiment gradation, followed by a thorough manual review. The study's findings reveal a high degree of model reliability, with approximately 93.3% of the responses fulfilling the established acceptability criteria. This outcome highlights the efficacy of LLMs like Mistral in automating sentiment analysis processes for languages with limited resources, underscoring the significant potential for broader application in under-represented linguistic contexts.
 
 ## **Introduction**
 
@@ -20,11 +20,31 @@ Creating a comparable evaluation dataset for the Serbian language manually would
 
 Synthetic evaluation datasets are artificially created collections of data designed to test and validate computational models, particularly in domains where real-world data may be scarce, biased, or too sensitive to use. These datasets are generated through algorithms or simulations that aim to mimic the statistical properties of real data, allowing researchers to conduct robust evaluations under controlled conditions (Lu et al., 2024).
 
-The advent of Large Language Models (LLMs) had allowed for creation of much better synthetic datasets. For purposes of NLP tasks, among them sentiment analysis, LLMs have proven that can perform adequate annotation with just a few examples (Brown et al., 2020).
+The advent of **Large Language Models** (LLMs) had allowed for creation of much better synthetic datasets. For purposes of NLP tasks, among them sentiment analysis, LLMs have proven that can perform adequate annotation with just a few examples (Brown et al., 2020).
+
+**Zero-shot Learning** involves the model making predictions or annotations without having seen any explicit examples of the task during training. This capability is particularly useful for sentiment analysis in languages or contexts where annotated data are scarce, as it allows the LLM to apply its pre-existing knowledge to new, unseen tasks (Brown et al., 2020).
+
+**Few-shot Learning**, on the other hand, provides the model with a small number of examples from which it can learn to perform a task. This approach is especially advantageous for refining the model's understanding and increasing its accuracy in specific applications, such as distinguishing nuanced sentiment expressions (Brown et al., 2020)..
+
+The utilization of **Prompts and Responses** with LLMs enables these learning paradigms to be applied effectively. By crafting prompts that guide the model towards the desired output, researchers can leverage the LLM's capabilities for sentiment analysis. This involves providing a prompt that clearly states the task, such as identifying the sentiment of a given text, and then allowing the model to generate a response based on its training and the context provided by the prompt. Such an approach has been instrumental in harnessing the power of LLMs for detailed sentiment analysis, offering a flexible and efficient method for analysing sentiment across diverse datasets(Brown et al., 2020)..
 
 This raises the question of whether LLMs could be employed not just to create an evaluation dataset, but to annotate the entirety of Serbian WordNet with sentiment polarity values. The decision to focus on creating a small evaluation dataset stems from the prohibitive computational expense associated with annotating the entire network.
 
-The solution proposed here is to synthetic dataset, a set of synsets annotated by an LLM.
+The proposed solution entails the creation of a synthetic dataset comprising synsets annotated by a LLM. The primary motivation behind this approach is to enhance the existing sentiment values in Serbian WordNet, particularly targeting synsets whose corresponding words are identified with specific polarity in a sentiment lexicon derived from Serbian corpora but are mapped as purely objective in sentiment.
+
+To achieve a balanced sample conducive to effective evaluation, especially in the later application of machine learning models for sentiment classification, a set of 500 synsets was randomly selected and processed using the Mistral model. This initial processing aimed to categorize the synsets into positive, negative, and objective sentiment groups. Subsequently, an equal number of synsets from each sentiment category were chosen for finer gradation.
+
+The results underwent a manual annotation process, where each synset, along with the values returned by the LLM, was assessed and assigned a simple 'pass' or 'fail' grade based on their alignment with the expected sentiment annotations.
+
+Originally, the methodology was designed to incorporate a few-shot learning approach for fine sentiment gradation, utilizing examples from synsets not selected for the primary dataset—specifically, those synsets that exhibited consistent sentiment values across both Serbian and English SWN. However, the preliminary results obtained through the zero-shot approach were found to be sufficiently satisfactory, rendering the few-shot component unnecessary. Consequently, the study proceeded exclusively with the zero-shot learning paradigm, where the Mistral model was applied without prior examples specific to the task of sentiment analysis.
+
+Manual annotation of the outputs confirmed the validity of this streamlined approach. The zero-shot methodology demonstrated a remarkable success rate of over ninety percent, affirmatively showing that even without the inclusion of few-shot learning and the additional context it provides, the LLM could effectively discern and classify sentiment within the selected Serbian synsets.
+
+The LLM primary used in this research is **Mistral 7B – Instruct.** That fine tuned variant of **Mistral 7B**, a 7-billion-parameter language model designed for superior performance and efficiency. It outperforms the **Llama 2 13B** model across various benchmarks. Notably, it surpasses **Llama 1 34B** in reasoning, mathematics, and code generation (Jiang et al., 2023).
+
+The variant used here, **Mistral 7B – Instruct,** also outperforms the **Llama 2 13B – Chat** model on both human and automated benchmarks (Jiang et al., 2023).
+
+Released under the Apache 2.0 license, the model offers a flexible tool for researchers, with the capability of being run locally without incurring costs (Jiang et al., 2023).
 
 ## Methodology
 
@@ -36,23 +56,19 @@ Three primary reasons are posited for discrepancies between the sentiment values
 
 The initial analysis identified 2,956 synsets within the Serbian WordNet that contained literals annotated with clear polarity in the **senti-pol-sr** lexicon, with 1,511 exhibiting positive sentiment and 1,445 negative. Given the substantial volume, processing all these synsets with LLM was deemed impractical. Consequently, a random sample of 500 synsets was selected for further investigation.
 
-The LLM primary used in this research is **Mistral 7B – Instruct.** That fine tuned variant of **Mistral 7B**, a 7-billion-parameter language model designed for superior performance and efficiency. It outperforms the **Llama 2 13B** model across various benchmarks. Notably, it surpasses **Llama 1 34B** in reasoning, mathematics, and code generation (Jiang et al., 2023).
-
-The variant used here, **Mistral 7B – Instruct,** also outperforms the **Llama 2 13B – Chat** model on both human and automated benchmarks (Jiang et al., 2023).
-
-Released under the Apache 2.0 license, the model offers a flexible tool for researchers, with the capability of being run locally without incurring costs (Jiang et al., 2023).
-
 For the sake of creating balanced set of samples, definitions from random sample of 500 synsets were processed using LangChain Python library, a powerful tool for creating, experimenting with, and analysing language models and agents (Chase, 2022).
 
 The LangChain Python library serves as wrapper for several LLM modules. In this work this Hugging Fade Hub and Transformer.
 
-The chain used in this research was simple containing of just one prompt template with one input variable – the definition of synset.
+The chain used in this research was simple containing of just one prompt template with one input variable – the definition of synset, and Mistral 7B – Instruct model downloaded from Hugging Face Hub. The model was executed on local machine.
+
+The LangChain language chain allow for prompt template with variables, which are marked by curly brackets, to be invoked with values of those variables, sent to LMM module, returning the response.
 
 Using appropriate prompt as shown, the sample was divided into those marked positive, negative, objective and those not properly marked. There was 290 objective, 102 negative, 33 positive and 75 errors.
 
-The prompt used for classification was refined through experimental testing on a smaller subset of synset definitions. Comparative analyses of texts in English and Serbian revealed that Serbian-language texts yielded more accurate results. To ensure comprehensive coverage of potential responses, the number of output tokens was set to five.
+The prompt used for classification was refined through experimental testing on a smaller subset of synset definitions. Comparative analyses of prompt instruction texts in English and Serbian revealed that Serbian-language prompt instruction yielded more accurate results. To ensure comprehensive coverage of potential responses, the number of output tokens was set to five.
 
-Further examination had shown that duplicates exist within the set, due some differing words from the lexicon refer to same synsets. After removing duplicates the, 279 objective, 97 negative and 27 positive. At this juncture that was no reason to count improperly marked.
+Further examination had shown that duplicates exist within the set, due some differing words from the lexicon refer to same synsets. After removing duplicates, 279 objective, 97 negative and 27 positive. At this juncture that was no reason to count improperly marked.
 
 To facilitate more detailed sentiment analysis, a random subset comprising 25 synsets from each sentiment category was selected, forming what is referred to as the "balanced sample."
 
@@ -98,11 +114,40 @@ _Negativan sentiment:_
 
 Prompt template for fine marking of negative sentiment
 
-For each definition in balances set, two values were assigned in that way. In intention of prompt templates design limits answers to set of responses. For positive: "nije pozitivan", "slabo pozitivan", "umereno pozitivan", "veoma pozitivan", ili "ekstremno pozitivan". And for negative: "nije negativan", "slabo negativan", "umereno negativan", "veoma negativan", ili "ekstremno negativan".
+For each definition in balances set, two values were assigned in that way. In intention of prompt templates design limits answers to set of responses.
 
-Resulting dataset is stored in form coma separate values file<sup>[\[2\]](#footnote-2)</sup>.
+For positive:
 
-Due the limited number of samples, 75 in total, it was possible to preform manual evaluation on the whole set.
+- "nije pozitivan" (not positive)
+- "slabo pozitivan" (slightly positive)
+- "umereno pozitivan" (moderately positive)
+- "veoma pozitivan" (very positive)
+- "ekstremno pozitivan" (extremely positive)
+
+For negative:
+
+- "nije negativan" (not negative)
+- "slabo negativan" (slightly negative)
+- "umereno negativan" (moderately negative)
+- "veoma negativan" (very negative)
+- "ekstremno negativan" (extremely negative)
+
+Top of Form
+
+Resulting dataset is stored in form coma separated values file<sup>[\[2\]](#footnote-2)</sup>.
+
+Columns in that file are as follows:
+
+- **ILI**: Inter-Lingual Index, which connects the synset to its equivalents in other languages' WordNets.
+- **Definition**: The gloss of the synset, providing its meaning or explanation.
+- **Lemma_names**: The lemmas (base forms) of the words contained within the synset.
+- **Sentiment_SWN**: The sentiment value mapped from SentiWordNet (SWN), indicating the original sentiment score in the English version.
+- **Sentiment_lexicon**: The sentiment value derived from a sentiment lexicon created for the Serbian language, reflecting local sentiment nuances.
+- **Sentiment_sa**: The initial classification by the Large Language Model, categorizing the sentiment as positive, negative, or neutral.
+- **Sentiment_sa_positive**: Fine-grained sentiment classification for positive sentiment, indicating the degree of positivity ranging from "not positive" to "extremely positive."
+- **Sentiment_sa_negative**: Fine-grained sentiment classification for negative sentiment, indicating the degree of negativity ranging from "not negative" to "extremely negative."
+
+Due the limited number of samples, 75 in total, it was possible to preform manual evaluation on the whole set. This assessment was facilitated using Visual Studio Code's Data Wrangler extension, a tool that enabled a detailed comparison between the synset definitions and their corresponding fine-grained sentiment responses.
 
 ## Results
 
@@ -143,11 +188,20 @@ Furthermore, there no instances of ether slightly positive or slightly negative 
 
 For content there were two synsets clearly incorrectly marked, and three that are questionable.
 
-BILI-00000941, synset meaning specific kind of mourning, characteristic for Serbia, involving loud wailing and sombre singing. It is marked as purely objective (not positive not negative), white it is obviously negative sentiment, even strongly negative.
+Cleary incorrect are:
 
-ENG30-04525038-n, synset meaning corduroy, which is marked a mildly positive. As type of textile, it should be objective.
+- **BILI-00000941**, synset meaning specific kind of mourning, characteristic for Serbia, involving loud wailing and sombre singing. It is marked as purely objective (not positive not negative), white it is obviously negative sentiment, even strongly negative.
+- **ENG30-04525038-n**, synset meaning corduroy, which is marked a mildly positive. As type of textile, it should be objective.
 
-For that are questionable are ENG30-01215137-v (“arrested”) as mildly negative, ENG30-00309647-n (“expedition”) as very positive and ENG30-03135152-n (“Christian cross”) as very positive.
+For that are questionable are **ENG30-01215137-v** (“arrested”) as mildly negative, **ENG30-00309647-n** (“expedition”) as very positive and **ENG30-03135152-n** (“Christian cross”) as very positive.
+
+Given the substantial number of synsets accurately labelled throughout our sentiment analysis process, we present a selection of illustrative examples below. These examples are intended to demonstrate the criteria for what is considered correct labelling in the sentiment classifications of positive, negative, and neutral sentiments.
+
+Examples:
+
+- **ENG30-01220336-n**: Synset associated with actions like 'kleveta' (defamation), 'klevetanje' (slander), and 'omalovažavanje' (disparagement), described as "oštar napad na čiju ličnost ili dobro ime" (a harsh attack on someone's personality or good name). This synset's sentiment was finely graded as "Nije pozitivan" (Not positive), reflecting the absence of positive sentiment, and more precisely, "Ekstremno negativan" (Extremely negative), accurately capturing the negative connotations of the described actions.
+- **ENG30-06828389-n**: This synset refers to "karakter nalik na zvezdu (\*) koji se koristi u štampanim tekstovima" (a character resembling a star (\*) used in printed texts), with lemma names including 'asterisk', 'zvezdica' (little star), and 'zvezda' (star). The sentiment for this synset was precisely classified as "Nije pozitivan" (Not positive) and "Nije negativan" (Not negative), indicating its objective nature without inherent positive or negative sentiment.
+- **ENG30-10407310-n**: Pertains to "onaj koji voli i brini svoju zemlju" (one who loves and defends their country), with lemma names including 'domoljub' (patriot), 'patriota' (patriot), and 'rodoljub' (patriot). This synset's sentiment was finely graded as "Veoma pozitivan" (Very positive) and "Nije negativan" (Not negative), effectively capturing the positive connotations associated with patriotism.
 
 ## Conclusion
 
