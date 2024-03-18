@@ -1,5 +1,7 @@
 # **Creating a Synthetic Evaluation Dataset for Serbian SentiWordNet Using Large Language Models**
 
+Creating a Synthetic Evaluation Dataset for Serbian SentiWordNet Using Large Language Models
+
 **Abstract.** This study introduces the creation of a synthetic evaluation dataset for Serbian SentiWordNet through the application of Large Language Models (LLMs), with a focus on the Mistral model. Confronting the significant scarcity of sentiment analysis resources for the Serbian language, this research endeavours to bridge this gap by generating a dataset that supports the evaluation and improvement of sentiment analysis tools tailored to Serbian. Within Serbian WordNet, sentiment polarity values were automatically mapped from the English SentiWordNet using the Inter-Lingual Index (ILI). To refine these values for better alignment with the Serbian language context, an evaluation set was created. Employing a rigorous methodology, 500 synsets were initially selected from Serbian WordNet based on their alignment with the _senti-pol-sr_ lexicon and values mapped from SentiWordNet. These synsets were subjected to sentiment polarity classification via the Mistral model. A balanced subset of 75 synsets was then randomly extracted and subjected to finer sentiment gradation, followed by a thorough manual review. The study's findings reveal a high degree of model reliability, with approximately 93.3% of the responses fulfilling the established acceptability criteria. This outcome highlights the efficacy of LLMs like Mistral in automating sentiment analysis processes for languages with limited resources, underscoring the significant potential for broader application in under-represented linguistic contexts.
 
 ## **Introduction**
@@ -20,13 +22,13 @@ Creating a comparable evaluation dataset for the Serbian language manually would
 
 Synthetic evaluation datasets are artificially created collections of data designed to test and validate computational models, particularly in domains where real-world data may be scarce, biased, or too sensitive to use. These datasets are generated through algorithms or simulations that aim to mimic the statistical properties of real data, allowing researchers to conduct robust evaluations under controlled conditions (Lu et al., 2024).
 
-The advent of **Large Language Models** (LLMs) had allowed for creation of much better synthetic datasets. For purposes of NLP tasks, among them sentiment analysis, LLMs have proven that can perform adequate annotation with just a few examples (Brown et al., 2020).
+The advent of **Large Language Models** (LLMs) had allowed for creation of much better synthetic datasets. For purposes of NLP tasks, among them sentiment analysis, LLMs have proven that can perform adequate annotation with just a few examples (Amatriain, 2024; Brown et al., 2020).
 
-**Zero-shot Learning** involves the model making predictions or annotations without having seen any explicit examples of the task during training. This capability is particularly useful for sentiment analysis in languages or contexts where annotated data are scarce, as it allows the LLM to apply its pre-existing knowledge to new, unseen tasks (Brown et al., 2020).
+**Zero-shot Learning** involves the model making predictions or annotations without having seen any explicit examples of the task during training. This capability is particularly useful for sentiment analysis in languages or contexts where annotated data are scarce, as it allows the LLM to apply its pre-existing knowledge to new, unseen tasks (Amatriain, 2024; Brown et al., 2020).
 
-**Few-shot Learning**, on the other hand, provides the model with a small number of examples from which it can learn to perform a task. This approach is especially advantageous for refining the model's understanding and increasing its accuracy in specific applications, such as distinguishing nuanced sentiment expressions (Brown et al., 2020)..
+**Few-shot Learning**, on the other hand, provides the model with a small number of examples from which it can learn to perform a task. This approach is especially advantageous for refining the model's understanding and increasing its accuracy in specific applications, such as distinguishing nuanced sentiment expressions (Brown et al., 2020).
 
-The utilization of **Prompts and Responses** with LLMs enables these learning paradigms to be applied effectively. By crafting prompts that guide the model towards the desired output, researchers can leverage the LLM's capabilities for sentiment analysis. This involves providing a prompt that clearly states the task, such as identifying the sentiment of a given text, and then allowing the model to generate a response based on its training and the context provided by the prompt. Such an approach has been instrumental in harnessing the power of LLMs for detailed sentiment analysis, offering a flexible and efficient method for analysing sentiment across diverse datasets(Brown et al., 2020)..
+The utilization of **Prompts and Responses** with LLMs enables these learning paradigms to be applied effectively. By crafting prompts that guide the model towards the desired output, researchers can leverage the LLM's capabilities for sentiment analysis. This involves providing a prompt that clearly states the task, such as identifying the sentiment of a given text, and then allowing the model to generate a response based on its training and the context provided by the prompt. Such an approach has been instrumental in harnessing the power of LLMs for detailed sentiment analysis, offering a flexible and efficient method for analysing sentiment across diverse datasets (Amatriain, 2024).
 
 This raises the question of whether LLMs could be employed not just to create an evaluation dataset, but to annotate the entirety of Serbian WordNet with sentiment polarity values. The decision to focus on creating a small evaluation dataset stems from the prohibitive computational expense associated with annotating the entire network.
 
@@ -65,6 +67,12 @@ The chain used in this research was simple containing of just one prompt templat
 The LangChain language chain allow for prompt template with variables, which are marked by curly brackets, to be invoked with values of those variables, sent to LMM module, returning the response.
 
 Using appropriate prompt as shown, the sample was divided into those marked positive, negative, objective and those not properly marked. There was 290 objective, 102 negative, 33 positive and 75 errors.
+
+To harness the full capabilities of the LLM for sentiment analysis, the prompt was meticulously designed to encapsulate three essential elements: role playing, clear instructions, and expected outcomes.
+
+1. **Role Playing - Instructing LLM as an Expert**: The prompt initiates with a role-playing scenario, instructing the LLM to assume the role of an expert in sentiment analysis. This approach was adopted to prime the model’s response generation towards a more analytical and focused examination of the text, drawing on its extensive pre-trained knowledge and understanding of sentiment analysis nuances.
+2. **Clear Instructions**: The essence of effective communication with an LLM lies in the clarity of instructions. The prompt explicitly details the task at hand, guiding the LLM to identify and analyse the sentiment expressed in a given piece of text (synset definition). This clarity ensures that the model’s analytical capabilities are directed towards accurately assessing sentiment, minimizing ambiguity in its responses.
+3. **Expected Outcomes**: To further refine the model’s output, the prompt delineates the expected outcomes of the analysis. It specifies the desired format of the response, whether it be a sentiment classification (positive, negative, neutral) or a more nuanced sentiment rating.
 
 The prompt used for classification was refined through experimental testing on a smaller subset of synset definitions. Comparative analyses of prompt instruction texts in English and Serbian revealed that Serbian-language prompt instruction yielded more accurate results. To ensure comprehensive coverage of potential responses, the number of output tokens was set to five.
 
@@ -147,7 +155,7 @@ Columns in that file are as follows:
 - **Sentiment_sa_positive**: Fine-grained sentiment classification for positive sentiment, indicating the degree of positivity ranging from "not positive" to "extremely positive."
 - **Sentiment_sa_negative**: Fine-grained sentiment classification for negative sentiment, indicating the degree of negativity ranging from "not negative" to "extremely negative."
 
-Due the limited number of samples, 75 in total, it was possible to preform manual evaluation on the whole set. This assessment was facilitated using Visual Studio Code's Data Wrangler extension, a tool that enabled a detailed comparison between the synset definitions and their corresponding fine-grained sentiment responses.
+Due the limited number of samples, 75 in total, it was possible to preform manual evaluation on the whole set. This assessment was facilitated using Visual Studio Code's Data Wrangler extension<sup>[\[3\]](#footnote-3)</sup>, a tool that enabled a detailed comparison between the synset definitions and their corresponding fine-grained sentiment responses.
 
 ## Results
 
@@ -240,3 +248,5 @@ Stanković, R., Košprdić, M., Ikonić Nešić, M., & Radović, T. (2022). Sent
 1. <https://github.com/aesuli/Sentiwordnet/blob/master/data/Micro-WNop-WN3.txt> [↑](#footnote-ref-1)
 
 2. [https://github.com/sasa5linkar/SWN-synth-eval-set/blob/main/balanced_](https://github.com/sasa5linkar/SWN-synth-eval-set/blob/main/balanced_sample2.csv)[sample2](https://github.com/sasa5linkar/SWN-synth-eval-set/blob/main/balanced_sample2.csv).csv [↑](#footnote-ref-2)
+
+3. [microsoft/vscode-data-wrangler (github.com)](https://github.com/microsoft/vscode-data-wrangler) [↑](#footnote-ref-3)
