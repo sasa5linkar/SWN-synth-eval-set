@@ -1,0 +1,94 @@
+{
+  "input_file": "E:\\Github\\SWN-synth-eval-set\\balanced_sample2.csv",
+  "annotated_file": "E:\\Github\\SWN-synth-eval-set\\mistral-small3.2_balanced_sample2_ollama_fewshot.csv",
+  "model": "mistral-small3.2:latest",
+  "total_rows": 75,
+  "input_rows": 75,
+  "succeeded_rows": 75,
+  "failed_rows": 0,
+  "positive_value_counts": {
+    "nije pozitivan": 54,
+    "pozitivan": 15,
+    "veoma pozitivan": 2,
+    "slabo pozitivan": 3,
+    "ekstremno pozitivan": 1
+  },
+  "negative_value_counts": {
+    "ekstremno negativan": 5,
+    "nije negativan": 60,
+    "negativan": 3,
+    "veoma negativan": 4,
+    "slabo negativan": 3
+  },
+  "original_sentiment_sa_counts": {
+    "Negativan": 25,
+    "Objektivan": 25,
+    "Pozitivan": 25
+  },
+  "positive_negative_crosstab": {
+    "nije pozitivan": {
+      "ekstremno negativan": 5,
+      "nije negativan": 39,
+      "negativan": 3,
+      "veoma negativan": 4,
+      "slabo negativan": 3
+    },
+    "pozitivan": {
+      "nije negativan": 15
+    },
+    "veoma pozitivan": {
+      "nije negativan": 2
+    },
+    "slabo pozitivan": {
+      "nije negativan": 3
+    },
+    "ekstremno pozitivan": {
+      "nije negativan": 1
+    }
+  },
+  "grouped_by_original_sentiment_sa": {
+    "Pozitivan": {
+      "rows": 25,
+      "succeeded": 25,
+      "failed": 0,
+      "ollama_positive_value": {
+        "pozitivan": 14,
+        "nije pozitivan": 5,
+        "veoma pozitivan": 2,
+        "slabo pozitivan": 3,
+        "ekstremno pozitivan": 1
+      },
+      "ollama_negative_value": {
+        "nije negativan": 25
+      }
+    },
+    "Negativan": {
+      "rows": 25,
+      "succeeded": 25,
+      "failed": 0,
+      "ollama_positive_value": {
+        "nije pozitivan": 25
+      },
+      "ollama_negative_value": {
+        "ekstremno negativan": 5,
+        "nije negativan": 10,
+        "negativan": 3,
+        "veoma negativan": 4,
+        "slabo negativan": 3
+      }
+    },
+    "Objektivan": {
+      "rows": 25,
+      "succeeded": 25,
+      "failed": 0,
+      "ollama_positive_value": {
+        "nije pozitivan": 24,
+        "pozitivan": 1
+      },
+      "ollama_negative_value": {
+        "nije negativan": 25
+      }
+    }
+  },
+  "failed_ili": []
+}

@@ -1,0 +1,226 @@
+ILI,definition,lemma_names,sentiment_SWN,sentiment_lexicon,sentiment_sa,sentiment_sa_sample_group
+ENG30-08287436-n,fakultet i studenti škole koja se specijalizira za jednu od lepih umetnosti,"['akademija', 'konzervatorijum']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-01688589-n,"Lepih i živih boja, jedan od najl;epših tropskih guštera; živi na Sundskim ostrvima i na poluostrvu Malaka; hrani se insektima.",['zmaj'],"(0.0, 0.0)",negative,Pozitivan,Pozitivan
+ENG30-01140658-n,mandat koji se daje vladi i njenoj politici putem izborne pobede,"['mandat', 'ovlašćenje', 'punomoć']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-00418364-a,potpuno uredan i čist,"['besprekoran', 'čist', 'neumrljan', 'uredan']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-01375831-a,opšte prihvaćen i uvažen,"['slavan', 'poznat', 'čuven', 'značajan', 'renomiran', 'priznat', 'proslavljen']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-09871364-n,Čovek koji je ljubavnik devojci ili mladoj ženi.,"['dečko', 'momak']","(0.0, 0.0)",negative,Pozitivan,Pozitivan
+ENG30-02729965-n,uređaj koji je veoma koristan za određeni posao,"['alat', 'aparat', 'gadžet', 'kucni aparat', 'mašina', 'naprava', 'pribor', 'sprava', 'sredstvo']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-04714156-n,kvalitet saglasnosti - biti prikladan i odgovarajući,"['kongruencija', 'odgovaranje', 'paralelizam', 'prikladnost']","(0.0, 0.0)",negative,Pozitivan,Pozitivan
+ENG30-09622928-n,Voljena osoba; koristi se u izrazima od milja.,"['voljeni', 'voljena', 'dragan', 'dragana', 'ljubav', 'cakan', 'cakana']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-00719231-v,pozitivno na šta reagovati; ispravnim i pravilnim smatrati,"['podržati', 'podržavati', 'prihvatati', 'prihvatiti', 'primati', 'primiti']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-03938244-n,jastuk za podršku glave osobe koja spava,['jastuk'],"(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-13972797-n,Remećenje mira ili javnog red.,"['nered', 'izgred']","(0.0, 0.0)",negative,Pozitivan,Pozitivan
+ENG30-00867231-v,prekrstiti nekoga (učiniti znak krsta preko nekoga) da bi se nad tom osobom prizvala Božija zaštitila,"['blagosloviti', 'blagosiljati', 'blagoslivati']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-01983162-a,koji zaslužuje uvažavanje i poštovanje,"['častan', 'dobar', 'dobronameran', 'moralan', 'pošten', 'poštovan', 'pouzdan', 'siguran', 'ugledan', 'uredan', 'uvažen']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-04074482-n,Terapija koja leči bolest ili ublažava bol.,"['lek', 'kura']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-02160779-v,"Svetleti sjajno, kao zvezda ili svetlo.","['svetleti', 'sijati']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-14437976-n,visok stepen poštovanja stečen impresivnim poduhvatima ili postignućima,"['divljenje', 'poštovanje', 'respekt', 'uvažavanje']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-00053691-a,"onaj koji poseduje svojstvo lepljenja, priljubljivanja","['lepljiv', 'prionljiv']","(0.0, 0.0)",negative,Pozitivan,Pozitivan
+ENG30-05943066-n,Potpuno verovanje u osobu ili plan itd.,"['vera', 'poverenje']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-00183090-b,(za naglašavanje značenja) izuzetno dobro,"['predivno', 'čudesno', 'sjajno', 'izvrsno', 'vrhunski', 'veličanstveno', 'izvanredno']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-10694258-n,Osoba čije je zanimanje da predaje.,['predavač'],"(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-01887896-n,Mladunče domaće životinje - krave.,['tele'],"(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-09871364-n,Čovek koji je ljubavnik devojci ili mladoj ženi.,"['dečko', 'momak']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-08643933-n,sigurno mesto,"['utočište', 'pribežište']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-14438898-n,povoljna javna reputacija,"['dobar glas', 'obožavanje', 'popularnost', 'respekt', 'slava', 'ugled']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-14437976-n,visok stepen poštovanja stečen impresivnim poduhvatima ili postignućima,"['divljenje', 'poštovanje', 'respekt', 'uvažavanje']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-04829282-n,sklonost da se bude ljubazan i milostiv,"['milosrđe', 'milosrdnost', 'milost', 'milostivost', 'samilost', 'velikodušnost']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-04487996-n,Nešto što se daje u znak pobede.,"['trofej', 'odličje']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-00418364-a,potpuno uredan i čist,"['besprekoran', 'čist', 'neumrljan', 'uredan']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-02856286-a,o vrsti pesništva koje izražava emocije (često u vidu pesme) ili koji je povezan sa takvim pesništvom,['lirski'],"(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-00169955-a,onaj koji deluje poput magneta; poseduje sposobnost da namami i privuče;,['privlačan'],"(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-04829282-n,sklonost da se bude ljubazan i milostiv,"['milosrđe', 'milosrdnost', 'milost', 'milostivost', 'samilost', 'velikodušnost']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-03661861-n,rekreativni objekat koji uključuje bazen za vodene sportove,['bazen'],"(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-02729965-n,uređaj koji je veoma koristan za određeni posao,"['alat', 'aparat', 'gadžet', 'kucni aparat', 'mašina', 'naprava', 'pribor', 'sprava', 'sredstvo']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-03135152-n,krst kao znamenje hrišćanstva,['krst'],"(0.0, 0.0)",negative,Pozitivan,Pozitivan
+ENG30-00180413-n,čin prihvatanja i odobravanja; povoljan prijem,"['prihvatanje', 'tolerancija', 'usvajanje']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-11454591-n,izdizanje vodene mase i njeno prelivanje na zemljište koje je obično suvo,"['aluvij', 'aluvijon', 'izlivanje', 'poplava', 'potapanje', 'potop', 'prelivanje']","(0.0, 0.0)",negative,Pozitivan,Pozitivan
+ENG30-04829282-n,sklonost da se bude ljubazan i milostiv,"['milosrđe', 'milosrdnost', 'milost', 'milostivost', 'samilost', 'velikodušnost']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-01983162-a,koji zaslužuje uvažavanje i poštovanje,"['častan', 'dobar', 'dobronameran', 'moralan', 'pošten', 'poštovan', 'pouzdan', 'siguran', 'ugledan', 'uredan', 'uvažen']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-01129977-a,moralno primeran,"['častan', 'dobar', 'primeran', 'ugledan']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-14435445-n,status velike uvaženosti zbog istaknute superiornosti,"['eminencija', 'istaknutost', 'odlika', 'prominentnost', 'reputacija', 'ugled', 'uvaženost']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-07906284-n,žestoko piće dobijeno fermentacijom žitarica,['viski'],"(0.0, 0.0)",negative,Pozitivan,Pozitivan
+ENG30-04634540-n,preplavljen entuzijazmom,"['elan', 'energičnost', 'entuzijazam', 'polet', 'uzbuđenje']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-09622302-n,osoba koja voli ili je voljena,"['ljubavnik', 'ljubavnica']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-00035465-a,Pun aktivnosti ili uključen u neprestane aktivnosti.,['aktivan'],"(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-00309647-n,Putovanje organizovano sa specijalnim ciljem.,['ekspedicija'],"(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-00505410-a,toliko eminentan da je iznad svakog poređenja,"['besprekoran', 'jedinstven', 'neprocenjiv', 'neuporediv']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-00747671-n,neumorno udovoljavanje telesnim apetitima,"['blagoutrobije', 'proždrljivost']","(0.0, 0.0)",negative,Pozitivan,Pozitivan
+ENG30-00272950-a,"of summer nights in northern latitudes where the sun barely sets; ""white nights""",['beo'],"(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-14438898-n,povoljna javna reputacija,"['dobar glas', 'obožavanje', 'popularnost', 'respekt', 'slava', 'ugled']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-04831727-n,Osobina nekog ko je voljan da podari novac ili vreme.,"['velikodušnost', 'darežljivost']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-07452251-n,bogata i spektakularna ceremonija,"['ceremonija', 'parada', 'povorka']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-00748307-n,raspojasano zadovoljavanje čulnih prohteva,"['blud', 'ekstravagancija', 'proždrljivost', 'raspojasanost', 'razuzdanost', 'razvrat']","(0.0, 0.0)",negative,Pozitivan,Pozitivan
+ENG30-00249501-n,postepeno poboljšanje ili rast ili razvoj,"['napredak', 'napredovanje', 'progres', 'unapređenje']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-14435445-n,status velike uvaženosti zbog istaknute superiornosti,"['eminencija', 'istaknutost', 'odlika', 'prominentnost', 'reputacija', 'ugled', 'uvaženost']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-07068900-n,zadovoljstvo sopstvenim (ili tuđim) dostignućima,['ponos'],"(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-00866505-v,dati nekome blagoslov,"['blagosloviti', 'blagosiljati']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-12301180-n,"Zimzeleno drvo sa Mediterana, gaji se od najstarijih vremena; rađa sjajan crni jestivi plod.","['maslina', 'uljika', 'Olea europaea']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-00913551-a,koji ima zelenilo tokom cele godine (o biljkama),['zimzelen'],"(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-05697363-n,Sloboda od sumnje; vera u sebe i svoje sposobnosti.,"['samouverenost', 'samopouzdanje']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-14435445-n,status velike uvaženosti zbog istaknute superiornosti,"['eminencija', 'istaknutost', 'odlika', 'prominentnost', 'reputacija', 'ugled', 'uvaženost']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-01037819-n,Hrišćanska sveta tajna koja znači ponovno duhovno rođenje.,['krštenje'],"(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-04833276-n,kvalitet nesebičnog staranja za dobrobit drugih,"['altruizam', 'nesebičnost', 'velikodušnost']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-01227908-n,čin pokazivanja poštovanja prema drugima,"['ljubaznost', 'pristojnost']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-01150938-n,čin pristajanja (kao što je pristupanje čijim zahtevima),"['pristajanje', 'pristanak']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-06406317-n,"kratka poruka (kao u knjizi, muzičkom delu ili na fotografiji) posvećena nekom ili nečemu",['posveta'],"(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-00654885-n,Rad koji uključuje brigu i pažnju o nekome ili neyemu.,"['nega', 'staranje']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-02108672-n,"Jak, nabjen pas kratke dlake sa velikom glavom i jakom spljoštenom donjom vilivom; vrsta razijena u Engleskoj radi nahuškavanja bikova.","['buldog', 'engleski buldog']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-00561664-a,zadovoljan; koji uživa u blagostanju i zadovoljstvu,['srećan'],"(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-01111016-a,Voljan da podari ili podeli.,"['velikodušan', 'darežljiv']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-06170498-n,"izučavanje tehnika i pravila ya efikasno korišćenje jezika, posebno ya javne nastupe","['retorika', 'govorništvo']","(0.0, 0.0)",negative,Pozitivan,Pozitivan
+ENG30-14437552-n,"stanje kada je neko izuzetno uvažen (cenjen, poštovan ili na dobrom glasu)","['divljenje', 'dobar glas', 'poštovanje', 'reputacija', 'respekt', 'uvažavanje']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-01214171-n,aktivna podrška; naročito čin zauzimanja i argumentovanja u korist koga ili čega,"['advokatura', 'odbrana', 'zauzimanje']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-01111016-a,Voljan da podari ili podeli.,"['velikodušan', 'darežljiv']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-10407310-n,onaj koji voli i brani svoju zemlju,"['domoljub', 'patriota', 'rodoljub']","(0.0, 0.0)",positive,Pozitivan,Pozitivan
+ENG30-01177327-n,"odbijanje da prihvati neki autoritet, kod ili konvencija","['buna', 'neposlušnost', 'pobuna', 'revolt', 'revolucija', 'ustanak']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-00745943-n,loše i okrutno ponašanje,"['nemilosrdnost', 'neumoljivost', 'okrutnost', 'surovost']","(0.0, 0.0)",negative,Negativan,Negativan
+BILI-00000941,"Glasno izražavati žalost, zapevati, tužiti.",['naricati'],"(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-07435533-n,rasprostranjeno širenje infektivne bolesti; mnogo ljudi je zaraženo istovremeno,['epidemija'],"(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-00223983-n,divljačko i prekomerno ubijanje mnogih ljudi,"['klanica', 'klanje', 'krvoproliće', 'masakr', 'pokolj']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-00421590-a,odvratno prljav; prekriven ili zamazan kakvom odvratnom tvari,"['gadan', 'išaran', 'neprijatan', 'odbojan', 'odvratan', 'otužan', 'prašnjav', 'prljav', 'uprašnjavljen', 'uprljan', 'zaprljan']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-00234390-v,ograničiti (školarcima) pravo kretanja na spavaonicu ili kampus kao kaznu,['kazna'],"(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-07277158-n,deo rukopisa koji je kopiran od nekog drugog i predstavljen kao sopstven rad,['plagijat'],"(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-14298247-n,stanje organizma kada prestaje disanje zbog kompresije respiratornih organa,"['strangulacija', 'gušenje', 'strangulatio']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-14475661-n,stanje nesreće ili nevolje,"['nedaća', 'nesreća', 'nevolja', 'tegoba', 'teškoća']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-00770543-n,čin koji zanemaruje kakav raniji dogovor ili čije pravo,"['kršenje', 'napad', 'nepoštovanje', 'povreda', 'prekršaj', 'prestup']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-03064758-n,kutija u kojoj je leš pokopan ili kremiran,"['kovčeg', 'mrtvački kovčeg', 'sanduk']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-01570935-v,Stisnuti nečiji vrat.,"['daviti', 'gušiti']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-01989562-v,uzrokovati da šta pukne,"['razbijati', 'razbiti']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-10210137-n,"osoba koja uzima učešća u oružnaoj pobuni protiv vlasti, posebno u uverenju da će popraviti društvo","['pobunjenik', 'borac za slobodu']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-01468576-v,Naterati na odlazak sa nekog mesta.,"['izbaciti', 'isključiti', 'isključivati', 'isterati']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-01134781-v,ispaliti pucanj,"['ispaliti', 'pucati']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-00800750-v,Skinuti sa spiska.,"['precrtati', 'izbrisati']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-00403092-n,Čin oštećivanja nečega ili nekoga.,"['šteta', 'zlo', 'povreda']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-00746866-n,"iskvaren, izopačen ili perverzan čin ili navika","['degeneracija', 'dekadencija', 'izopačenje', 'izopačenost', 'perverzija', 'perverznost']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-02235229-v,Odreći se vlasništva ili kontrole.,"['ustupiti', 'predati', 'prepustiti']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-14440623-n,nisko stanje sklono padu naniže,"['degradacija', 'dekadencija', 'opadanje', 'poniženje', 'propadanje', 'unižavanje']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-01126360-v,Umarširati agresivno na nečiju teritoriju vojnim snagama da bi se ona zauzela ili okupirala.,['okupirati'],"(0.0, 0.0)",positive,Negativan,Negativan
+ENG30-00358089-n,Čin gnječenja.,"['gnječenje', 'drobljenje']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-01654271-v,Napraviti kopiju s namerom da se neko prevari.,"['falsifikovati', 'krivotvoriti']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-00824767-v,grditi strogo ili ljutito,"['grditi', 'izgrditi', 'koriti', 'kritikovati', 'prekoravati', 'prekoriti']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-00232386-n,Čin otkazivanja; opozivanje nekog dogovora.,['otkaz'],"(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-01119169-v,"Pokrenuti napad ili uvredu na nekoga; početi sa neprijateljstvom, kao u slučaju rata.","['napasti', 'navaliti na koga', 'nasrnuti', 'navaliti']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-04850589-n,kvalitet neusklađenosti sa standardima prava ili dobrog ponašanja,"['nemoral', 'nemoralnost', 'nepravednost', 'nepravičnost', 'zlo']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-02506546-v,Prisiliti ili obavezati nekoga da uradi nešto.,"['obavezati', 'primorati']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-00756331-n,čije pretvaranje da je druga osoba,"['gluma', 'glumatanje', 'imitacija', 'imitiranje', 'izigravanje', 'oponašanje', 'podražavanje', 'pretvaranje']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-02585050-v,pokušati uzavreti javno mnjenje,"['buditi', 'drmati', 'probuditi', 'prodrmati', 'protresti', 'razbuditi', 'razmrdati', 'tresti', 'uspaliti', 'zapaliti']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-00733483-n,ulazak na tuđi posed bez prava ili dozvole,"['invazija', 'upad', 'upadanje', 'uzurpacija']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-04842313-n,kvalitet pretećeg zla,"['pakost', 'zlo', 'zlokobnost', 'zlonamernost']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-00550117-v,napustiti ili zameniti nečim drugim,"['prebaciti se', 'preći']","(0.0, 0.0)",positive,Negativan,Negativan
+ENG30-01123887-v,"napraviti strateški, agresivan napad na neprijatelja, protivnika ili metu","['napadati', 'napasti', 'udarati', 'udariti']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-00222248-n,ubijanje osobe ili životinje,"['egzekucija', 'klanje', 'pogubljenje', 'ubijanje', 'ubistvo']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-00748282-v,nametnuti nešto neprijatno,"['nametati', 'nametnuti', 'naneti', 'naneti bol', 'nanositi']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-02041877-v,raspasti se; i u prenesenom značenju,"['srušiti se', 'kolabirati', 'propasti']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-00206130-n,odbijanje kakve grupe da učestvuje u trgovačkim transakcijama sa nekim organizacijama u znak protesta protiv politike tih organizacija,['bojkot'],"(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-02227487-v,okrenuti se od; odustati,"['manuti se', 'napuštati', 'napustiti', 'odreći se', 'odricati se', 'odustajati', 'odustati', 'ostaviti', 'ostavljati', 'predati', 'predavati', 'prepuštati', 'prepustiti', 'puštati', 'pustiti', 'ustupati', 'ustupiti']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-00739270-n,Nesposobnost delovanja s razboritosćću koje bi ispoljila razumna osoba pod istim uslovima.,"['nepažnja', 'nemar']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-10527334-n,radikalni pristalica političke ili društvene revolucije,['revolucionar'],"(0.0, 0.0)",positive,Negativan,Negativan
+ENG30-13973059-n,Stanje bezvlašća i nereda (obično kao rezultat pada vlade).,"['anarhija', 'bezakonje']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-14475661-n,stanje nesreće ili nevolje,"['nedaća', 'nesreća', 'nevolja', 'tegoba', 'teškoća']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-01258302-v,svaliti (kao stabla i ljude),"['oboriti', 'srušiti', 'poseći']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-01760300-v,"provocirati odgovore, kao prigovore, kritiku, aplauz itd.","['izazvati', 'požeti']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-00203342-n,Čin odbijanja nečega.,['odbijanje'],"(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-01880673-v,šta poručivati udaranjem (npr. prstima ili palicama),"['bubnjati', 'dobovati', 'kucati', 'kuckati', 'lupati', 'lupkati', 'pokucati', 'tući', 'udarati', 'udariti', 'zabubnjati', 'zakucati']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-02505358-v,"prisiliti ili privoleti ili neprestano terati ili prisiljujući pritisak vršiti, ili snažno motivisati","['motivisati', 'naterati', 'podstaći', 'podstaknuti', 'podsticati', 'primorati', 'primoravati', 'prinuditi', 'privoleti', 'privoljavati']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-09503282-n,osoba (obično žena) za koju se smtra da ima posebne moći koje potiču od đavola,['veštica'],"(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-09930876-n,osoba koja zabavlja druge blesavim ponašanjem,"['klovn', 'luda']","(0.0, 0.0)",positive,Negativan,Negativan
+ENG30-00201407-v,umetnuti reči i time falsifikovati ceo tekst,"['intervenisati', 'falsifikovati']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-02949691-n,"Najrasprostranjenija nedozvoljana droga, smatra se lakom drogom; sastoji se od suvog lišća idijske konplje; puši se i žvaće,.","['marihuana', 'trava']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-13457378-n,promena ka nečemu manjem ili nižem,"['smanjenje', 'pad']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-03592245-n,kazneno-popravna ustanova koja se koristi za zadržavanje lica koja su pod zakonskim nadzorom vlade (bilo optuženi koji čekaju suđenje ili osuđene osobe na izdržavanju kazne),"['ćorka', 'tamnica', 'zatvor']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-06883725-n,zvanični simbol Nacističke partije i Trećeg Rajha; krst kod koga su kraci (kao ruke) pod pravim uglom u pravcu časovnika,"['svastika', 'kukasti krst']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-01480149-v,"Uhvatiti lovljenjem, mamcima ili zamkama.","['uloviti', 'uhvatiti']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-00221056-n,Ubistvo javne ličnosti iznenadnim napadom.,['atentat'],"(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-00222248-n,ubijanje osobe ili životinje,"['egzekucija', 'klanje', 'pogubljenje', 'ubijanje', 'ubistvo']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-00479060-v,Ubiti potapanjem u vodu.,['udaviti'],"(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-00089351-n,Dobijanje nečeg nazad.,"['povratak', 'povraćaj', 'restauracija']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-01220336-n,oštar napad na čiju ličnost ili dobro ime,"['kleveta', 'klevetanje', 'omalovažavanje']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-02573275-v,lišiti nekoga nečega zahvaljujući obmani,"['prevariti', 'zavarati']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-01880673-v,šta poručivati udaranjem (npr. prstima ili palicama),"['bubnjati', 'dobovati', 'kucati', 'kuckati', 'lupati', 'lupkati', 'pokucati', 'tući', 'udarati', 'udariti', 'zabubnjati', 'zakucati']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-00306017-v,"Prasnuti, obično uz buku.","['puknuti', 'eksplodirati']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-01099592-v,nemati uspeha u postizanju pobede,"['gubiti', 'izgubiti']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-00737070-n,čin neprikladne intimnosti,"['familijarnost', 'intimiziranje', 'intimnost', 'nepodobnost', 'sloboda']","(0.0, 0.0)",positive,Negativan,Negativan
+BILI-00000025,Otac jednog supružnika prema drugom supružniku.,['prijatelj'],"(0.0, 0.0)",positive,Negativan,Negativan
+ENG30-02304507-v,biti zarobljen,"['biti okupiran', 'biti zauzet', 'biti zauziman', 'padati', 'pasti']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-01116447-v,prestati opirati se; prestati boriti se,"['dati kome prvenstvo', 'dopuštati', 'dopustiti', 'odustajati', 'odustati', 'popuštati', 'popustiti', 'predati se', 'predavati se', 'prepuštati', 'prepustiti']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-00737070-n,čin neprikladne intimnosti,"['familijarnost', 'intimiziranje', 'intimnost', 'nepodobnost', 'sloboda']","(0.0, 0.0)",positive,Negativan,Negativan
+ENG30-00378664-v,uništiti vatrom,"['paliti', 'sagoreti', 'sagorevati', 'sažeći', 'spaliti', 'spržiti']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-02707800-v,"opirati se, pogotovo na zbunjujuć način","['odbijati', 'odbiti', 'odoleti', 'odolevati', 'odupirati se', 'odupreti se', 'prkositi']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-02034300-v,"Skrenuti sa pravog kursa, utvrđenog smera ili interesa.","['skrenuti', 'odstupiti']","(0.0, 0.0)",negative,Negativan,Negativan
+ENG30-00120784-a,biti ili imati nepoznat ili neimenovan izvor,"['neidentifikovan', 'neimenovan', 'neodređen', 'nepoznat', 'nespecifikovan', 'skriven']","(0.0, 0.0)",negative,Objektivan,Objektivan/Neutralan
+ENG30-05669797-n,kakva praksa koja se tradicijom prenela iz prošlosti,"['baština', 'nasleđe', 'tradicija']","(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-05548840-n,Deo tela između vrata i nadlaktice.,['rame'],"(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-03671272-n,put koji se sastoji od pruge i šina,"['pruga', 'šine', 'železnica', 'železnička linija']","(0.0, 0.0)",negative,Objektivan,Objektivan/Neutralan
+ENG30-00125629-n,Čin udaranja jedne stvari drugom.,['udaranje'],"(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-00604930-v,biti zamena ili rezerva za kakvu ulogu,"['rezerva', 'zamena']","(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-02624263-v,nastati; kakvu formu ili oblik preuzeti,"['dignuti se', 'dizati se', 'doći', 'dolaziti', 'evoluirati', 'graditi se', 'iskrsavati', 'iskrsnuti', 'izaći', 'izbijati', 'izbiti', 'izgraditi se', 'izići', 'izlaziti', 'izrasti', 'narastati', 'narasti', 'nastajati', 'nastati', 'pojaviti se', 'pojavljivati se', 'porasti', 'poteći', 'poticati', 'proizići', 'proizilaziti', 'rasti', 'razvijati se', 'razviti se']","(0.0, 0.0)",negative,Objektivan,Objektivan/Neutralan
+ENG30-00447540-n,sport u kome se dva borca dohvataju rukama s ciljem da jedan drugog obore na zemlju.,['rvanje'],"(0.0, 0.0)",negative,Objektivan,Objektivan/Neutralan
+ENG30-02828884-n,Dugačko sedalo za više osoba.,['klupa'],"(0.0, 0.0)",negative,Neutralan,Objektivan/Neutralan
+ENG30-00761713-v,raspravljati o uslovima kakvog dogovora,['pregovarati'],"(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-01455778-n,Riba sa dugačkom cevastom njuškom i tankim telom prekrivenim ljušturama.,"['igla', 'morska igla', 'Syngnathus acus']","(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-03948459-n,ručno oružje iz koga puca iz jedne ruke,['pištolj'],"(0.0, 0.0)",negative,Objektivan,Objektivan/Neutralan
+ENG30-02185373-v,Proizvoditi lagane ritmičke udarce po površini.,"['kucati', 'tapkati', 'lupkati', 'lupati', 'tupkati']","(0.0, 0.0)",negative,Objektivan,Objektivan/Neutralan
+ENG30-00403249-b,Na značajan način.,"['značajno', 'važno']","(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-02684971-a,koji se odnosi na ili koji naseljava božansko nebo,"['božanski', 'nebeski']","(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-02581675-v,biti branilac nekoga u sudskom postupku,['braniti'],"(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-03532342-n,zakrivljen ili savijen uređaj za kačenje ili povlačenje nečega,"['kandža', 'kuka', 'kukica']","(0.0, 0.0)",negative,Neutralan,Objektivan/Neutralan
+ENG30-13490343-n,razvoj od jednostavnijih ka složenijim oblicima,['napredovanje'],"(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-00220869-v,Učiniti jakim ili jačim.,"['ojačati', 'osnažiti']","(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-07954014-n,broj ili količina sa kojom se postupa kao sa jedinicom,['blok'],"(0.0, 0.0)",negative,Objektivan,Objektivan/Neutralan
+ENG30-05397333-n,Kanal kroz koji cirkulišu telesne tečnosti.,['sud'],"(0.0, 0.0)",negative,Objektivan,Objektivan/Neutralan
+ENG30-00968155-n,Nekoliko povezanih operacija usmerenih na postizanje određenog cilja (obično unutar geografskih i vremenskih ograničenja).,"['kampanja', 'pohod']","(0.0, 0.0)",negative,Objektivan,Objektivan/Neutralan
+ENG30-08286569-n,velika ustanova višeg učenja s raznovrsnim usmerenjima koja služi za obrazovanje za život i za struku i za dodelu zvanja,['univerzitet'],"(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-01639765-n,"Bezrepi vodozemac koji živi i u vodi i na suvom, ima vrlo razvijene zadnje noge prilagođene za skakanje.",['žaba'],"(0.0, 0.0)",negative,Objektivan,Objektivan/Neutralan
+ENG30-03462594-n,Površina (kao zid ili platno) pripremljena da primi boju za sliku (umetnost).,['podloga'],"(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-01208597-n,čin traženja pomoći od koga,"['azil', 'pribegavanje', 'pribežište', 'sklonište', 'utočište']","(0.0, 0.0)",negative,Objektivan,Objektivan/Neutralan
+ENG30-01839404-a,Prostorni osećaj; biti ili postojati na određenom mestu.,['prisutan'],"(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-13485767-n,"spajanje susednih zvukova, slogova ili reči",['fuzija'],"(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-01820302-v,od čega izvoditi ili primati zadovoljstvo; dobijati zadovoljstvo od čega; u čemu uživati,"['nauživati se', 'uživati']","(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-06351613-n,svaki sistem pisanih znakova,['pismo'],"(0.0, 0.0)",negative,Objektivan,Objektivan/Neutralan
+ENG30-10787470-n,Odrasla ženska osoba (nasuprot odrasloj muškoj osobi).,['žena'],"(0.0, 0.0)",positive,Neutralan,Objektivan/Neutralan
+ENG30-05190804-n,Posedovanje kontrolisanja uticaja.,['sposobnost'],"(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-01149138-v,koga štititi ili se za koga boriti kao pokrovitelj,"['braniti', 'odbraniti', 'podržati', 'podržavati']","(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-00577068-n,"Proces ili niz aktivnosti, posebno praktične ili mehaničke prirode, koji su uključeni u određeni oblik rada.","['operacija', 'postupak']","(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-01679459-a,koji se tiče živih organizama ili se odnosi na njih ili potiče od njih ili ima osobine i karakteristike nalik na njihove,['organski'],"(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-07966140-n,Veća društvena grupa koja ima posebnu kulturnu i ekonomsku organizaciju.,"['zajednica', 'društvo']","(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-00177448-n,"sredstvo za postizanje nekog cilja, koje ne mora nužno da bude principijelno ili etički ispravno",['sredstvo'],"(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-00926932-v,pružiti duhovni uvid (u religiji),"['prosvetiti', 'prosvećivati']","(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-06323612-n,"reč koja modifikuje nešto drugo, a ne imenicu",['prilog'],"(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-07226545-n,Usmeni zalog jedne osobe drugoj kada se složi da će uraditi (ili neće uraditi) nešto u budućnosti.,['obećanje'],"(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-07575984-n,"lak večernji obrok, služi se u ranim večernjim satima i kasno, pred spavanje",['večera'],"(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-02228163-a,onaj koji je kompetentan u mnogim oblastima i sposoban da se lako prebacuje sa jedne teme na drugu;,['svestran'],"(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-02519991-v,za šta reparacije ili popravke praviti,"['dati naknadu za', 'davati naknadu za', 'ispraviti', 'ispravljati', 'kompenzirati', 'kompenzovati', 'korigovati', 'nadoknaditi', 'nadoknađivati', 'odštetiti', 'podešavati', 'podesiti', 'popraviti', 'popravljati']","(0.0, 0.0)",positive,Neutralan,Objektivan/Neutralan
+ENG30-10788852-n,"Ženska osoba koja ima važnu ulogu u životu nekog muškarca, kao njegova supruga, ljubavnica ili devojka.",['žena'],"(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-05517578-n,male anatomske strukture u obliku kesice ii mehura koji sadrže tečnost.,"['vezikula', 'cista']","(0.0, 0.0)",negative,Objektivan,Objektivan/Neutralan
+ENG30-01995211-v,"donositi, uzeti ili izvući iz kontejnera ili ispod kakvog poklopca","['iščupati', 'istrgnuti', 'izvlačiti', 'izvući', 'otrgnuti', 'povlačiti', 'povući', 'uzeti', 'uzimati', 'vući']","(0.0, 0.0)",negative,Objektivan,Objektivan/Neutralan
+ENG30-01035007-a,"koji je ili sa drugog mesta ili kraja sveta, ili koji je za drugo mesto ili kraj sveta karakterisatičan","['egzotičan', 'nepoznat', 'stran', 'strani', 'tuđi']","(0.0, 0.0)",negative,Neutralan,Objektivan/Neutralan
+ENG30-13400798-n,"Finansijska obaveza, kao porez.","['trošak', 'potraživanje']","(0.0, 0.0)",negative,Objektivan,Objektivan/Neutralan
+ENG30-00598954-v,"upoznati nešto ili postati nečega svestan, obično slučajno","['čuti', 'naći', 'naučiti', 'opaziti', 'otkriti', 'saznati', 'shvatiti', 'studirati', 'učiti', 'uočiti', 'utvrditi', 'videti']","(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-01726879-v,kakav ritam opetovanim udarcima proizvoditi,"['bubnjati', 'dobovati', 'kucati', 'lupati', 'lupkati', 'tući', 'udarati']","(0.0, 0.0)",negative,Objektivan,Objektivan/Neutralan
+BILI-00000033,Dobrovoljni član organizacije koja obuhvata decu od 7 do 14 godina (u vreme SFRJ).,"['pionir', 'Titov pionir']","(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-08272961-n,"Grupa ljudi, občno privremena koja ima zajednički cilj.",['savez'],"(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-07903208-n,piće destilovano od vina ili fermentiranog voćnog soka,['brendi'],"(0.0, 0.0)",negative,Objektivan,Objektivan/Neutralan
+ENG30-13367070-n,Nabavka nečega da bi bilo dostupno za buduće korišćenje.,"['zaliha', 'rezerva']","(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-01139194-n,čin izdavanja formalnog (obično pisanog) ovlašćenja,"['dopuštenje', 'dozvola', 'licenca', 'odobrenje', 'zvanična pisana izjava koja vam daje pravo da uradite nešto v. dozvoliti']","(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-03649459-n,Organ koji vodi sudske poslove.,"['sud', 'tribunal']","(0.0, 0.0)",negative,Objektivan,Objektivan/Neutralan
+SRP-1847515246,Ženka domaćeg psa (ili neke životinje iz porodice pasa).,"['kuja', 'kučka']","(0.0, 0.0)",negative,Objektivan,Objektivan/Neutralan
+ENG30-04347225-n,Nešto (osoba ili predmet ili prizor) što umetnik ili fotograf izabere da grafički predstavi.,"['sadržaj', 'predmet']","(0.0, 0.0)",negative,Objektivan,Objektivan/Neutralan
+ENG30-02882570-a,Koji se odnosi ili se tiče mišića.,"['mišićni', 'muskulni', 'muskularni']","(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-01076046-n,Čin zaustavljanja nečega.,"['zaustavljanje', 'blokada']","(0.0, 0.0)",negative,Objektivan,Objektivan/Neutralan
+ENG30-03777283-n,predstava nečega; obično u manjim razmerama,"['model', 'simulacija']","(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-01533339-n,"Ptica pevačica zelenkaste ili žute boje iz porodice zeba, poreklom s Kanarskih ostrva.","['kanarinac', 'kanarinka', 'kanarac']","(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-07999699-n,apstraktan zbir brojeva i simbola,['skup'],"(0.0, 0.0)",negative,Objektivan,Objektivan/Neutralan
+ENG30-03406966-n,dugi plitki rov u zemlji (posebno onaj koji je napravio plug),"['bora', 'brazda', 'usek']","(0.0, 0.0)",negative,Neutralan,Objektivan/Neutralan
+ENG30-01071411-n,popustljivost i saosećanje koje prema počiniocima kakvog krivičnog dela pokazuju lica ili agencije zadužene za sprovođenje pravde,"['blagost', 'milosrđe', 'milosrdnost', 'milost', 'milostivost', 'pomilovanje', 'samilost']","(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-00887325-v,nameniti neko delo književnosti u manje formalnom stilu,['posvetiti'],"(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-00179035-a,koga je vlast osnovala; koji je dobio odobrenje vlasti,"['prihvaćen', 'odobren']","(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-02297664-a,koji je u skladu sa utvrđenom jezičkom upotrebom obrazovanih izvornih govornika,"['normalan', 'standardan', 'u duhu', 'uobičajen']","(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-00981830-n,operacija prikupljanja informacija o neprijatelju,"['inteligencija', 'špijunaža']","(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-00067707-n,Čin predaje (pod dogovorenim uslovima).,"['pad', 'kapitulacija', 'predaja']","(0.0, 0.0)",negative,Objektivan,Objektivan/Neutralan
+ENG30-05667613-n,nešto što se smatra normativnim primerom,"['dogovor', 'forma', 'formula', 'konvencija', 'norma', 'pravilo', 'princip', 'propis', 'regulativa']","(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-01204021-v,zadovoljiti (žeđ),"['ugasiti', 'utažiti', 'utoliti']","(0.0, 0.0)",negative,Objektivan,Objektivan/Neutralan
+ENG30-02955065-n,Nešto što služi kao prekrivač ili zaštitnik.,"['kapak', 'pokrov']","(0.0, 0.0)",negative,Objektivan,Objektivan/Neutralan
+ENG30-01182021-v,Snabdevati hranom.,"['hraniti', 'opskrbiti']","(0.0, 0.0)",positive,Objektivan,Objektivan/Neutralan
+ENG30-01170962-n,Čin borbe; bilo kakvo nadmetanje ili sukob.,"['borba', 'bitka']","(0.0, 0.0)",negative,Objektivan,Objektivan/Neutralan

@@ -1,0 +1,76 @@
+﻿ILI,ollama_positive_value,ollama_negative_value,POS,NEG,raw_sum,normalized
+ENG30-01569181-v,nije pozitivan,ekstremno negativan,0,1,1,no
+ENG30-01989562-v,nije pozitivan,nije negativan,0,0,0,no
+ENG30-01099592-v,nije pozitivan,negativan,0,0.5,0.5,no
+ENG30-00953559-n,nije pozitivan,nije negativan,0,0,0,no
+ENG30-03600806-n,nije pozitivan,ekstremno negativan,0,1,1,no
+ENG30-01220336-n,nije pozitivan,veoma negativan,0,0.75,0.75,no
+ENG30-01468576-v,nije pozitivan,slabo negativan,0,0.25,0.25,no
+ENG30-02585489-v,nije pozitivan,ekstremno negativan,0,1,1,no
+ENG30-06720371-n,nije pozitivan,ekstremno negativan,0,1,1,no
+ENG30-00200863-v,nije pozitivan,nije negativan,0,0,0,no
+ENG30-00824767-v,nije pozitivan,veoma negativan,0,0.75,0.75,no
+ENG30-07157273-n,nije pozitivan,nije negativan,0,0,0,no
+ENG30-01623268-a,nije pozitivan,slabo negativan,0,0.25,0.25,no
+ENG30-00421002-a,nije pozitivan,veoma negativan,0,0.75,0.75,no
+ENG30-01234345-n,nije pozitivan,nije negativan,0,0,0,no
+ENG30-00058743-n,nije pozitivan,nije negativan,0,0,0,no
+ENG30-07436475-n,nije pozitivan,nije negativan,0,0,0,no
+ENG30-05207130-n,nije pozitivan,nije negativan,0,0,0,no
+ENG30-02505358-v,nije pozitivan,ekstremno negativan,0,1,1,no
+ENG30-01215137-v,nije pozitivan,negativan,0,0.5,0.5,no
+ENG30-00613683-v,nije pozitivan,nije negativan,0,0,0,no
+ENG30-02574205-v,nije pozitivan,veoma negativan,0,0.75,0.75,no
+BILI-00000941,nije pozitivan,negativan,0,0.5,0.5,no
+ENG30-14440623-n,nije pozitivan,slabo negativan,0,0.25,0.25,no
+ENG30-00095121-n,nije pozitivan,nije negativan,0,0,0,no
+ENG30-02226429-n,nije pozitivan,nije negativan,0,0,0,no
+ENG30-09426788-n,nije pozitivan,nije negativan,0,0,0,no
+ENG30-12345280-n,nije pozitivan,nije negativan,0,0,0,no
+ENG30-02180898-v,nije pozitivan,nije negativan,0,0,0,no
+ENG30-06828389-n,nije pozitivan,nije negativan,0,0,0,no
+ENG30-07175241-n,nije pozitivan,nije negativan,0,0,0,no
+ENG30-05868272-n,nije pozitivan,nije negativan,0,0,0,no
+ENG30-10402824-n,nije pozitivan,nije negativan,0,0,0,no
+ENG30-12392549-n,nije pozitivan,nije negativan,0,0,0,no
+ENG30-00180962-n,nije pozitivan,nije negativan,0,0,0,no
+ENG30-00892861-n,nije pozitivan,nije negativan,0,0,0,no
+ENG30-07132729-n,nije pozitivan,nije negativan,0,0,0,no
+ENG30-00602112-v,nije pozitivan,nije negativan,0,0,0,no
+ENG30-10000158-n,nije pozitivan,nije negativan,0,0,0,no
+ENG30-10016103-n,nije pozitivan,nije negativan,0,0,0,no
+ENG30-01482330-n,nije pozitivan,nije negativan,0,0,0,no
+ENG30-04525038-n,nije pozitivan,nije negativan,0,0,0,no
+ENG30-01193721-v,nije pozitivan,nije negativan,0,0,0,no
+ENG30-01485513-v,nije pozitivan,nije negativan,0,0,0,no
+ENG30-09398076-n,nije pozitivan,nije negativan,0,0,0,no
+ENG30-02686625-v,nije pozitivan,nije negativan,0,0,0,no
+ENG30-10557854-n,pozitivan,nije negativan,0.5,0,0.5,no
+ENG30-02390258-n,nije pozitivan,nije negativan,0,0,0,no
+ENG30-09362316-n,nije pozitivan,nije negativan,0,0,0,no
+ENG30-07164546-n,nije pozitivan,nije negativan,0,0,0,no
+ENG30-03016953-n,pozitivan,nije negativan,0.5,0,0.5,no
+ENG30-07592094-n,pozitivan,nije negativan,0.5,0,0.5,no
+ENG30-00654885-n,nije pozitivan,nije negativan,0,0,0,no
+ENG30-07453638-n,pozitivan,nije negativan,0.5,0,0.5,no
+ENG30-14437976-n,veoma pozitivan,nije negativan,0.75,0,0.75,no
+ENG30-04840405-n,pozitivan,nije negativan,0.5,0,0.5,no
+ENG30-00913551-a,nije pozitivan,nije negativan,0,0,0,no
+ENG30-01375831-a,slabo pozitivan,nije negativan,0.25,0,0.25,no
+ENG30-13254805-n,pozitivan,nije negativan,0.5,0,0.5,no
+ENG30-02490877-v,pozitivan,nije negativan,0.5,0,0.5,no
+ENG30-00183090-b,ekstremno pozitivan,nije negativan,1,0,1,no
+ENG30-01983162-a,pozitivan,nije negativan,0.5,0,0.5,no
+ENG30-14438898-n,slabo pozitivan,nije negativan,0.25,0,0.25,no
+ENG30-04829282-n,pozitivan,nije negativan,0.5,0,0.5,no
+ENG30-10407310-n,veoma pozitivan,nije negativan,0.75,0,0.75,no
+ENG30-04191595-n,pozitivan,nije negativan,0.5,0,0.5,no
+ENG30-01041349-n,pozitivan,nije negativan,0.5,0,0.5,no
+ENG30-01425892-v,nije pozitivan,nije negativan,0,0,0,no
+ENG30-00169955-a,pozitivan,nije negativan,0.5,0,0.5,no
+ENG30-00309647-n,nije pozitivan,nije negativan,0,0,0,no
+ENG30-03135152-n,pozitivan,nije negativan,0.5,0,0.5,no
+ENG30-00429048-n,pozitivan,nije negativan,0.5,0,0.5,no
+ENG30-04831727-n,pozitivan,nije negativan,0.5,0,0.5,no
+ENG30-07497797-n,nije pozitivan,nije negativan,0,0,0,no
+ENG30-00719231-v,slabo pozitivan,nije negativan,0.25,0,0.25,no

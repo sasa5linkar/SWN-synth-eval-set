@@ -1,0 +1,47 @@
+﻿Mistral Ollama balanced_sample2 statistics
+==========================================
+Input rows: 75
+Annotated rows: 75
+Succeeded rows: 75
+Failed rows: 0
+
+Original sentiment_sa counts:
+  Negativan: 25
+  Objektivan: 25
+  Pozitivan: 25
+
+Ollama positive value counts:
+  nije pozitivan: 54
+  pozitivan: 15
+  slabo pozitivan: 3
+  veoma pozitivan: 2
+  ekstremno pozitivan: 1
+
+Ollama negative value counts:
+  nije negativan: 60
+  ekstremno negativan: 5
+  veoma negativan: 4
+  negativan: 3
+  slabo negativan: 3
+
+Positive x negative crosstab:
+  ekstremno pozitivan / nije negativan: 1
+  nije pozitivan / ekstremno negativan: 5
+  nije pozitivan / negativan: 3
+  nije pozitivan / nije negativan: 39
+  nije pozitivan / slabo negativan: 3
+  nije pozitivan / veoma negativan: 4
+  pozitivan / nije negativan: 15
+  slabo pozitivan / nije negativan: 3
+  veoma pozitivan / nije negativan: 2
+
+Grouped by original sentiment_sa:
+  Pozitivan: rows=25, succeeded=25, failed=0
+    positive={'pozitivan': 14, 'nije pozitivan': 5, 'veoma pozitivan': 2, 'slabo pozitivan': 3, 'ekstremno pozitivan': 1}
+    negative={'nije negativan': 25}
+  Negativan: rows=25, succeeded=25, failed=0
+    positive={'nije pozitivan': 25}
+    negative={'ekstremno negativan': 5, 'nije negativan': 10, 'negativan': 3, 'veoma negativan': 4, 'slabo negativan': 3}
+  Objektivan: rows=25, succeeded=25, failed=0
+    positive={'nije pozitivan': 24, 'pozitivan': 1}
+    negative={'nije negativan': 25}

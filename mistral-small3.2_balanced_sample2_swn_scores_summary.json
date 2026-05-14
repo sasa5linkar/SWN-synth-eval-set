@@ -1,0 +1,31 @@
+{
+  "source": "E:\\Github\\SWN-synth-eval-set\\mistral-small3.2_balanced_sample2_ollama_fewshot.csv",
+  "score_csv": "E:\\Github\\SWN-synth-eval-set\\mistral-small3.2_balanced_sample2_swn_scores.csv",
+  "audit_csv": "E:\\Github\\SWN-synth-eval-set\\mistral-small3.2_balanced_sample2_swn_scores_audit.csv",
+  "input_rows": 75,
+  "converted_rows": 75,
+  "invalid_rows": 0,
+  "normalized_rows": 0,
+  "pos_counts": {
+    "0": 54,
+    "0.5": 15,
+    "0.75": 2,
+    "0.25": 3,
+    "1": 1
+  },
+  "neg_counts": {
+    "1": 5,
+    "0": 60,
+    "0.5": 3,
+    "0.75": 4,
+    "0.25": 3
+  },
+  "pos_plus_neg_counts": {
+    "1": 6,
+    "0": 39,
+    "0.5": 18,
+    "0.75": 6,
+    "0.25": 6
+  },
+  "invalid": []
+}

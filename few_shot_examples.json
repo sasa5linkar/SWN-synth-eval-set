@@ -1,0 +1,53 @@
+[
+  {
+    "ILI": "ENG30-01123148-a",
+    "source_synset": "good.a.01",
+    "lemma_names": ["častan", "dobar", "pouzdan"],
+    "definition": "imati poželjne ili pozitivne kvalitete, posebno one koji su pogodni za određenu stvar",
+    "sentiment_SWN_serbian": {
+      "positive": "0,00000",
+      "negative": "0,00000"
+    },
+    "few_shot_annotation": {
+      "sentiment_sa": "Pozitivan",
+      "sentiment_sa_neutral_prompt": "pozitivan",
+      "sentiment_sa_positive": "ekstremno pozitivan",
+      "sentiment_sa_negative": "nije negativan"
+    },
+    "note": "Few-shot upper-bound positive anchor; this ILI is not present in balanced_sample2.csv."
+  },
+  {
+    "ILI": "ENG30-01125429-a",
+    "source_synset": "bad.a.01",
+    "lemma_names": ["loš", "pokvaren"],
+    "definition": "imati neželjene ili negativne kvalitete",
+    "sentiment_SWN_serbian": {
+      "positive": "0,00000",
+      "negative": "0,00000"
+    },
+    "few_shot_annotation": {
+      "sentiment_sa": "Negativan",
+      "sentiment_sa_neutral_prompt": "negativan",
+      "sentiment_sa_positive": "nije pozitivan",
+      "sentiment_sa_negative": "ekstremno negativan"
+    },
+    "note": "Few-shot lower-bound negative anchor; this ILI is not present in balanced_sample2.csv."
+  },
+  {
+    "ILI": "ENG30-01818992-a",
+    "source_synset": "neutral.a.04",
+    "lemma_names": ["neutralan"],
+    "definition": "Koji nema neke izrazite kvalitete ili karakteristike.",
+    "sentiment_SWN_serbian": {
+      "positive": "0,12500",
+      "negative": "0,75000"
+    },
+    "few_shot_annotation": {
+      "sentiment_sa": "Objektivan",
+      "sentiment_sa_neutral_prompt": "neutralan",
+      "sentiment_sa_positive": "nije pozitivan",
+      "sentiment_sa_negative": "nije negativan"
+    },
+    "note": "Few-shot neutral/objective anchor; this ILI is not present in balanced_sample2.csv."
+  }
+]
