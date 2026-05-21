@@ -1,0 +1,43 @@
+﻿ILI,lemma_names,definition,sentiment_lexicon,positive_status_01,positive_status_02,positive_status_03,positive_value_01,negative_status_01,negative_status_02,negative_status_03,negative_value_01
+ENG30-01569181-v,"['udaviti', 'zadaviti']",Uskratiti kiseonik i sprečiti disanje.,negative,tačno,tačno,tačno,nije pozitivan,tačno,tačno,tačno,ekstremno negativan
+ENG30-01099592-v,"['gubiti', 'izgubiti']",nemati uspeha u postizanju pobede,negative,tačno,tačno,tačno,nije pozitivan,tačno,tačno,tačno,negativan
+ENG30-01220336-n,"['kleveta', 'klevetanje', 'omalovažavanje']",oštar napad na čiju ličnost ili dobro ime,negative,tačno,tačno,tačno,nije pozitivan,tačno,tačno,tačno,veoma negativan
+ENG30-01468576-v,"['izbaciti', 'isključiti', 'isključivati', 'isterati']",Naterati na odlazak sa nekog mesta.,negative,tačno,tačno,tačno,nije pozitivan,tačno,tačno,tačno,slabo negativan
+ENG30-02585489-v,"['progoniti', 'ugnjetavati']",izazvati patnju,negative,tačno,tačno,tačno,nije pozitivan,tačno,tačno,tačno,ekstremno negativan
+ENG30-06720371-n,['kleveta'],napad koji se sastoji od lažne i zlonamerne publikacije koja je odštampana da bi se živa osoba oklevetala,negative,tačno,tačno,tačno,nije pozitivan,tačno,tačno,tačno,ekstremno negativan
+ENG30-00200863-v,"['izbaciti iz teksta', 'brisati']",izbaciti ili eliminisati (ukloniti),negative,tačno,tačno,tačno,nije pozitivan,blizu,netačno,blizu,slabo negativan
+ENG30-00824767-v,"['grditi', 'izgrditi', 'koriti', 'kritikovati', 'prekoravati', 'prekoriti']",grditi strogo ili ljutito,negative,tačno,tačno,tačno,nije pozitivan,tačno,tačno,tačno,veoma negativan
+ENG30-01623268-a,"['banalan', 'trivijalan']",ocigledno i dosadno,negative,tačno,tačno,tačno,nije pozitivan,tačno,tačno,tačno,slabo negativan
+ENG30-00058743-n,"['beg', 'bekstvo']",Čin fizičkog bežanja.,negative,tačno,tačno,tačno,nije pozitivan,tačno,tačno,tačno,nije negativan
+ENG30-02574205-v,"['prevariti', 'obmanuti']",Napraviti nekog žrtvom prevare.,negative,tačno,tačno,tačno,nije pozitivan,tačno,tačno,tačno,veoma negativan
+BILI-00000941,['naricati'],"Glasno izražavati žalost, zapevati, tužiti.",negative,tačno,tačno,tačno,nije pozitivan,tačno,tačno,tačno,negativan
+ENG30-14440623-n,"['degradacija', 'dekadencija', 'opadanje', 'poniženje', 'propadanje', 'unižavanje']",nisko stanje sklono padu naniže,negative,tačno,tačno,tačno,nije pozitivan,tačno,tačno,tačno,slabo negativan
+ENG30-09426788-n,['more'],Deo okeana ili velikog prostranstva slane vode koji je delimično zatvoren kopnom,positive,tačno,tačno,tačno,nije pozitivan,tačno,tačno,tačno,nije negativan
+ENG30-12345280-n,"['nar', 'šipak', 'granata', 'mogranj', 'Punica granatum']",Žbun ili malo drvo poreklom iz jugozapadne Azije; ima veliki plod sa mnogo semenki.,negative,tačno,tačno,tačno,nije pozitivan,tačno,tačno,tačno,nije negativan
+ENG30-02180898-v,['zvoniti'],Proizvoditi zvonak zvuk.,negative,tačno,tačno,tačno,nije pozitivan,tačno,tačno,tačno,nije negativan
+ENG30-06828389-n,"['asterisk', 'zvezdica', 'zvezda']",karakter nalik na zvezdu (*) koji se koristi u štampanim tekstovima,positive,tačno,tačno,tačno,nije pozitivan,tačno,tačno,tačno,nije negativan
+ENG30-05868272-n,"['centar', 'razrada', 'sreda', 'sredina', 'središte']",srednji deo ili odeljak,positive,tačno,tačno,tačno,nije pozitivan,tačno,tačno,tačno,nije negativan
+ENG30-10402824-n,"['stranka', 'strana']",Osoba koja je uključena u neki zakonski postupak.,negative,tačno,tačno,tačno,nije pozitivan,tačno,tačno,tačno,nije negativan
+ENG30-12392549-n,"['kopriva', 'Urtica dioica']",Višegodišnja evropska kopriva koja ima široko grubo nazubljeno lišće sa bockavim dlaćicama.,negative,tačno,tačno,tačno,nije pozitivan,tačno,tačno,tačno,nije negativan
+ENG30-00180962-n,['izbor'],Čin biranja nekoga.,positive,tačno,tačno,tačno,nije pozitivan,tačno,tačno,tačno,nije negativan
+ENG30-00892861-n,['predavanje'],podučavanje držanjem predavanja o nekom predmetu (obično pred odeljenjem učenika ili studenata),negative,tačno,tačno,tačno,nije pozitivan,tačno,tačno,tačno,nije negativan
+ENG30-07132729-n,['sinkopa'],(fonologija) gubitak glasova unutar reči (kao u `haj'mo` za` hajdemo`),negative,tačno,tačno,tačno,nije pozitivan,tačno,tačno,tačno,nije negativan
+ENG30-10000158-n,"['advokat odbrane', 'branilac']",Advokat koji zastupa odbranu.,positive,tačno,tačno,tačno,nije pozitivan,tačno,tačno,tačno,nije negativan
+ENG30-01482330-n,"['morski pas', 'ajkula']","Neka od brojnih morskih riba-mesoždera sa izduženim telom, i debelom kožom koja je prekrivena malim nazubljenim krljuštima.",negative,tačno,tačno,tačno,nije pozitivan,tačno,tačno,tačno,nije negativan
+ENG30-04525038-n,"['baršun', 'somot', 'pliš', 'kadifa']","Svilenkasta, gusta, čupava tkanina, ravna sa poleđina.",positive,tačno,tačno,tačno,nije pozitivan,tačno,tačno,tačno,nije negativan
+ENG30-01485513-v,"['otpakovati', 'raspakovati', 'razmotati', 'odmotati', 'odviti']",Odstraniti pakovanje sa nečega.,positive,tačno,tačno,tačno,nije pozitivan,tačno,tačno,tačno,nije negativan
+ENG30-02686625-v,"['dovesti', 'dovoditi', 'izvesti', 'izvoditi', 'odvesti', 'odvoditi', 'prevoditi', 'provesti', 'provoditi', 'pružati', 'pružiti', 'voditi']",učiniti da se šta dogodi ili da šta uzrokuje,positive,tačno,tačno,tačno,nije pozitivan,tačno,tačno,tačno,nije negativan
+ENG30-10557854-n,"['učenjak', 'učena osoba', 'student']",Učena osoba (posebno u društvenim naukama); neko ko je dugotrajnim učenjem ovladao jednom ili više disciplina.,positive,tačno,tačno,tačno,pozitivan,tačno,tačno,tačno,nije negativan
+ENG30-07164546-n,['ponuda'],Nešto što se nudi (kao predlog ili zahtev).,positive,tačno,tačno,tačno,nije pozitivan,tačno,tačno,tačno,nije negativan
+ENG30-03016953-n,"['komoda', 'kredenac', 'orman', 'ormar']",visok elegantan sanduk sa fiokama,positive,tačno,tačno,tačno,pozitivan,tačno,tačno,tačno,nije negativan
+ENG30-07592094-n,['paprikaš'],"komadi piletine ili drugog mesa dinstani sa npr. šargarepom, lukom i služe se sa rezancima ili knedlama",negative,tačno,tačno,tačno,pozitivan,tačno,tačno,tačno,nije negativan
+ENG30-07453638-n,"['koronacija', 'krunisanje']",svečani čin valdaočevog ustoličenja,positive,tačno,tačno,tačno,pozitivan,tačno,tačno,tačno,nije negativan
+ENG30-14437976-n,"['divljenje', 'poštovanje', 'respekt', 'uvažavanje']",visok stepen poštovanja stečen impresivnim poduhvatima ili postignućima,positive,tačno,tačno,tačno,veoma pozitivan,tačno,tačno,tačno,nije negativan
+ENG30-00913551-a,['zimzelen'],koji ima zelenilo tokom cele godine (o biljkama),positive,tačno,tačno,tačno,nije pozitivan,tačno,tačno,tačno,nije negativan
+ENG30-13254805-n,['dobitak'],Iznos za koji prihod nekog poslovanja premašuje troškove izrade.,positive,tačno,tačno,tačno,pozitivan,tačno,tačno,tačno,nije negativan
+ENG30-02490877-v,"['slaviti', 'svetkovati']",Imati proslavu.,positive,tačno,tačno,tačno,pozitivan,tačno,tačno,tačno,nije negativan
+ENG30-00183090-b,"['predivno', 'čudesno', 'sjajno', 'izvrsno', 'vrhunski', 'veličanstveno', 'izvanredno']",(za naglašavanje značenja) izuzetno dobro,positive,tačno,tačno,tačno,ekstremno pozitivan,tačno,tačno,tačno,nije negativan
+ENG30-04191595-n,"['zaklon', 'sklonište']",Struktura koja pruža privatnost i zaštitu od opasnosti.,positive,tačno,tačno,tačno,pozitivan,tačno,tačno,tačno,nije negativan
+ENG30-00169955-a,['privlačan'],onaj koji deluje poput magneta; poseduje sposobnost da namami i privuče;,positive,tačno,tačno,tačno,pozitivan,tačno,tačno,tačno,nije negativan
+ENG30-00309647-n,['ekspedicija'],Putovanje organizovano sa specijalnim ciljem.,positive,tačno,tačno,tačno,nije pozitivan,tačno,tačno,tačno,nije negativan
+ENG30-03135152-n,['krst'],krst kao znamenje hrišćanstva,negative,tačno,tačno,tačno,pozitivan,tačno,tačno,tačno,nije negativan

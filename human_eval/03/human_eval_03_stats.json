@@ -1,0 +1,232 @@
+{
+  "label": "human_eval_03",
+  "source_file": "C:\\Users\\sasa5\\Downloads\\PZL_treći zadatak_Sofija.xlsx",
+  "copied_workbook": "human_eval\\03\\human_eval_03.xlsx",
+  "evaluation_csv": "human_eval\\03\\human_eval_03.csv",
+  "sheet": "Evaluation",
+  "rows": 75,
+  "judgements_total": 150,
+  "model_counts": {
+    "mistral-small3.2:latest": 75
+  },
+  "sentiment_swn_counts": {
+    "(0.0, 0.0)": 75
+  },
+  "sentiment_lexicon_counts": {
+    "negative": 40,
+    "positive": 35
+  },
+  "axis_total_eval_counts": {
+    "tačno": 130,
+    "blizu": 14,
+    "netačno": 6
+  },
+  "axis_total_exact_rate_pct": 86.7,
+  "axis_total_exact_or_near_rate_pct": 96.0,
+  "row_quality_counts": {
+    "both_exact": 55,
+    "acceptable_with_near": 14,
+    "has_wrong_axis": 6
+  },
+  "row_exact_rate_pct": 73.3,
+  "row_exact_or_near_rate_pct": 92.0,
+  "positive": {
+    "eval_counts": {
+      "tačno": 61,
+      "blizu": 9,
+      "netačno": 5
+    },
+    "exact_count": 61,
+    "near_count": 9,
+    "wrong_count": 5,
+    "exact_rate_pct": 81.3,
+    "exact_or_near_rate_pct": 93.3,
+    "ollama_value_counts": {
+      "nije pozitivan": 54,
+      "pozitivan": 15,
+      "veoma pozitivan": 2,
+      "slabo pozitivan": 3,
+      "ekstremno pozitivan": 1
+    },
+    "effective_human_value_counts": {
+      "nije pozitivan": 48,
+      "pozitivan": 17,
+      "slabo pozitivan": 2,
+      "veoma pozitivan": 7,
+      "ekstremno pozitivan": 1
+    },
+    "corrections_count": 14,
+    "correction_distance_counts": {
+      "0.5": 4,
+      "0.25": 9,
+      "0.75": 1
+    },
+    "missing_human_values": [],
+    "unchanged_corrections": [],
+    "corrections": [
+      {
+        "ILI": "ENG30-07157273-n",
+        "status": "netačno",
+        "ollama_value": "nije pozitivan",
+        "human_value": "pozitivan"
+      },
+      {
+        "ILI": "ENG30-01234345-n",
+        "status": "netačno",
+        "ollama_value": "nije pozitivan",
+        "human_value": "pozitivan"
+      },
+      {
+        "ILI": "ENG30-09362316-n",
+        "status": "blizu",
+        "ollama_value": "nije pozitivan",
+        "human_value": "slabo pozitivan"
+      },
+      {
+        "ILI": "ENG30-00654885-n",
+        "status": "netačno",
+        "ollama_value": "nije pozitivan",
+        "human_value": "veoma pozitivan"
+      },
+      {
+        "ILI": "ENG30-04840405-n",
+        "status": "blizu",
+        "ollama_value": "pozitivan",
+        "human_value": "veoma pozitivan"
+      },
+      {
+        "ILI": "ENG30-01375831-a",
+        "status": "blizu",
+        "ollama_value": "slabo pozitivan",
+        "human_value": "pozitivan"
+      },
+      {
+        "ILI": "ENG30-01983162-a",
+        "status": "blizu",
+        "ollama_value": "pozitivan",
+        "human_value": "veoma pozitivan"
+      },
+      {
+        "ILI": "ENG30-14438898-n",
+        "status": "blizu",
+        "ollama_value": "slabo pozitivan",
+        "human_value": "pozitivan"
+      },
+      {
+        "ILI": "ENG30-04829282-n",
+        "status": "blizu",
+        "ollama_value": "pozitivan",
+        "human_value": "veoma pozitivan"
+      },
+      {
+        "ILI": "ENG30-10407310-n",
+        "status": "blizu",
+        "ollama_value": "veoma pozitivan",
+        "human_value": "pozitivan"
+      },
+      {
+        "ILI": "ENG30-01425892-v",
+        "status": "netačno",
+        "ollama_value": "nije pozitivan",
+        "human_value": "pozitivan"
+      },
+      {
+        "ILI": "ENG30-00429048-n",
+        "status": "blizu",
+        "ollama_value": "pozitivan",
+        "human_value": "veoma pozitivan"
+      },
+      {
+        "ILI": "ENG30-04831727-n",
+        "status": "blizu",
+        "ollama_value": "pozitivan",
+        "human_value": "veoma pozitivan"
+      },
+      {
+        "ILI": "ENG30-07497797-n",
+        "status": "netačno",
+        "ollama_value": "nije pozitivan",
+        "human_value": "pozitivan"
+      }
+    ]
+  },
+  "negative": {
+    "eval_counts": {
+      "tačno": 69,
+      "blizu": 5,
+      "netačno": 1
+    },
+    "exact_count": 69,
+    "near_count": 5,
+    "wrong_count": 1,
+    "exact_rate_pct": 92.0,
+    "exact_or_near_rate_pct": 98.7,
+    "ollama_value_counts": {
+      "ekstremno negativan": 5,
+      "nije negativan": 60,
+      "negativan": 3,
+      "veoma negativan": 4,
+      "slabo negativan": 3
+    },
+    "effective_human_value_counts": {
+      "ekstremno negativan": 4,
+      "slabo negativan": 6,
+      "negativan": 2,
+      "veoma negativan": 7,
+      "nije negativan": 56
+    },
+    "corrections_count": 6,
+    "correction_distance_counts": {
+      "0.25": 5,
+      "0.75": 1
+    },
+    "missing_human_values": [],
+    "unchanged_corrections": [],
+    "corrections": [
+      {
+        "ILI": "ENG30-01989562-v",
+        "status": "blizu",
+        "ollama_value": "nije negativan",
+        "human_value": "slabo negativan"
+      },
+      {
+        "ILI": "ENG30-00953559-n",
+        "status": "netačno",
+        "ollama_value": "nije negativan",
+        "human_value": "veoma negativan"
+      },
+      {
+        "ILI": "ENG30-00200863-v",
+        "status": "blizu",
+        "ollama_value": "nije negativan",
+        "human_value": "slabo negativan"
+      },
+      {
+        "ILI": "ENG30-05207130-n",
+        "status": "blizu",
+        "ollama_value": "nije negativan",
+        "human_value": "slabo negativan"
+      },
+      {
+        "ILI": "ENG30-02505358-v",
+        "status": "blizu",
+        "ollama_value": "ekstremno negativan",
+        "human_value": "veoma negativan"
+      },
+      {
+        "ILI": "ENG30-01215137-v",
+        "status": "blizu",
+        "ollama_value": "negativan",
+        "human_value": "veoma negativan"
+      }
+    ]
+  },
+  "positive_negative_eval_pair_counts": {
+    "tačno|tačno": 55,
+    "tačno|blizu": 5,
+    "tačno|netačno": 1,
+    "netačno|tačno": 5,
+    "blizu|tačno": 9
+  },
+  "quality_flags": []
+}
