@@ -17,6 +17,9 @@ BLIZU = "blizu"
 NETACNO = "neta\u010dno"
 STATUS_ORDER = [NETACNO, BLIZU, TACNO]
 STATUS_DISPLAY_ORDER = [TACNO, BLIZU, NETACNO]
+STATUS_ALIASES = {
+    "neta\u010dan": NETACNO,
+}
 
 POSITIVE_VALUES = [
     "nije pozitivan",
@@ -43,6 +46,11 @@ def norm(value: Any) -> str:
         return ""
     text = str(value).strip()
     return text.lower() if text else ""
+
+
+def norm_status(value: Any) -> str:
+    text = norm(value)
+    return STATUS_ALIASES.get(text, text)
 
 
 def pct(numerator: int | float, denominator: int | float) -> float:
@@ -72,7 +80,7 @@ def load_rows(path: Path) -> tuple[list[str], list[dict[str, Any]]]:
 
 
 def effective_value(row: dict[str, Any], axis: str) -> str:
-    status = norm(row.get(f"human_{axis}_eval"))
+    status = norm_status(row.get(f"human_{axis}_eval"))
     ollama_value = norm(row.get(f"ollama_{axis}_value"))
     human_value = norm(row.get(f"human_{axis}_value"))
     return ollama_value if status == TACNO or not human_value else human_value
@@ -82,21 +90,40 @@ def axis_stats(rows: list[dict[str, Any]], axis: str) -> dict[str, Any]:
     eval_col = f"human_{axis}_eval"
     human_col = f"human_{axis}_value"
     ollama_col = f"ollama_{axis}_value"
-    eval_counts = Counter(norm(row.get(eval_col)) for row in rows)
+    eval_counts = Counter(norm_status(row.get(eval_col)) for row in rows)
     ollama_counts = Counter(norm(row.get(ollama_col)) for row in rows)
     effective_counts = Counter()
     corrections: list[dict[str, str]] = []
     distance_counts: Counter = Counter()
     missing_values: list[str] = []
     unchanged_corrections: list[str] = []
+    unknown_statuses: list[dict[str, str]] = []
+    exact_conflicting_human_values: list[dict[str, str]] = []
 
     for row in rows:
-        status = norm(row.get(eval_col))
+        status = norm_status(row.get(eval_col))
         ollama_value = norm(row.get(ollama_col))
         human_value = norm(row.get(human_col))
         final_value = effective_value(row, axis)
         effective_counts[final_value] += 1
 
+        if status not in (TACNO, BLIZU, NETACNO):
+            unknown_statuses.append(
+                {
+                    "ILI": row.get("ILI"),
+                    "status": status,
+                    "ollama_value": ollama_value,
+                    "human_value": human_value,
+                }
+            )
+        if status == TACNO and human_value and human_value != ollama_value:
+            exact_conflicting_human_values.append(
+                {
+                    "ILI": row.get("ILI"),
+                    "ollama_value": ollama_value,
+                    "human_value": human_value,
+                }
+            )
         if status in (BLIZU, NETACNO):
             if not human_value:
                 missing_values.append(row.get("ILI"))
@@ -129,6 +156,8 @@ def axis_stats(rows: list[dict[str, Any]], axis: str) -> dict[str, Any]:
         "correction_distance_counts": counter_dict(distance_counts),
         "missing_human_values": missing_values,
         "unchanged_corrections": unchanged_corrections,
+        "unknown_statuses": unknown_statuses,
+        "exact_conflicting_human_values": exact_conflicting_human_values,
         "corrections": corrections,
     }
 
@@ -158,8 +187,8 @@ def single_stats(label: str, source: Path, out_root: Path) -> dict[str, Any]:
     quality_flags: list[dict[str, Any]] = []
 
     for row in rows:
-        pos = norm(row.get("human_positive_eval"))
-        neg = norm(row.get("human_negative_eval"))
+        pos = norm_status(row.get("human_positive_eval"))
+        neg = norm_status(row.get("human_negative_eval"))
         status_pairs[(pos, neg)] += 1
         all_statuses.extend([pos, neg])
         if pos == TACNO and neg == TACNO:
@@ -172,6 +201,14 @@ def single_stats(label: str, source: Path, out_root: Path) -> dict[str, Any]:
             row_quality["other"] += 1
 
     for axis, stats in (("positive", positive), ("negative", negative)):
+        if stats["unknown_statuses"]:
+            quality_flags.append(
+                {
+                    "type": "unknown_human_eval_status",
+                    "axis": axis,
+                    "items": stats["unknown_statuses"],
+                }
+            )
         if stats["missing_human_values"]:
             quality_flags.append(
                 {
@@ -186,6 +223,14 @@ def single_stats(label: str, source: Path, out_root: Path) -> dict[str, Any]:
                     "type": "correction_status_but_same_value",
                     "axis": axis,
                     "ili": stats["unchanged_corrections"],
+                }
+            )
+        if stats["exact_conflicting_human_values"]:
+            quality_flags.append(
+                {
+                    "type": "human_value_conflicts_with_exact_status",
+                    "axis": axis,
+                    "items": stats["exact_conflicting_human_values"],
                 }
             )
 
@@ -273,7 +318,14 @@ Each row has two human checks: one for the positive Ollama score and one for the
     if flags:
         text += "\n## Quality flags\n\n"
         for flag in flags:
-            text += f"- `{flag['type']}` on `{flag['axis']}`: {', '.join(flag['ili'])}\n"
+            if "ili" in flag:
+                detail = ", ".join(flag["ili"])
+            else:
+                detail = "; ".join(
+                    f"{item.get('ILI')} ({item.get('status', '')}: {item.get('ollama_value')} -> {item.get('human_value')})"
+                    for item in flag.get("items", [])
+                )
+            text += f"- `{flag['type']}` on `{flag['axis']}`: {detail}\n"
 
     text += f"""
 
@@ -396,8 +448,8 @@ def compare_stats(label_a: str, label_b: str, out_root: Path) -> dict[str, Any]:
         axis_acceptable_agree: list[bool] = []
 
         for axis in ["positive", "negative"]:
-            status_a = norm(row_a.get(f"human_{axis}_eval"))
-            status_b = norm(row_b.get(f"human_{axis}_eval"))
+            status_a = norm_status(row_a.get(f"human_{axis}_eval"))
+            status_b = norm_status(row_b.get(f"human_{axis}_eval"))
             value_a = effective_value(row_a, axis)
             value_b = effective_value(row_b, axis)
             scores = VALUE_SCORES[axis]
@@ -707,6 +759,15 @@ def compare_three_stats(labels: list[str], out_root: Path) -> dict[str, Any]:
     out_dir.mkdir(parents=True, exist_ok=True)
     all_csv = out_dir / f"comparison_{comparison_name}.csv"
     disagreement_csv = out_dir / f"disagreements_{comparison_name}.csv"
+    count_name = {
+        3: "three",
+        4: "four",
+        5: "five",
+        6: "six",
+        7: "seven",
+    }.get(len(labels), str(len(labels)))
+    all_same_csv = out_dir / f"all_{count_name}_same_effective_values.csv"
+    all_same_correction_csv = out_dir / f"all_{count_name}_same_correction_vs_llm.csv"
     out_json = out_dir / f"comparison_{comparison_name}_stats.json"
     out_md = out_dir / "README.md"
 
@@ -734,7 +795,8 @@ def compare_three_stats(labels: list[str], out_root: Path) -> dict[str, Any]:
 
         for axis in ["positive", "negative"]:
             statuses = [
-                norm(row_maps[label][ili].get(f"human_{axis}_eval")) for label in labels
+                norm_status(row_maps[label][ili].get(f"human_{axis}_eval"))
+                for label in labels
             ]
             acceptables = [
                 "acceptable" if status in (TACNO, BLIZU) else "not_acceptable"
@@ -798,6 +860,67 @@ def compare_three_stats(labels: list[str], out_root: Path) -> dict[str, Any]:
             writer = csv.DictWriter(handle, fieldnames=fieldnames, extrasaction="ignore")
             writer.writeheader()
             writer.writerows(rows)
+
+    all_same_rows = [
+        row
+        for row in detail_rows
+        if row["positive_value_all_agree"] and row["negative_value_all_agree"]
+    ]
+    all_same_fields = ["ILI", "lemma_names", "definition", "sentiment_lexicon"]
+    for axis in ["positive", "negative"]:
+        all_same_fields.extend(f"{axis}_status_{label}" for label in labels)
+        all_same_fields.append(f"{axis}_value_{labels[0]}")
+    with all_same_csv.open("w", encoding="utf-8-sig", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=all_same_fields, extrasaction="ignore")
+        writer.writeheader()
+        writer.writerows(all_same_rows)
+
+    correction_rows = []
+    for row in detail_rows:
+        first_label = labels[0]
+        source_row = row_maps[first_label][row["ILI"]]
+        corrected_axes = []
+        positive_llm = norm(source_row.get("ollama_positive_value"))
+        negative_llm = norm(source_row.get("ollama_negative_value"))
+        positive_final = norm(row[f"positive_value_{first_label}"])
+        negative_final = norm(row[f"negative_value_{first_label}"])
+        if row["positive_value_all_agree"] and positive_final and positive_final != positive_llm:
+            corrected_axes.append("positive")
+        if row["negative_value_all_agree"] and negative_final and negative_final != negative_llm:
+            corrected_axes.append("negative")
+        if corrected_axes:
+            item = {
+                "ILI": row["ILI"],
+                "lemma_names": row["lemma_names"],
+                "definition": row["definition"],
+                "corrected_axes": ";".join(corrected_axes),
+                "ollama_positive_value": positive_llm,
+                "agreed_positive_value": positive_final,
+                "ollama_negative_value": negative_llm,
+                "agreed_negative_value": negative_final,
+            }
+            for axis in ["positive", "negative"]:
+                for label in labels:
+                    item[f"{axis}_status_{label}"] = row[f"{axis}_status_{label}"]
+            correction_rows.append(item)
+    correction_fields = (
+        list(correction_rows[0].keys())
+        if correction_rows
+        else [
+            "ILI",
+            "lemma_names",
+            "definition",
+            "corrected_axes",
+            "ollama_positive_value",
+            "agreed_positive_value",
+            "ollama_negative_value",
+            "agreed_negative_value",
+        ]
+    )
+    with all_same_correction_csv.open("w", encoding="utf-8-sig", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=correction_fields, extrasaction="ignore")
+        writer.writeheader()
+        writer.writerows(correction_rows)
 
     status_agreement = {
         key: multi_agreement_stats(subjects, STATUS_ORDER)
@@ -913,6 +1036,8 @@ def compare_three_stats(labels: list[str], out_root: Path) -> dict[str, Any]:
         },
         "comparison_csv": str(all_csv),
         "disagreement_csv": str(disagreement_csv),
+        "all_same_effective_values_csv": str(all_same_csv),
+        "all_same_correction_vs_llm_csv": str(all_same_correction_csv),
     }
     out_json.write_text(json.dumps(stats, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     out_md.write_text(compare_three_readme(labels, stats), encoding="utf-8")
@@ -926,6 +1051,13 @@ def compare_three_readme(labels: list[str], stats: dict[str, Any]) -> str:
     values = stats["effective_value_agreement"]
     disagreements = stats["disagreement_summary"]
     comparison_name = "_".join(labels)
+    count_name = {
+        3: "three",
+        4: "four",
+        5: "five",
+        6: "six",
+        7: "seven",
+    }.get(len(labels), str(len(labels)))
     text = f"""# Human evaluation comparison {comparison_name}
 
 Compared rows: {stats["common_rows"]}
@@ -987,7 +1119,7 @@ Binary acceptability disagreements:
 - Positive: {", ".join(disagreements["by_type"]["positive_acceptable"]) or "none"}
 - Negative: {", ".join(disagreements["by_type"]["negative_acceptable"]) or "none"}
 
-`comparison_{comparison_name}.csv` lists every aligned row. `disagreements_{comparison_name}.csv` lists rows where at least one agreement check differs.
+`comparison_{comparison_name}.csv` lists every aligned row. `disagreements_{comparison_name}.csv` lists rows where at least one agreement check differs. `all_{count_name}_same_effective_values.csv` and `all_{count_name}_same_correction_vs_llm.csv` provide focused consensus filters.
 """
     if stats["only_by_label"]:
         text += "\n## Alignment warnings\n\n"
@@ -1022,6 +1154,10 @@ def main() -> int:
             ("01", "C:/Users/sasa5/Downloads/PZL_tre\u0107i zadatak.xlsx"),
             ("02", "C:/Users/sasa5/Downloads/PZL_tre\u0107i zadatak(1).xlsx"),
             ("03", "C:/Users/sasa5/Downloads/PZL_tre\u0107i zadatak_Sofija.xlsx"),
+            ("04", "C:/Users/sasa5/Downloads/Izabela_Mladenovic_PZL_tre\u0107i zadatak .xlsx"),
+            ("05", "C:/Users/sasa5/Downloads/PZL_tre\u0107i zadatak Katarina Ku\u017eet.xlsx"),
+            ("06", "C:/Users/sasa5/Downloads/PZL_3.xlsx"),
+            ("07", "C:/Users/sasa5/Downloads/PZL_tre\u0107i zadatak_Dunja Baj\u010deti\u0107.xlsx"),
         ]
         evals = []
         available_labels = []
@@ -1033,9 +1169,9 @@ def main() -> int:
             elif copied_workbook.exists():
                 available_labels.append(label)
         if len(evals) >= 3 and compare_three is None:
-            compare_three = available_labels[:3]
+            compare_three = available_labels
         elif len(available_labels) >= 3 and compare_three is None:
-            compare_three = available_labels[:3]
+            compare_three = available_labels
         elif compare is None and {"01", "02"} <= set(available_labels):
             compare = ("01", "02")
 

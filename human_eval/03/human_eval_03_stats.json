@@ -63,6 +63,8 @@
     },
     "missing_human_values": [],
     "unchanged_corrections": [],
+    "unknown_statuses": [],
+    "exact_conflicting_human_values": [],
     "corrections": [
       {
         "ILI": "ENG30-07157273-n",
@@ -182,6 +184,8 @@
     },
     "missing_human_values": [],
     "unchanged_corrections": [],
+    "unknown_statuses": [],
+    "exact_conflicting_human_values": [],
     "corrections": [
       {
         "ILI": "ENG30-01989562-v",
