@@ -1,0 +1,556 @@
+{
+  "comparison": "01_vs_08",
+  "common_rows": 75,
+  "only_in_first": [],
+  "only_in_second": [],
+  "row_level": {
+    "status_both_axes_agree_count": 0,
+    "status_both_axes_agree_pct": 0.0,
+    "effective_values_both_axes_agree_count": 42,
+    "effective_values_both_axes_agree_pct": 56.0,
+    "acceptable_both_axes_agree_count": 2,
+    "acceptable_both_axes_agree_pct": 2.7
+  },
+  "status_agreement": {
+    "all_axes": {
+      "n": 150,
+      "exact_agreement_count": 46,
+      "exact_agreement_pct": 30.7,
+      "cohen_kappa": -0.026,
+      "quadratic_weighted_kappa": -0.1887,
+      "confusion_matrix": {
+        "netačno": {
+          "netačno": 0,
+          "blizu": 2,
+          "tačno": 8
+        },
+        "blizu": {
+          "netačno": 0,
+          "blizu": 4,
+          "tačno": 8
+        },
+        "tačno": {
+          "netačno": 4,
+          "blizu": 7,
+          "tačno": 42
+        }
+      }
+    },
+    "positive": {
+      "n": 75,
+      "exact_agreement_count": 12,
+      "exact_agreement_pct": 16.0,
+      "cohen_kappa": -0.0161,
+      "quadratic_weighted_kappa": 0.2623,
+      "confusion_matrix": {
+        "netačno": {
+          "netačno": 0,
+          "blizu": 1,
+          "tačno": 0
+        },
+        "blizu": {
+          "netačno": 0,
+          "blizu": 1,
+          "tačno": 4
+        },
+        "tačno": {
+          "netačno": 0,
+          "blizu": 4,
+          "tačno": 11
+        }
+      }
+    },
+    "negative": {
+      "n": 75,
+      "exact_agreement_count": 34,
+      "exact_agreement_pct": 45.3,
+      "cohen_kappa": -0.024,
+      "quadratic_weighted_kappa": -0.2739,
+      "confusion_matrix": {
+        "netačno": {
+          "netačno": 0,
+          "blizu": 1,
+          "tačno": 8
+        },
+        "blizu": {
+          "netačno": 0,
+          "blizu": 3,
+          "tačno": 4
+        },
+        "tačno": {
+          "netačno": 4,
+          "blizu": 3,
+          "tačno": 31
+        }
+      }
+    }
+  },
+  "acceptable_binary_agreement": {
+    "all_axes": {
+      "n": 150,
+      "exact_agreement_count": 67,
+      "exact_agreement_pct": 44.7,
+      "cohen_kappa": -0.0621,
+      "quadratic_weighted_kappa": -0.0621,
+      "confusion_matrix": {
+        "not_acceptable": {
+          "not_acceptable": 6,
+          "acceptable": 10
+        },
+        "acceptable": {
+          "not_acceptable": 73,
+          "acceptable": 61
+        }
+      }
+    },
+    "positive": {
+      "n": 75,
+      "exact_agreement_count": 26,
+      "exact_agreement_pct": 34.7,
+      "cohen_kappa": 0.0377,
+      "quadratic_weighted_kappa": 0.0377,
+      "confusion_matrix": {
+        "not_acceptable": {
+          "not_acceptable": 6,
+          "acceptable": 1
+        },
+        "acceptable": {
+          "not_acceptable": 48,
+          "acceptable": 20
+        }
+      }
+    },
+    "negative": {
+      "n": 75,
+      "exact_agreement_count": 41,
+      "exact_agreement_pct": 54.7,
+      "cohen_kappa": -0.2143,
+      "quadratic_weighted_kappa": -0.2143,
+      "confusion_matrix": {
+        "not_acceptable": {
+          "not_acceptable": 0,
+          "acceptable": 9
+        },
+        "acceptable": {
+          "not_acceptable": 25,
+          "acceptable": 41
+        }
+      }
+    }
+  },
+  "effective_value_agreement": {
+    "positive": {
+      "n": 75,
+      "exact_agreement_count": 60,
+      "exact_agreement_pct": 80.0,
+      "within_one_step_count": 68,
+      "within_one_step_pct": 90.7,
+      "mean_absolute_distance": 0.08,
+      "max_distance": 1.0,
+      "quadratic_weighted_kappa": 0.747,
+      "confusion_matrix": {
+        "nije pozitivan": {
+          "nije pozitivan": 48,
+          "slabo pozitivan": 0,
+          "pozitivan": 0,
+          "veoma pozitivan": 0,
+          "ekstremno pozitivan": 1
+        },
+        "slabo pozitivan": {
+          "nije pozitivan": 1,
+          "slabo pozitivan": 0,
+          "pozitivan": 0,
+          "veoma pozitivan": 0,
+          "ekstremno pozitivan": 0
+        },
+        "pozitivan": {
+          "nije pozitivan": 5,
+          "slabo pozitivan": 3,
+          "pozitivan": 8,
+          "veoma pozitivan": 3,
+          "ekstremno pozitivan": 0
+        },
+        "veoma pozitivan": {
+          "nije pozitivan": 0,
+          "slabo pozitivan": 1,
+          "pozitivan": 1,
+          "veoma pozitivan": 3,
+          "ekstremno pozitivan": 0
+        },
+        "ekstremno pozitivan": {
+          "nije pozitivan": 0,
+          "slabo pozitivan": 0,
+          "pozitivan": 0,
+          "veoma pozitivan": 0,
+          "ekstremno pozitivan": 1
+        }
+      }
+    },
+    "negative": {
+      "n": 75,
+      "exact_agreement_count": 54,
+      "exact_agreement_pct": 72.0,
+      "within_one_step_count": 65,
+      "within_one_step_pct": 86.7,
+      "mean_absolute_distance": 0.0868,
+      "max_distance": 0.5,
+      "quadratic_weighted_kappa": 0.8055,
+      "confusion_matrix": {
+        "nije negativan": {
+          "nije negativan": 44,
+          "slabo negativan": 1,
+          "negativan": 1,
+          "veoma negativan": 0,
+          "ekstremno negativan": 0
+        },
+        "slabo negativan": {
+          "nije negativan": 5,
+          "slabo negativan": 3,
+          "negativan": 1,
+          "veoma negativan": 1,
+          "ekstremno negativan": 0
+        },
+        "negativan": {
+          "nije negativan": 4,
+          "slabo negativan": 1,
+          "negativan": 2,
+          "veoma negativan": 0,
+          "ekstremno negativan": 1
+        },
+        "veoma negativan": {
+          "nije negativan": 0,
+          "slabo negativan": 0,
+          "negativan": 2,
+          "veoma negativan": 2,
+          "ekstremno negativan": 0
+        },
+        "ekstremno negativan": {
+          "nije negativan": 0,
+          "slabo negativan": 0,
+          "negativan": 0,
+          "veoma negativan": 1,
+          "ekstremno negativan": 3
+        }
+      }
+    }
+  },
+  "disagreement_summary": {
+    "full_agreement_rows": [],
+    "any_disagreement_rows": [
+      "BILI-00000941",
+      "ENG30-00058743-n",
+      "ENG30-00095121-n",
+      "ENG30-00169955-a",
+      "ENG30-00180962-n",
+      "ENG30-00183090-b",
+      "ENG30-00200863-v",
+      "ENG30-00309647-n",
+      "ENG30-00421002-a",
+      "ENG30-00429048-n",
+      "ENG30-00602112-v",
+      "ENG30-00613683-v",
+      "ENG30-00654885-n",
+      "ENG30-00719231-v",
+      "ENG30-00824767-v",
+      "ENG30-00892861-n",
+      "ENG30-00913551-a",
+      "ENG30-00953559-n",
+      "ENG30-01041349-n",
+      "ENG30-01099592-v",
+      "ENG30-01193721-v",
+      "ENG30-01215137-v",
+      "ENG30-01220336-n",
+      "ENG30-01234345-n",
+      "ENG30-01375831-a",
+      "ENG30-01425892-v",
+      "ENG30-01468576-v",
+      "ENG30-01482330-n",
+      "ENG30-01485513-v",
+      "ENG30-01569181-v",
+      "ENG30-01623268-a",
+      "ENG30-01983162-a",
+      "ENG30-01989562-v",
+      "ENG30-02180898-v",
+      "ENG30-02226429-n",
+      "ENG30-02390258-n",
+      "ENG30-02490877-v",
+      "ENG30-02505358-v",
+      "ENG30-02574205-v",
+      "ENG30-02585489-v",
+      "ENG30-02686625-v",
+      "ENG30-03016953-n",
+      "ENG30-03135152-n",
+      "ENG30-03600806-n",
+      "ENG30-04191595-n",
+      "ENG30-04525038-n",
+      "ENG30-04829282-n",
+      "ENG30-04831727-n",
+      "ENG30-04840405-n",
+      "ENG30-05207130-n",
+      "ENG30-05868272-n",
+      "ENG30-06720371-n",
+      "ENG30-06828389-n",
+      "ENG30-07132729-n",
+      "ENG30-07157273-n",
+      "ENG30-07164546-n",
+      "ENG30-07175241-n",
+      "ENG30-07436475-n",
+      "ENG30-07453638-n",
+      "ENG30-07497797-n",
+      "ENG30-07592094-n",
+      "ENG30-09362316-n",
+      "ENG30-09398076-n",
+      "ENG30-09426788-n",
+      "ENG30-10000158-n",
+      "ENG30-10016103-n",
+      "ENG30-10402824-n",
+      "ENG30-10407310-n",
+      "ENG30-10557854-n",
+      "ENG30-12345280-n",
+      "ENG30-12392549-n",
+      "ENG30-13254805-n",
+      "ENG30-14437976-n",
+      "ENG30-14438898-n",
+      "ENG30-14440623-n"
+    ],
+    "by_type": {
+      "positive_status": [
+        "ENG30-01569181-v",
+        "ENG30-01989562-v",
+        "ENG30-01099592-v",
+        "ENG30-00953559-n",
+        "ENG30-03600806-n",
+        "ENG30-01220336-n",
+        "ENG30-01468576-v",
+        "ENG30-02585489-v",
+        "ENG30-06720371-n",
+        "ENG30-00200863-v",
+        "ENG30-00824767-v",
+        "ENG30-07157273-n",
+        "ENG30-01623268-a",
+        "ENG30-00421002-a",
+        "ENG30-01234345-n",
+        "ENG30-00058743-n",
+        "ENG30-07436475-n",
+        "ENG30-05207130-n",
+        "ENG30-02505358-v",
+        "ENG30-01215137-v",
+        "ENG30-00613683-v",
+        "ENG30-02574205-v",
+        "BILI-00000941",
+        "ENG30-14440623-n",
+        "ENG30-00095121-n",
+        "ENG30-02226429-n",
+        "ENG30-09426788-n",
+        "ENG30-12345280-n",
+        "ENG30-02180898-v",
+        "ENG30-06828389-n",
+        "ENG30-07175241-n",
+        "ENG30-05868272-n",
+        "ENG30-10402824-n",
+        "ENG30-12392549-n",
+        "ENG30-00180962-n",
+        "ENG30-00892861-n",
+        "ENG30-07132729-n",
+        "ENG30-00602112-v",
+        "ENG30-10000158-n",
+        "ENG30-10016103-n",
+        "ENG30-01482330-n",
+        "ENG30-04525038-n",
+        "ENG30-01193721-v",
+        "ENG30-01485513-v",
+        "ENG30-09398076-n",
+        "ENG30-02686625-v",
+        "ENG30-02390258-n",
+        "ENG30-09362316-n",
+        "ENG30-07164546-n",
+        "ENG30-03016953-n",
+        "ENG30-00654885-n",
+        "ENG30-00913551-a",
+        "ENG30-01375831-a",
+        "ENG30-02490877-v",
+        "ENG30-14438898-n",
+        "ENG30-01041349-n",
+        "ENG30-01425892-v",
+        "ENG30-00309647-n",
+        "ENG30-03135152-n",
+        "ENG30-00429048-n",
+        "ENG30-04831727-n",
+        "ENG30-07497797-n",
+        "ENG30-00719231-v"
+      ],
+      "negative_status": [
+        "ENG30-01989562-v",
+        "ENG30-03600806-n",
+        "ENG30-01468576-v",
+        "ENG30-06720371-n",
+        "ENG30-00824767-v",
+        "ENG30-07157273-n",
+        "ENG30-01234345-n",
+        "ENG30-00058743-n",
+        "ENG30-07436475-n",
+        "ENG30-05207130-n",
+        "ENG30-01215137-v",
+        "ENG30-00613683-v",
+        "ENG30-00095121-n",
+        "ENG30-02226429-n",
+        "ENG30-07175241-n",
+        "ENG30-01193721-v",
+        "ENG30-09398076-n",
+        "ENG30-10557854-n",
+        "ENG30-02390258-n",
+        "ENG30-03016953-n",
+        "ENG30-07592094-n",
+        "ENG30-00654885-n",
+        "ENG30-07453638-n",
+        "ENG30-14437976-n",
+        "ENG30-04840405-n",
+        "ENG30-01375831-a",
+        "ENG30-13254805-n",
+        "ENG30-02490877-v",
+        "ENG30-00183090-b",
+        "ENG30-01983162-a",
+        "ENG30-14438898-n",
+        "ENG30-04829282-n",
+        "ENG30-10407310-n",
+        "ENG30-04191595-n",
+        "ENG30-01041349-n",
+        "ENG30-01425892-v",
+        "ENG30-00169955-a",
+        "ENG30-03135152-n",
+        "ENG30-00429048-n",
+        "ENG30-04831727-n",
+        "ENG30-00719231-v"
+      ],
+      "positive_acceptable": [
+        "ENG30-01569181-v",
+        "ENG30-01989562-v",
+        "ENG30-01099592-v",
+        "ENG30-00953559-n",
+        "ENG30-03600806-n",
+        "ENG30-01220336-n",
+        "ENG30-01468576-v",
+        "ENG30-02585489-v",
+        "ENG30-06720371-n",
+        "ENG30-00200863-v",
+        "ENG30-00824767-v",
+        "ENG30-07157273-n",
+        "ENG30-01623268-a",
+        "ENG30-00421002-a",
+        "ENG30-01234345-n",
+        "ENG30-00058743-n",
+        "ENG30-07436475-n",
+        "ENG30-05207130-n",
+        "ENG30-02505358-v",
+        "ENG30-00613683-v",
+        "ENG30-02574205-v",
+        "BILI-00000941",
+        "ENG30-14440623-n",
+        "ENG30-00095121-n",
+        "ENG30-02226429-n",
+        "ENG30-09426788-n",
+        "ENG30-12345280-n",
+        "ENG30-02180898-v",
+        "ENG30-06828389-n",
+        "ENG30-05868272-n",
+        "ENG30-10402824-n",
+        "ENG30-12392549-n",
+        "ENG30-00180962-n",
+        "ENG30-00892861-n",
+        "ENG30-07132729-n",
+        "ENG30-10000158-n",
+        "ENG30-10016103-n",
+        "ENG30-01482330-n",
+        "ENG30-04525038-n",
+        "ENG30-01485513-v",
+        "ENG30-09398076-n",
+        "ENG30-02686625-v",
+        "ENG30-02390258-n",
+        "ENG30-09362316-n",
+        "ENG30-07164546-n",
+        "ENG30-00913551-a",
+        "ENG30-01041349-n",
+        "ENG30-01425892-v",
+        "ENG30-00309647-n"
+      ],
+      "negative_acceptable": [
+        "ENG30-01468576-v",
+        "ENG30-07157273-n",
+        "ENG30-07436475-n",
+        "ENG30-05207130-n",
+        "ENG30-01215137-v",
+        "ENG30-00095121-n",
+        "ENG30-02226429-n",
+        "ENG30-07175241-n",
+        "ENG30-01193721-v",
+        "ENG30-09398076-n",
+        "ENG30-10557854-n",
+        "ENG30-02390258-n",
+        "ENG30-03016953-n",
+        "ENG30-07592094-n",
+        "ENG30-00654885-n",
+        "ENG30-07453638-n",
+        "ENG30-14437976-n",
+        "ENG30-04840405-n",
+        "ENG30-01375831-a",
+        "ENG30-13254805-n",
+        "ENG30-02490877-v",
+        "ENG30-00183090-b",
+        "ENG30-01983162-a",
+        "ENG30-14438898-n",
+        "ENG30-04829282-n",
+        "ENG30-10407310-n",
+        "ENG30-04191595-n",
+        "ENG30-01041349-n",
+        "ENG30-01425892-v",
+        "ENG30-00169955-a",
+        "ENG30-03135152-n",
+        "ENG30-00429048-n",
+        "ENG30-04831727-n",
+        "ENG30-00719231-v"
+      ],
+      "positive_effective_value": [
+        "ENG30-01215137-v",
+        "ENG30-07175241-n",
+        "ENG30-00602112-v",
+        "ENG30-01193721-v",
+        "ENG30-03016953-n",
+        "ENG30-00654885-n",
+        "ENG30-01375831-a",
+        "ENG30-02490877-v",
+        "ENG30-14438898-n",
+        "ENG30-01041349-n",
+        "ENG30-03135152-n",
+        "ENG30-00429048-n",
+        "ENG30-04831727-n",
+        "ENG30-07497797-n",
+        "ENG30-00719231-v"
+      ],
+      "negative_effective_value": [
+        "ENG30-01989562-v",
+        "ENG30-00953559-n",
+        "ENG30-03600806-n",
+        "ENG30-01468576-v",
+        "ENG30-06720371-n",
+        "ENG30-00824767-v",
+        "ENG30-07157273-n",
+        "ENG30-00421002-a",
+        "ENG30-01234345-n",
+        "ENG30-00058743-n",
+        "ENG30-07436475-n",
+        "ENG30-05207130-n",
+        "ENG30-01215137-v",
+        "ENG30-00613683-v",
+        "ENG30-00095121-n",
+        "ENG30-02226429-n",
+        "ENG30-01193721-v",
+        "ENG30-09398076-n",
+        "ENG30-02390258-n",
+        "ENG30-00654885-n",
+        "ENG30-01425892-v"
+      ]
+    }
+  },
+  "comparison_csv": "human_eval\\comparison_01_08\\comparison_01_08.csv",
+  "disagreement_csv": "human_eval\\comparison_01_08\\disagreements_01_08.csv"
+}

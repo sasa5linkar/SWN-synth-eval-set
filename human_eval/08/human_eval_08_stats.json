@@ -1,0 +1,1131 @@
+{
+  "label": "human_eval_08",
+  "source_file": "C:\\Users\\sasa5\\Downloads\\PZL_treći zadatak (Teodora Živojinović).xlsx",
+  "copied_workbook": "human_eval\\08\\human_eval_08.xlsx",
+  "evaluation_csv": "human_eval\\08\\human_eval_08.csv",
+  "sheet": "Evaluation",
+  "rows": 75,
+  "judgements_total": 150,
+  "model_counts": {
+    "mistral-small3.2:latest": 75
+  },
+  "sentiment_swn_counts": {
+    "(0.0, 0.0)": 75
+  },
+  "sentiment_lexicon_counts": {
+    "negative": 40,
+    "positive": 35
+  },
+  "axis_total_eval_counts": {
+    "tačno": 58,
+    "blizu": 13,
+    "netačno": 4
+  },
+  "axis_total_exact_rate_pct": 38.7,
+  "axis_total_exact_or_near_rate_pct": 47.3,
+  "row_quality_counts": {
+    "other": 71,
+    "has_wrong_axis": 4
+  },
+  "row_exact_rate_pct": 0.0,
+  "row_exact_or_near_rate_pct": 0.0,
+  "positive": {
+    "eval_counts": {
+      "tačno": 15,
+      "blizu": 6
+    },
+    "exact_count": 15,
+    "near_count": 6,
+    "wrong_count": 0,
+    "exact_rate_pct": 20.0,
+    "exact_or_near_rate_pct": 28.0,
+    "ollama_value_counts": {
+      "nije pozitivan": 54,
+      "pozitivan": 15,
+      "veoma pozitivan": 2,
+      "slabo pozitivan": 3,
+      "ekstremno pozitivan": 1
+    },
+    "effective_human_value_counts": {
+      "nije pozitivan": 54,
+      "pozitivan": 9,
+      "slabo pozitivan": 4,
+      "veoma pozitivan": 6,
+      "ekstremno pozitivan": 2
+    },
+    "corrections_count": 6,
+    "correction_distance_counts": {
+      "0.25": 5,
+      "0.5": 1
+    },
+    "missing_human_values": [],
+    "unchanged_corrections": [],
+    "unknown_statuses": [
+      {
+        "ILI": "ENG30-01569181-v",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-01989562-v",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-01099592-v",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-00953559-n",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-03600806-n",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-01220336-n",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-01468576-v",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-02585489-v",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-06720371-n",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-00200863-v",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-00824767-v",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-07157273-n",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-01623268-a",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-00421002-a",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-01234345-n",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-00058743-n",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-07436475-n",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-05207130-n",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-02505358-v",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-01215137-v",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-00613683-v",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-02574205-v",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "BILI-00000941",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-14440623-n",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-00095121-n",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-02226429-n",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-09426788-n",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-12345280-n",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-02180898-v",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-06828389-n",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-07175241-n",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-05868272-n",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-10402824-n",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-12392549-n",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-00180962-n",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-00892861-n",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-07132729-n",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-00602112-v",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-10000158-n",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-10016103-n",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-01482330-n",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-04525038-n",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-01193721-v",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-01485513-v",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-09398076-n",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-02686625-v",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-02390258-n",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-09362316-n",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-07164546-n",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-00654885-n",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-00913551-a",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-01425892-v",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-00309647-n",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-07497797-n",
+        "status": "",
+        "ollama_value": "nije pozitivan",
+        "human_value": ""
+      }
+    ],
+    "exact_conflicting_human_values": [],
+    "corrections": [
+      {
+        "ILI": "ENG30-03016953-n",
+        "status": "blizu",
+        "ollama_value": "pozitivan",
+        "human_value": "slabo pozitivan"
+      },
+      {
+        "ILI": "ENG30-02490877-v",
+        "status": "blizu",
+        "ollama_value": "pozitivan",
+        "human_value": "veoma pozitivan"
+      },
+      {
+        "ILI": "ENG30-01983162-a",
+        "status": "blizu",
+        "ollama_value": "pozitivan",
+        "human_value": "veoma pozitivan"
+      },
+      {
+        "ILI": "ENG30-01041349-n",
+        "status": "blizu",
+        "ollama_value": "pozitivan",
+        "human_value": "ekstremno pozitivan"
+      },
+      {
+        "ILI": "ENG30-03135152-n",
+        "status": "blizu",
+        "ollama_value": "pozitivan",
+        "human_value": "veoma pozitivan"
+      },
+      {
+        "ILI": "ENG30-04831727-n",
+        "status": "blizu",
+        "ollama_value": "pozitivan",
+        "human_value": "veoma pozitivan"
+      }
+    ]
+  },
+  "negative": {
+    "eval_counts": {
+      "tačno": 43,
+      "blizu": 7,
+      "netačno": 4
+    },
+    "exact_count": 43,
+    "near_count": 7,
+    "wrong_count": 4,
+    "exact_rate_pct": 57.3,
+    "exact_or_near_rate_pct": 66.7,
+    "ollama_value_counts": {
+      "ekstremno negativan": 5,
+      "nije negativan": 60,
+      "negativan": 3,
+      "veoma negativan": 4,
+      "slabo negativan": 3
+    },
+    "effective_human_value_counts": {
+      "ekstremno negativan": 4,
+      "nije negativan": 53,
+      "negativan": 6,
+      "veoma negativan": 4,
+      "slabo negativan": 5,
+      "pozitivan": 3
+    },
+    "corrections_count": 11,
+    "correction_distance_counts": {
+      "0.5": 2,
+      "0.25": 6
+    },
+    "missing_human_values": [],
+    "unchanged_corrections": [],
+    "unknown_statuses": [
+      {
+        "ILI": "ENG30-10557854-n",
+        "status": "",
+        "ollama_value": "nije negativan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-03016953-n",
+        "status": "",
+        "ollama_value": "nije negativan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-07592094-n",
+        "status": "",
+        "ollama_value": "nije negativan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-07453638-n",
+        "status": "",
+        "ollama_value": "nije negativan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-14437976-n",
+        "status": "",
+        "ollama_value": "nije negativan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-04840405-n",
+        "status": "",
+        "ollama_value": "nije negativan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-01375831-a",
+        "status": "",
+        "ollama_value": "nije negativan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-13254805-n",
+        "status": "",
+        "ollama_value": "nije negativan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-02490877-v",
+        "status": "",
+        "ollama_value": "nije negativan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-00183090-b",
+        "status": "",
+        "ollama_value": "nije negativan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-01983162-a",
+        "status": "",
+        "ollama_value": "nije negativan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-14438898-n",
+        "status": "",
+        "ollama_value": "nije negativan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-04829282-n",
+        "status": "",
+        "ollama_value": "nije negativan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-10407310-n",
+        "status": "",
+        "ollama_value": "nije negativan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-04191595-n",
+        "status": "",
+        "ollama_value": "nije negativan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-01041349-n",
+        "status": "",
+        "ollama_value": "nije negativan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-00169955-a",
+        "status": "",
+        "ollama_value": "nije negativan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-03135152-n",
+        "status": "",
+        "ollama_value": "nije negativan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-00429048-n",
+        "status": "",
+        "ollama_value": "nije negativan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-04831727-n",
+        "status": "",
+        "ollama_value": "nije negativan",
+        "human_value": ""
+      },
+      {
+        "ILI": "ENG30-00719231-v",
+        "status": "",
+        "ollama_value": "nije negativan",
+        "human_value": ""
+      }
+    ],
+    "exact_conflicting_human_values": [],
+    "corrections": [
+      {
+        "ILI": "ENG30-00953559-n",
+        "status": "blizu",
+        "ollama_value": "nije negativan",
+        "human_value": "negativan"
+      },
+      {
+        "ILI": "ENG30-01468576-v",
+        "status": "netačno",
+        "ollama_value": "slabo negativan",
+        "human_value": "veoma negativan"
+      },
+      {
+        "ILI": "ENG30-06720371-n",
+        "status": "blizu",
+        "ollama_value": "ekstremno negativan",
+        "human_value": "veoma negativan"
+      },
+      {
+        "ILI": "ENG30-00200863-v",
+        "status": "blizu",
+        "ollama_value": "nije negativan",
+        "human_value": "slabo negativan"
+      },
+      {
+        "ILI": "ENG30-00824767-v",
+        "status": "blizu",
+        "ollama_value": "veoma negativan",
+        "human_value": "negativan"
+      },
+      {
+        "ILI": "ENG30-00421002-a",
+        "status": "blizu",
+        "ollama_value": "veoma negativan",
+        "human_value": "negativan"
+      },
+      {
+        "ILI": "ENG30-00058743-n",
+        "status": "blizu",
+        "ollama_value": "nije negativan",
+        "human_value": "slabo negativan"
+      },
+      {
+        "ILI": "ENG30-01193721-v",
+        "status": "netačno",
+        "ollama_value": "nije negativan",
+        "human_value": "pozitivan"
+      },
+      {
+        "ILI": "ENG30-09398076-n",
+        "status": "blizu",
+        "ollama_value": "nije negativan",
+        "human_value": "slabo negativan"
+      },
+      {
+        "ILI": "ENG30-00654885-n",
+        "status": "netačno",
+        "ollama_value": "nije negativan",
+        "human_value": "pozitivan"
+      },
+      {
+        "ILI": "ENG30-01425892-v",
+        "status": "netačno",
+        "ollama_value": "nije negativan",
+        "human_value": "pozitivan"
+      }
+    ]
+  },
+  "positive_negative_eval_pair_counts": {
+    "|tačno": 43,
+    "|blizu": 7,
+    "|netačno": 4,
+    "tačno|": 15,
+    "blizu|": 6
+  },
+  "quality_flags": [
+    {
+      "type": "unknown_human_eval_status",
+      "axis": "positive",
+      "items": [
+        {
+          "ILI": "ENG30-01569181-v",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-01989562-v",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-01099592-v",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-00953559-n",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-03600806-n",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-01220336-n",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-01468576-v",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-02585489-v",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-06720371-n",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-00200863-v",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-00824767-v",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-07157273-n",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-01623268-a",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-00421002-a",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-01234345-n",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-00058743-n",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-07436475-n",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-05207130-n",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-02505358-v",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-01215137-v",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-00613683-v",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-02574205-v",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "BILI-00000941",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-14440623-n",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-00095121-n",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-02226429-n",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-09426788-n",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-12345280-n",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-02180898-v",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-06828389-n",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-07175241-n",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-05868272-n",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-10402824-n",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-12392549-n",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-00180962-n",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-00892861-n",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-07132729-n",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-00602112-v",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-10000158-n",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-10016103-n",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-01482330-n",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-04525038-n",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-01193721-v",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-01485513-v",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-09398076-n",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-02686625-v",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-02390258-n",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-09362316-n",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-07164546-n",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-00654885-n",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-00913551-a",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-01425892-v",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-00309647-n",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-07497797-n",
+          "status": "",
+          "ollama_value": "nije pozitivan",
+          "human_value": ""
+        }
+      ]
+    },
+    {
+      "type": "unknown_human_eval_status",
+      "axis": "negative",
+      "items": [
+        {
+          "ILI": "ENG30-10557854-n",
+          "status": "",
+          "ollama_value": "nije negativan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-03016953-n",
+          "status": "",
+          "ollama_value": "nije negativan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-07592094-n",
+          "status": "",
+          "ollama_value": "nije negativan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-07453638-n",
+          "status": "",
+          "ollama_value": "nije negativan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-14437976-n",
+          "status": "",
+          "ollama_value": "nije negativan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-04840405-n",
+          "status": "",
+          "ollama_value": "nije negativan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-01375831-a",
+          "status": "",
+          "ollama_value": "nije negativan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-13254805-n",
+          "status": "",
+          "ollama_value": "nije negativan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-02490877-v",
+          "status": "",
+          "ollama_value": "nije negativan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-00183090-b",
+          "status": "",
+          "ollama_value": "nije negativan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-01983162-a",
+          "status": "",
+          "ollama_value": "nije negativan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-14438898-n",
+          "status": "",
+          "ollama_value": "nije negativan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-04829282-n",
+          "status": "",
+          "ollama_value": "nije negativan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-10407310-n",
+          "status": "",
+          "ollama_value": "nije negativan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-04191595-n",
+          "status": "",
+          "ollama_value": "nije negativan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-01041349-n",
+          "status": "",
+          "ollama_value": "nije negativan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-00169955-a",
+          "status": "",
+          "ollama_value": "nije negativan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-03135152-n",
+          "status": "",
+          "ollama_value": "nije negativan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-00429048-n",
+          "status": "",
+          "ollama_value": "nije negativan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-04831727-n",
+          "status": "",
+          "ollama_value": "nije negativan",
+          "human_value": ""
+        },
+        {
+          "ILI": "ENG30-00719231-v",
+          "status": "",
+          "ollama_value": "nije negativan",
+          "human_value": ""
+        }
+      ]
+    }
+  ]
+}

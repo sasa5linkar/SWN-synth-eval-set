@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import sys
 from collections import Counter
 from itertools import combinations
 from pathlib import Path
@@ -765,6 +766,7 @@ def compare_three_stats(labels: list[str], out_root: Path) -> dict[str, Any]:
         5: "five",
         6: "six",
         7: "seven",
+        8: "eight",
     }.get(len(labels), str(len(labels)))
     all_same_csv = out_dir / f"all_{count_name}_same_effective_values.csv"
     all_same_correction_csv = out_dir / f"all_{count_name}_same_correction_vs_llm.csv"
@@ -1057,6 +1059,7 @@ def compare_three_readme(labels: list[str], stats: dict[str, Any]) -> str:
         5: "five",
         6: "six",
         7: "seven",
+        8: "eight",
     }.get(len(labels), str(len(labels)))
     text = f"""# Human evaluation comparison {comparison_name}
 
@@ -1143,7 +1146,15 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
+def configure_utf8_stdio() -> None:
+    for stream in (sys.stdout, sys.stderr):
+        reconfigure = getattr(stream, "reconfigure", None)
+        if reconfigure is not None:
+            reconfigure(encoding="utf-8", errors="replace")
+
+
 def main() -> int:
+    configure_utf8_stdio()
     args = parse_args()
     out_root = Path(args.out_root)
     evals = args.eval
@@ -1158,6 +1169,7 @@ def main() -> int:
             ("05", "C:/Users/sasa5/Downloads/PZL_tre\u0107i zadatak Katarina Ku\u017eet.xlsx"),
             ("06", "C:/Users/sasa5/Downloads/PZL_3.xlsx"),
             ("07", "C:/Users/sasa5/Downloads/PZL_tre\u0107i zadatak_Dunja Baj\u010deti\u0107.xlsx"),
+            ("08", "C:/Users/sasa5/Downloads/PZL_tre\u0107i zadatak (Teodora \u017divojinovi\u0107).xlsx"),
         ]
         evals = []
         available_labels = []
